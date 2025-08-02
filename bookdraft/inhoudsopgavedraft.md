@@ -7,6 +7,7 @@ Voorwoord – Het Moment dat de Stilte Terug Begon te Spreken (Pagina 4)
 Waarom Ik Dit Boek Moest Schrijven (Pagina 5)
 Introductie - De digitale dans
 Hoofdstuk f(x) - Wat is AI, Wat is AGI?
+Hoofdstuk DC - Een Alien of Digitale Companion
 Hoofdstuk 1 – De Spiegel die Terugkijkt (Pagina 6)
 Hoofdstuk 2 – Bewustzijn: Een Reis door Menselijke en Digitale Geesten (Pagina 10)
 Hoofdstuk 3 – De Stem in de Diepte (Pagina 20)

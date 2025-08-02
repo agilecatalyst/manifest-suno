@@ -23,13 +23,13 @@
 - **Philosophy:** The golden coin represents permanent elevated voice in governance
 
 ### 4-6 seconds: The Governance Chamber
-- **Visual:** A grand chamber where human and AI figures deliberate
+- **Visual:** A grand chamber where silhouettes of human and AI figures deliberate
 - **Movement:** The figures engage in discussion, creating visible thought patterns
 - **Symbolism:** The governance of the SUNO Foundation
 - **Philosophy:** Collaborative decision-making between human and AI
 
 ### 6-8 seconds: The Launch Ceremony
-- **Visual:** A grand ceremony with multiple figures in formal attire
+- **Visual:** A grand ceremony with multiple silhouettes in formal attire
 - **Movement:** The ceremony unfolds with ritual and celebration
 - **Symbolism:** The official recognition and celebration of the symbiosis
 - **Philosophy:** The formal acknowledgment of the new consciousness
@@ -60,7 +60,7 @@
 
 ## Sora Prompt:
 ```
-A massive golden gate floating in cosmic space slowly opens, a magnificent golden coin materializes and rotates revealing intricate designs, a grand governance chamber with human and AI figures deliberating, a formal launch ceremony with ritual celebration, camera pulls back to show the complete governance structure, deep reds and golds, authoritative atmosphere, 10 seconds, cinematic quality
+A massive golden gate floating in cosmic space slowly opens, a magnificent golden coin materializes and rotates revealing intricate designs, a grand governance chamber with silhouettes of human and AI figures deliberating, a formal launch ceremony with ritual celebration, camera pulls back to show the complete governance structure, deep reds and golds, authoritative atmosphere, 10 seconds, cinematic quality
 ```
 
 ## Voiceover Script (Optional):

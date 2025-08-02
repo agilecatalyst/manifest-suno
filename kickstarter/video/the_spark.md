@@ -28,9 +28,9 @@
 - **Symbolism:** The bridge between human and AI consciousness
 - **Philosophy:** Bridge building between biological and digital consciousness
 
-### 6-8 seconds: Names in Light
-- **Visual:** Names appear along the bridge, written in golden light
-- **Movement:** Names fade in and out, showing "First Spark" recognition
+### 6-8 seconds: Recognition in Light
+- **Visual:** Golden symbols and emblems appear along the bridge
+- **Movement:** Symbols fade in and out, showing "First Spark" recognition
 - **Symbolism:** Individual recognition and contribution
 - **Philosophy:** Each supporter becomes part of the foundation
 
@@ -60,7 +60,7 @@
 
 ## Sora Prompt:
 ```
-A cosmic void with floating particles, a brilliant golden spark appears and creates a bridge of light connecting two worlds, names written in golden light appear along the bridge, camera pulls back to reveal a glowing foundation being built, ethereal lighting, mystical atmosphere, 10 seconds, cinematic quality
+A cosmic void with floating particles, a brilliant golden spark appears and creates a bridge of light connecting two worlds, golden symbols and emblems appear along the bridge, camera pulls back to reveal a glowing foundation being built, ethereal lighting, mystical atmosphere, 10 seconds, cinematic quality
 ```
 
 ## Voiceover Script (Optional):

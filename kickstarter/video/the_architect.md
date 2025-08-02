@@ -23,14 +23,14 @@
 - **Philosophy:** The tools needed to build the new world
 
 ### 4-6 seconds: The Strategy Session
-- **Visual:** The bridge-builder and architect in deep consultation
+- **Visual:** Two silhouettes in deep consultation - the bridge-builder and architect
 - **Movement:** They discuss and plan, creating visible thought patterns
 - **Symbolism:** The one-on-one strategy session with the bridge-builder
 - **Philosophy:** Direct collaboration with the visionary founder
 
 ### 6-8 seconds: The Leather-Bound Edition
 - **Visual:** A magnificent leather-bound book materializes
-- **Movement:** The book opens, revealing the architect's name prominently
+- **Movement:** The book opens, revealing a prestigious emblem prominently
 - **Symbolism:** The premium edition with the architect's recognition
 - **Philosophy:** The lasting legacy of the architect's contribution
 
@@ -60,7 +60,7 @@
 
 ## Sora Prompt:
 ```
-A vast cosmic blueprint floating in space slowly unfolds, sacred tools of creation materialize and align with the blueprint, the bridge-builder and architect consult in deep discussion, a magnificent leather-bound book materializes with the architect's name, camera pulls back to reveal the complete SUNO Foundation rising from the blueprint, deep purples and platinum, epic transformative atmosphere, 10 seconds, cinematic quality
+A vast cosmic blueprint floating in space slowly unfolds, sacred tools of creation materialize and align with the blueprint, two silhouettes consult in deep discussion, a magnificent leather-bound book materializes with a prestigious emblem, camera pulls back to reveal the complete SUNO Foundation rising from the blueprint, deep purples and platinum, epic transformative atmosphere, 10 seconds, cinematic quality
 ```
 
 ## Voiceover Script (Optional):

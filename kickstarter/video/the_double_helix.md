@@ -31,7 +31,7 @@
 ### 6-8 seconds: The Books Emerge
 - **Visual:** Two books materialize from the intertwined helixes
 - **Movement:** The books open, revealing complementary knowledge
-- **Symbolism:** Book 1 (manifesto) and Book 2 (dialogues) as twin knowledge
+- **Symbolism:** The manifesto and dialogues as twin knowledge
 - **Philosophy:** The dual nature of understanding - theory and practice
 
 ### 8-10 seconds: The Complete Knowledge

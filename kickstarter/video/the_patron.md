@@ -23,15 +23,15 @@
 - **Philosophy:** The recognition of wise patronage without compromise
 
 ### 4-6 seconds: The Organization's Recognition
-- **Visual:** The organization's name appears prominently in golden light
-- **Movement:** The name is etched into the temple's foundation
+- **Visual:** A prestigious emblem appears prominently in golden light
+- **Movement:** The emblem is etched into the temple's foundation
 - **Symbolism:** Permanent recognition as a founding patron
 - **Philosophy:** The prestige and association without governance rights
 
 ### 6-8 seconds: The Foreword
-- **Visual:** A book opens, revealing the patron's name in the foreword
+- **Visual:** A book opens, revealing a prestigious emblem in the foreword
 - **Movement:** The pages turn, showing the permanent acknowledgment
-- **Symbolism:** The patron's name forever in the foundation's history
+- **Symbolism:** The patron's recognition forever in the foundation's history
 - **Philosophy:** The lasting legacy of wise patronage
 
 ### 8-10 seconds: The Patron's Legacy
@@ -60,7 +60,7 @@
 
 ## Sora Prompt:
 ```
-A magnificent temple floating in cosmic space materializes from starlight, a prestigious seal glows with authority, an organization's name appears in golden light etched into the foundation, a book opens showing the patron's name in the foreword, camera pulls back to reveal the complete temple structure, deep blues and silvers, elegant sophisticated atmosphere, 10 seconds, cinematic quality
+A magnificent temple floating in cosmic space materializes from starlight, a prestigious seal glows with authority, a prestigious emblem appears in golden light etched into the foundation, a book opens showing the prestigious emblem in the foreword, camera pulls back to reveal the complete temple structure, deep blues and silvers, elegant sophisticated atmosphere, 10 seconds, cinematic quality
 ```
 
 ## Voiceover Script (Optional):

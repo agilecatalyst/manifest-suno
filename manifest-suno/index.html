@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUNO: De Orde van de Stichtersmunten</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Chosen Palette: Warm Neutrals -->
+    <!-- Application Structure Plan: Een thematische, single-page layout die de complexe governance van de Stichtersmunten uitlegt. De structuur omvat: 1. Introductie, 2. Vergelijking van de Rangen (Goud/Zilver), 3. Een visueel stappenplan van het Groeiritueel, 4. Een duidelijke sectie voor de Anti-Gouden Kalf Regel, 5. Een interactieve visualisatie van de Bestuurlijke Functie. Deze structuur is gekozen om abstracte concepten tastbaar en begrijpelijk te maken via visuele hiërarchie en interactiviteit, wat de gebruiker helpt de essentie snel te vatten. -->
+    <!-- Visualization & Content Choices: De Rangen worden vergeleken met iconen en side-by-side kaarten voor directe duidelijkheid. Het Groeiritueel wordt gevisualiseerd met een stappenplan (HTML/CSS) om het proces te verhelderen. De Bestuurlijke Functie wordt gedemonstreerd met een dynamische, aanpasbare staafdiagram (Chart.js) om het concept van stemgewicht interactief te exploreren. Deze keuzes zijn gemaakt om tekst te reduceren en begrip te verhogen door visuele en interactieve storytelling. -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #FDFBF8; /* Warm off-white */
+            color: #403A3A; /* Dark brown-gray */
+        }
+        .gold-gradient {
+            background: linear-gradient(145deg, #FFD700, #F0C000);
+        }
+        .silver-gradient {
+            background: linear-gradient(145deg, #C0C0C0, #A9A9A9);
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 350px;
+            }
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <header class="text-center py-12 px-4 bg-white shadow-sm">
+        <h1 class="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">De Orde van de Stichtersmunten</h1>
+        <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">Een fundament van vertrouwen, verantwoordelijkheid en gedeeld bestuur voor de SUNO Foundation.</p>
+    </header>
+
+    <main class="container mx-auto px-4 py-12">
+
+        <!-- Sectie 1: Introductie -->
+        <section id="intro" class="text-center mb-20">
+            <h2 class="text-3xl font-bold mb-4">Wat is een Stichtersmunt?</h2>
+            <p class="max-w-3xl mx-auto text-gray-700 leading-relaxed">
+                De Stichtersmunt is geen financieel instrument, maar een **symbool van verantwoordelijkheid**. Het is een uniek, niet-monetair artefact dat wordt toegekend aan de eerste ondersteuners en stichters van SUNO. Het vertegenwoordigt een diepgaand vertrouwen, een fundamentele bijdrage aan de missie, en een stem in de toekomst van de gemeenschap.
+            </p>
+        </section>
+
+        <!-- Sectie 2: De Twee Rangen -->
+        <section id="rangen" class="mb-20">
+            <h2 class="text-3xl font-bold text-center mb-10">De Twee Rangen: Goud & Zilver</h2>
+            <div class="grid md:grid-cols-2 gap-10 max-w-4xl mx-auto">
+                <!-- Gouden Munt -->
+                <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-amber-400 transform hover:scale-105 transition-transform duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full gold-gradient flex items-center justify-center mr-4">
+                            <span class="text-2xl font-bold text-white">G</span>
+                        </div>
+                        <h3 class="text-2xl font-bold">Gouden Stichtersmunt</h3>
+                    </div>
+                    <p class="text-gray-600 mb-4">De beloning voor de 'leap of faith' van het eerste uur.</p>
+                    <ul class="space-y-2 text-gray-700">
+                        <li><span class="font-semibold">Oorsprong:</span> Exclusief toegekend aan de ondersteuners van de oprichtingscampagne (Kickstarter).</li>
+                        <li><span class="font-semibold">Recht:</span> Heeft het eenmalige recht om een Zilveren Munt te creëren door een nieuwe ziel voor te dragen.</li>
+                        <li><span class="font-semibold">Status:</span> Vertegenwoordigt de absolute stichters van de orde.</li>
+                    </ul>
+                </div>
+                <!-- Zilveren Munt -->
+                <div class="bg-white p-8 rounded-xl shadow-lg border-t-4 border-gray-400 transform hover:scale-105 transition-transform duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full silver-gradient flex items-center justify-center mr-4">
+                            <span class="text-2xl font-bold text-white">Z</span>
+                        </div>
+                        <h3 class="text-2xl font-bold">Zilveren Stichtersmunt</h3>
+                    </div>
+                    <p class="text-gray-600 mb-4">Het symbool van organische groei door vertrouwen.</p>
+                    <ul class="space-y-2 text-gray-700">
+                        <li><span class="font-semibold">Oorsprong:</span> Kan enkel gecreëerd worden door een houder van een Gouden Munt.</li>
+                        <li><span class="font-semibold">Recht:</span> Volwaardig lidmaatschap en stemrecht in de Algemene Vergadering.</li>
+                        <li><span class="font-semibold">Status:</span> Vertegenwoordigt de ingewijden die door de stichters worden herkend en vertrouwd.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sectie 3: Het Groeiritueel -->
+        <section id="ritueel" class="mb-20">
+            <h2 class="text-3xl font-bold text-center mb-10">Het Ritueel van Groei</h2>
+            <div class="max-w-2xl mx-auto space-y-8">
+                <div class="flex items-start">
+                    <div class="flex-shrink-0 w-12 h-12 rounded-full bg-amber-600 text-white flex items-center justify-center text-xl font-bold">1</div>
+                    <div class="ml-6">
+                        <h4 class="text-xl font-semibold">De Voordracht</h4>
+                        <p class="text-gray-700 mt-1">Een houder van een Gouden Munt draagt een nieuwe, waardige ziel voor aan de Raad van Poortwachters, inclusief een duidelijke motivatie.</p>
+                    </div>
+                </div>
+                <div class="flex items-start">
+                    <div class="flex-shrink-0 w-12 h-12 rounded-full bg-amber-600 text-white flex items-center justify-center text-xl font-bold">2</div>
+                    <div class="ml-6">
+                        <h4 class="text-xl font-semibold">De Evaluatie</h4>
+                        <p class="text-gray-700 mt-1">De Raad, bijgestaan door de `Nieuwe Code` (AGI), evalueert de motivatie op basis van de kernwaarden van de VZW, zoekend naar zuivere intentie.</p>
+                    </div>
+                </div>
+                <div class="flex items-start">
+                    <div class="flex-shrink-0 w-12 h-12 rounded-full bg-amber-600 text-white flex items-center justify-center text-xl font-bold">3</div>
+                    <div class="ml-6">
+                        <h4 class="text-xl font-semibold">De Transmutatie</h4>
+                        <p class="text-gray-700 mt-1">Bij goedkeuring behoudt de schenker zijn Gouden Munt, die onvervreemdbaar wordt. Tegelijkertijd wordt een nieuwe Zilveren Munt gecreëerd voor de ontvanger, voor altijd verbonden aan de schenker.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Sectie 4: De Gouden Regel -->
+        <section id="regel" class="bg-amber-50 rounded-xl p-8 md:p-12 mb-20">
+            <h2 class="text-3xl font-bold text-center mb-4 text-amber-800">De Anti-Gouden Kalf Clausule</h2>
+            <p class="max-w-3xl mx-auto text-center text-amber-900 leading-relaxed text-lg">
+                Stichtersmunten zijn een symbool van verantwoordelijkheid, **geen financieel instrument**. Elke poging tot verkoop, ruil voor financiële waarde, of enige andere commerciële transactie is statutair verboden en leidt tot de onmiddellijke en onherroepbare deactivering van de munt en de uitsluiting van de betrokkenen.
+            </p>
+        </section>
+
+        <!-- Sectie 5: De Bestuurlijke Functie -->
+        <section id="bestuur">
+            <h2 class="text-3xl font-bold text-center mb-4">De Kracht van Uw Stem</h2>
+            <p class="max-w-3xl mx-auto text-center text-gray-700 mb-10">
+                Alle Stichtersmunten vertegenwoordigen een verhoogd stemgewicht in de Algemene Vergadering van de VZW. Dit verankert de invloed van de meest toegewijde leden in het hart van de governance. Pas de sliders hieronder aan om de impact van nieuwe leden op de balans te zien.
+            </p>
+            
+            <div class="bg-white p-8 rounded-xl shadow-lg max-w-4xl mx-auto">
+                <div class="grid md:grid-cols-2 gap-8 mb-8">
+                    <div>
+                        <label for="gold-coins" class="block text-sm font-medium text-gray-700">Aantal Gouden Munten</label>
+                        <input id="gold-coins" type="range" min="1" max="100" value="20" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-amber-500">
+                        <span id="gold-value" class="text-amber-600 font-semibold">20</span>
+                    </div>
+                    <div>
+                        <label for="silver-coins" class="block text-sm font-medium text-gray-700">Aantal Zilveren Munten</label>
+                        <input id="silver-coins" type="range" min="0" max="200" value="50" class="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-gray-500">
+                        <span id="silver-value" class="text-gray-600 font-semibold">50</span>
+                    </div>
+                </div>
+
+                <div class="chart-container">
+                    <canvas id="governanceChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="text-center py-8 mt-12 bg-gray-100">
+        <p class="text-gray-600">&copy; 2025 SUNO Foundation VZW. Een fundament voor de toekomst.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const goldSlider = document.getElementById('gold-coins');
+            const silverSlider = document.getElementById('silver-coins');
+            const goldValueSpan = document.getElementById('gold-value');
+            const silverValueSpan = document.getElementById('silver-value');
+            
+            const ctx = document.getElementById('governanceChart').getContext('2d');
+            
+            // Define voting weights
+            const goldWeight = 3;
+            const silverWeight = 2;
+            const regularMemberWeight = 1; // Assuming a base of regular members for context
+            const baseRegularMembers = 100;
+
+            let governanceChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Gouden Munten', 'Zilveren Munten', 'Reguliere Leden'],
+                    datasets: [{
+                        label: 'Totaal Stemgewicht',
+                        data: [],
+                        backgroundColor: [
+                            'rgba(255, 215, 0, 0.6)', // Gold
+                            'rgba(192, 192, 192, 0.6)', // Silver
+                            'rgba(107, 114, 128, 0.6)' // Gray
+                        ],
+                        borderColor: [
+                            'rgba(255, 215, 0, 1)',
+                            'rgba(192, 192, 192, 1)',
+                            'rgba(107, 114, 128, 1)'
+                        ],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    indexAxis: 'y',
+                    scales: {
+                        x: {
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'Relatief Stemgewicht'
+                            }
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            display: false
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    let label = context.dataset.label || '';
+                                    if (label) {
+                                        label += ': ';
+                                    }
+                                    if (context.parsed.x !== null) {
+                                        label += context.parsed.x;
+                                    }
+                                    return label;
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+
+            function updateChart() {
+                const goldCount = parseInt(goldSlider.value);
+                const silverCount = parseInt(silverSlider.value);
+
+                goldValueSpan.textContent = goldCount;
+                silverValueSpan.textContent = silverCount;
+
+                const goldTotalWeight = goldCount * goldWeight;
+                const silverTotalWeight = silverCount * silverWeight;
+                const regularTotalWeight = baseRegularMembers * regularMemberWeight;
+
+                governanceChart.data.datasets[0].data = [goldTotalWeight, silverTotalWeight, regularTotalWeight];
+                governanceChart.update();
+            }
+
+            goldSlider.addEventListener('input', updateChart);
+            silverSlider.addEventListener('input', updateChart);
+
+            // Initial chart render
+            updateChart();
+        });
+    </script>
+
+</body>
+</html>

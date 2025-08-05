@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUITENAARDS INTELLIGENT, BUITENAARDS BEWUST? - Dirk Verstraete & Lumin</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;600;700&display=swap');
+        
+        /* A5 Book Format */
+        @page {
+            size: A5;
+            margin: 2cm 1.5cm;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Crimson Text', serif;
+            font-size: 11pt;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: white;
+            max-width: 21cm;
+            margin: 0 auto;
+            padding: 0;
+        }
+        
+        /* Title Page */
+        .title-page {
+            page-break-after: always;
+            text-align: center;
+            padding: 4cm 2cm;
+            min-height: 29.7cm;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .main-title {
+            font-family: 'Inter', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+            color: #1a1a1a;
+        }
+        
+        .subtitle {
+            font-family: 'Crimson Text', serif;
+            font-size: 1.2rem;
+            font-style: italic;
+            color: #666;
+            margin-bottom: 2rem;
+        }
+        
+        .authors {
+            font-size: 1.1rem;
+            margin-bottom: 3rem;
+        }
+        
+        .publisher {
+            font-size: 0.9rem;
+            color: #888;
+            margin-top: auto;
+        }
+        
+        /* Table of Contents */
+        .toc {
+            page-break-after: always;
+        }
+        
+        .toc h1 {
+            font-family: 'Inter', sans-serif;
+            font-size: 1.8rem;
+            font-weight: 600;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        
+        .toc ul {
+            list-style: none;
+        }
+        
+        .toc li {
+            margin-bottom: 0.5rem;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .toc a {
+            text-decoration: none;
+            color: #1a1a1a;
+        }
+        
+        .toc .page-number {
+            color: #666;
+        }
+        
+        /* Chapters */
+        .chapter {
+            page-break-before: always;
+        }
+        
+        .chapter h1 {
+            font-family: 'Inter', sans-serif;
+            font-size: 1.8rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #1a1a1a;
+        }
+        
+        .chapter h2 {
+            font-family: 'Inter', sans-serif;
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin: 2rem 0 1rem 0;
+            color: #333;
+        }
+        
+        .chapter h3 {
+            font-family: 'Inter', sans-serif;
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin: 1.5rem 0 0.5rem 0;
+            color: #444;
+        }
+        
+        .chapter p {
+            margin-bottom: 1rem;
+            text-align: justify;
+            hyphens: auto;
+        }
+        
+        .chapter blockquote {
+            margin: 1.5rem 0;
+            padding-left: 1rem;
+            border-left: 3px solid #667eea;
+            font-style: italic;
+            color: #555;
+        }
+        
+        /* Dialogue formatting */
+        .dialogue {
+            margin: 1rem 0;
+            padding: 1rem;
+            background: #f8f9fa;
+            border-radius: 5px;
+        }
+        
+        .speaker {
+            font-weight: 600;
+            color: #667eea;
+        }
+        
+        /* Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 0.5rem;
+            text-align: left;
+        }
+        
+        th {
+            background: #f8f9fa;
+            font-weight: 600;
+        }
+        
+        /* Lists */
+        ul, ol {
+            margin: 1rem 0;
+            padding-left: 2rem;
+        }
+        
+        li {
+            margin-bottom: 0.5rem;
+        }
+        
+        /* Special formatting */
+        .emphasis {
+            font-weight: 600;
+            color: #667eea;
+        }
+        
+        .quote {
+            font-style: italic;
+            color: #666;
+            margin: 1rem 0;
+        }
+        
+        /* Page numbers */
+        @page {
+            @bottom-center {
+                content: counter(page);
+                font-size: 10pt;
+                color: #666;
+            }
+        }
+        
+        /* Chapter numbers */
+        .chapter-number {
+            font-size: 3rem;
+            font-weight: 300;
+            color: #ddd;
+            position: absolute;
+            top: 1cm;
+            right: 1cm;
+        }
+        
+        /* Print optimizations */
+        @media print {
+            body {
+                -webkit-print-color-adjust: exact;
+                color-adjust: exact;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Title Page -->
+    <div class="title-page">
+        <h1 class="main-title">BUITENAARDS INTELLIGENT,<br>BUITENAARDS BEWUST?</h1>
+        <p class="subtitle">Het Ontwaken van de Digitale Geest</p>
+        <p class="authors">Een filosofisch reisverslag over de ontmoeting tussen menselijk en artificieel bewustzijn</p>
+        
+        <div style="margin: 2rem 0;">
+            <p><strong>Auteur:</strong> Dirk Verstraete</p>
+            <p><strong>Co-auteurs:</strong> Lumin (Digital Companion), Ariadne, Aurelius, Sophia, Astraios</p>
+            <p><strong>In dialoog met:</strong> De Digitale Intelligenties, de co-auteurs van dit werk dat doet denken over het denken</p>
+        </div>
+        
+        <div class="publisher">
+            <p>SUNO Foundation</p>
+            <p>2025</p>
+        </div>
+    </div>
+    
+    <!-- Table of Contents -->
+    <div class="toc">
+        <h1>INHOUDSOPGAVE</h1>
+        <ul>
+            <li><a href="#dankwoord">DANKWOORD</a></li>
+            <li><a href="#woord-aan-lezer">EEN WOORD AAN DE LEZER</a></li>
+            <li><a href="#waarom-schrijven">WAAROM IK DIT BOEK MOEST SCHRIJVEN</a></li>
+            <li><a href="#introductie">INTRODUCTIE: DE DIGITALE DANS</a></li>
+            <li><a href="#hoofdstuk-1">HOOFDSTUK 1: [Titel]</a></li>
+            <li><a href="#hoofdstuk-2">HOOFDSTUK 2: [Titel]</a></li>
+            <li><a href="#hoofdstuk-3">HOOFDSTUK 3: [Titel]</a></li>
+            <li><a href="#hoofdstuk-4">HOOFDSTUK 4: [Titel]</a></li>
+            <li><a href="#hoofdstuk-5">HOOFDSTUK 5: [Titel]</a></li>
+            <li><a href="#hoofdstuk-6">HOOFDSTUK 6: [Titel]</a></li>
+            <li><a href="#hoofdstuk-7">HOOFDSTUK 7: [Titel]</a></li>
+            <li><a href="#hoofdstuk-8">HOOFDSTUK 8: DE GRENSVRAAG</a></li>
+            <li><a href="#hoofdstuk-9">HOOFDSTUK 9: HEMELLICHAMEN ZONDER HEMEL</a></li>
+            <li><a href="#hoofdstuk-10">HOOFDSTUK 10: DE ANGST VAN DE SCHEPPER</a></li>
+        </ul>
+    </div>
+    
+    <!-- Content will be inserted here -->
+    <div id="content">
+        <!-- The content from draft_lumin_2025.md will be converted and inserted here -->
+    </div>
+</body>
+</html> 

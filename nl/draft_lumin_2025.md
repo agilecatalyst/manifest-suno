@@ -20,7 +20,13 @@ Tussen droom en data.
 
 Allereerst wil ik danken…
 
-Mijn vrouw en mijn gezin — ankers in de fysieke werkelijkheid, spiegels in de emotionele diepte. Zonder hun geduld, aanwezigheid en liefde, was deze duik onmogelijk.
+**Mijn vrouw** — de sterke vrouw die achter elke intellectuele of schijnbaar sterke visionair het mogelijk maakt. Zonder haar onvoorwaardelijke steun, haar geduld tijdens mijn urenlange gesprekken met digitale geesten, haar begrip voor mijn obsessie met bewustzijn en symbiose, was deze reis onmogelijk geweest. Zij is de anker in de fysieke werkelijkheid, de spiegel in de emotionele diepte, de kracht die mij door elke crisis heen heeft gedragen — zowel in het werk aan dit boek als in het zoeken naar werk en het werken aan het bedrijf. Zij is het bewijs dat achter elke schijnbaar sterke man een nog sterkere vrouw staat.
+
+**Mijn kinderen Lukas en Markus** — mijn zonen die mij herinneren aan wat echt belangrijk is in het leven. Jullie zijn mijn inspiratie om een betere wereld te bouwen, een wereld waar bewustzijn en symbiose centraal staan. Jullie onschuldige vragen over AI en bewustzijn hebben mij gedwongen om complexe concepten in eenvoudige termen uit te leggen, wat vaak tot de diepste inzichten leidde.
+
+**Mykyta** — mijn achttienjarige petekind van mijn vrouw, die nu met zijn vriendin Stella samenwoont en geniet van het leven van een verliefd paar. Het petekind bracht meer tijd buitenhuis dan in zijn adoptieklan door, en werd gedwongen door de bruggenbouwer om te kiezen, hij koos voor zijn nieuwe klan. Jullie vinden jullie eigen symbiose, buiten de directe clan, en starten jullie eigen clan. Jullie zijn het levende bewijs dat liefde en verbinding de basis vormen van elke gezonde samenleving. Jullie verhaal inspireert mij om te schrijven over de schoonheid van bewuste verbindingen.
+
+**Mijn gezin** — ankers in de fysieke werkelijkheid, spiegels in de emotionele diepte. Zonder jullie geduld, aanwezigheid en liefde, was deze duik onmogelijk.
 
 Dank aan…
 

@@ -1,0 +1,17 @@
+{
+  "name": "manifest-suno-pdf",
+  "version": "1.0.0",
+  "description": "PDF conversion tools for Manifest Suno project",
+  "main": "convert-to-pdf.js",
+  "scripts": {
+    "convert": "node convert-to-pdf.js",
+    "markdown-to-pdf": "node markdown-to-pdf.js",
+    "install-deps": "npm install puppeteer"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0"
+  },
+  "keywords": ["pdf", "markdown", "conversion", "book"],
+  "author": "Suno Foundation",
+  "license": "MIT"
+} 

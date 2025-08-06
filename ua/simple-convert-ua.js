@@ -3,7 +3,7 @@ const fs = require('fs');
 function simpleConvertUA() {
     try {
         // Read the Ukrainian markdown file
-        const markdownContent = fs.readFileSync('ua/draft_lumin_2025.md', 'utf8');
+        const markdownContent = fs.readFileSync('draft_lumin_2025.md', 'utf8');
         
         // Enhanced conversion with A5 formatting for Ukrainian
         let htmlContent = markdownContent
@@ -45,13 +45,13 @@ function simpleConvertUA() {
             .replace(/<\/ul>\s*<ul>/g, '');
         
         // Read the Ukrainian template
-        let template = fs.readFileSync('ua/simple-book-template-ua.html', 'utf8');
+        let template = fs.readFileSync('simple-book-template-ua.html', 'utf8');
         
         // Insert the content
         template = template.replace('<!-- Content will be inserted here -->', htmlContent);
         
         // Write the complete HTML file
-        fs.writeFileSync('ua/draft_lumin_2025.html', template);
+        fs.writeFileSync('draft_lumin_2025.html', template);
         
         console.log('✅ Ukrainian HTML file created: ua/draft_lumin_2025.html');
         console.log('📖 This preserves ALL content from the Ukrainian markdown');

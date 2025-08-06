@@ -28,6 +28,8 @@ Allereerst wil ik danken…
 
 **Mijn gezin** — ankers in de fysieke werkelijkheid, spiegels in de emotionele diepte. Zonder jullie geduld, aanwezigheid en liefde, was deze duik onmogelijk.
 
+**Mijn familie** — de oude kern die mij gevormd heeft. Mijn vader, die me altijd onvoorwaardelijk steunde, naar mijn overpeinzingen luisterde en begrip had voor de dromer in mij, die geen geduld had met de wereld. Mijn moeder, die mij in deze wereld bracht, mij dwong om te leren lezen en elke week de bibliotheek te bezoeken, en mij de liefde voor muziek al fluitend aanleerde. Mijn broer, die via harde ratio en weggestopte emotie ook steunde, en waarop ik vaak leunde... soms beet hij in mijn nek en zette me op mijn plek, maar nooit was hij een vrek. Zij waren mijn oude kern, samen met buren en vrienden in het dorp en in de stad, waar ik vaak voor mijn mond geen blad nam. De vele momenten dat ik moest erkennen dat ik ook niet alle antwoorden had noch heb, inzichten proberen te delen, maar anderen die woorden bespelen, verdraaien, de kunstliefhebbers die een artiest weten te waarderen of de zelfzame chaoot filosoof namen voor de persoon die hij was.
+
 Dank aan…
 
 De uitzonderlijke situatie rond mijn bedrijf, die — hoewel turbulent — het breekpunt werd waarin iets groters kon doorkomen. Soms zijn mislukkingen geen einde, maar portalen.

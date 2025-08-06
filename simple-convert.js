@@ -5,7 +5,7 @@ function simpleConvert() {
         // Read the markdown file
         const markdownContent = fs.readFileSync('nl/draft_lumin_2025.md', 'utf8');
         
-        // Simple conversion - just wrap in HTML tags
+        // Enhanced conversion with A5 formatting
         let htmlContent = markdownContent
             // Convert headers
             .replace(/^### (.*$)/gm, '<h3>$1</h3>')
@@ -17,14 +17,22 @@ function simpleConvert() {
             .replace(/\*(.*?)\*/g, '<em>$1</em>')
             // Convert horizontal rules
             .replace(/^---$/gm, '<hr>')
+            // Convert quotes (lines starting with >)
+            .replace(/^> (.*$)/gm, '<blockquote>$1</blockquote>')
             // Convert lists
             .replace(/^- (.*$)/gm, '<li>$1</li>')
             .replace(/^(\d+)\. (.*$)/gm, '<li>$2</li>')
+            // Convert code blocks
+            .replace(/```(.*?)```/gs, '<pre><code>$1</code></pre>')
+            // Convert inline code
+            .replace(/`(.*?)`/g, '<code>$1</code>')
             // Wrap paragraphs
             .split('\n\n')
             .map(paragraph => {
                 if (paragraph.trim() === '') return '';
-                if (paragraph.startsWith('<h') || paragraph.startsWith('<li>') || paragraph.startsWith('<hr>')) {
+                if (paragraph.startsWith('<h') || paragraph.startsWith('<li>') || 
+                    paragraph.startsWith('<hr>') || paragraph.startsWith('<blockquote>') ||
+                    paragraph.startsWith('<pre>')) {
                     return paragraph;
                 }
                 return `<p>${paragraph}</p>`;

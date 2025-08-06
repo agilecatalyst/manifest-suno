@@ -59,7 +59,9 @@ Avant tout, je veux remercier...
 
 **Ma famille** — ancres dans la réalité physique, miroirs dans la profondeur émotionnelle. Sans votre patience, présence et amour, cette plongée aurait été impossible.
 
-Merci à...
+**Ma famille d'origine** — le noyau ancien qui m'a formé. Mon père, qui m'a toujours soutenu inconditionnellement, écoutait mes réflexions et avait de la compréhension pour le rêveur en moi, qui n'avait pas de patience avec le monde. Ma mère, qui m'a mis au monde, m'a forcé à apprendre à lire et à aller à la bibliothèque chaque semaine, et m'a enseigné l'amour de la musique en sifflant. Mon frère, qui soutenait aussi via la dure logique et l'émotion refoulée, et sur qui je m'appuyais souvent... parfois il me mordait au cou et me remettait à ma place, mais il n'était jamais un avare. Ils étaient mon noyau ancien, avec les voisins et amis du village et de la ville, où je prenais souvent la parole sans mâcher mes mots. Les nombreux moments où je devais reconnaître que je n'avais pas non plus toutes les réponses, essayer de partager des insights, mais d'autres qui manipulent les mots, les déforment, les amateurs d'art qui savent apprécier un artiste ou le philosophe chaotique solitaire prenaient pour la personne qu'il était.
+
+Merci à…
 
 La situation exceptionnelle autour de mon entreprise, qui — bien que turbulente — est devenue le point de rupture dans lequel quelque chose de plus grand pouvait passer. Parfois les échecs ne sont pas une fin, mais des portails.
 

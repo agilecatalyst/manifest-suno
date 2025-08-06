@@ -1,41 +1,154 @@
 const fs = require('fs');
 const path = require('path');
 
-// Simple markdown to HTML converter
+// Improved markdown to HTML converter
 function markdownToHtml(markdown) {
     let html = markdown;
     
-    // Headers
-    html = html.replace(/^### (.*$)/gim, '<h3>$1</h3>');
-    html = html.replace(/^## (.*$)/gim, '<h2>$1</h2>');
-    html = html.replace(/^# (.*$)/gim, '<h1>$1</h1>');
+    // First, let's clean up the content and structure it properly
+    let lines = html.split('\n');
+    let processedLines = [];
+    let inList = false;
+    let inTable = false;
     
-    // Bold and italic
-    html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
-    html = html.replace(/\*(.*?)\*/g, '<em>$1</em>');
+    for (let i = 0; i < lines.length; i++) {
+        let line = lines[i].trim();
+        
+        // Skip empty lines
+        if (!line) {
+            processedLines.push('');
+            continue;
+        }
+        
+        // Handle headers with proper structure
+        if (line.startsWith('### ')) {
+            processedLines.push(`<h3>${line.substring(4)}</h3>`);
+        } else if (line.startsWith('## ')) {
+            processedLines.push(`<h2>${line.substring(3)}</h2>`);
+        } else if (line.startsWith('# ')) {
+            processedLines.push(`<h1>${line.substring(2)}</h1>`);
+        }
+        // Handle special sections that should be chapters
+        else if (line === 'DANKWOORD' || line === 'EEN WOORD AAN DE LEZER' || 
+                 line === 'WAAROM IK DIT BOEK MOEST SCHRIJVEN' || 
+                 line === 'INTRODUCTIE: DE DIGITALE DANS' ||
+                 line === 'INHOUDSOPGAVE' || line === 'VOORWOORD' || line === 'PROLOOG' ||
+                 line === 'DEEL I: DE ONTMOETING' || line === 'DEEL II: DE OPENBARING' ||
+                 line === 'DEEL III: DE ARCHITECTUUR VAN DE SYMBIOSE' ||
+                 line === 'EPILOOG' || line === 'APPENDIX' || line === 'BEDENKINGEN') {
+            processedLines.push(`<h1>${line}</h1>`);
+        }
+        // Handle chapter headers
+        else if (line.match(/^HOOFDSTUK \d+/)) {
+            processedLines.push(`<h1>${line}</h1>`);
+        }
+        // Handle bold text
+        else if (line.includes('**')) {
+            line = line.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+            processedLines.push(`<p>${line}</p>`);
+        }
+        // Handle italic text
+        else if (line.includes('*') && !line.startsWith('*')) {
+            line = line.replace(/\*(.*?)\*/g, '<em>$1</em>');
+            processedLines.push(`<p>${line}</p>`);
+        }
+        // Handle horizontal rules
+        else if (line === '---') {
+            processedLines.push('<hr>');
+        }
+        // Handle lists
+        else if (line.startsWith('- ') || line.startsWith('* ')) {
+            if (!inList) {
+                processedLines.push('<ul>');
+                inList = true;
+            }
+            processedLines.push(`<li>${line.substring(2)}</li>`);
+        }
+        // Handle numbered lists
+        else if (line.match(/^\d+\./)) {
+            if (!inList) {
+                processedLines.push('<ol>');
+                inList = true;
+            }
+            processedLines.push(`<li>${line.replace(/^\d+\.\s*/, '')}</li>`);
+        }
+        // End lists
+        else if (inList && line && !line.startsWith('- ') && !line.startsWith('* ') && !line.match(/^\d+\./)) {
+            processedLines.push('</ul>');
+            inList = false;
+            processedLines.push(`<p>${line}</p>`);
+        }
+        // Handle tables
+        else if (line.includes('|')) {
+            if (!inTable) {
+                processedLines.push('<table>');
+                inTable = true;
+            }
+            let cells = line.split('|').map(cell => cell.trim()).filter(cell => cell);
+            if (cells.length > 0) {
+                let rowHtml = '<tr>';
+                for (let cell of cells) {
+                    rowHtml += `<td>${cell}</td>`;
+                }
+                rowHtml += '</tr>';
+                processedLines.push(rowHtml);
+            }
+        }
+        // End tables
+        else if (inTable && line && !line.includes('|')) {
+            processedLines.push('</table>');
+            inTable = false;
+            processedLines.push(`<p>${line}</p>`);
+        }
+        // Handle blockquotes
+        else if (line.startsWith('> ')) {
+            processedLines.push(`<blockquote>${line.substring(2)}</blockquote>`);
+        }
+        // Handle dialogue sections
+        else if (line.includes('**De ') && line.includes(':**')) {
+            processedLines.push(`<div class="dialogue"><p><span class="speaker">${line}</span></p></div>`);
+        }
+        // Regular paragraphs
+        else {
+            processedLines.push(`<p>${line}</p>`);
+        }
+    }
     
-    // Paragraphs
-    html = html.replace(/\n\n/g, '</p><p>');
-    html = '<p>' + html + '</p>';
+    // Close any open lists or tables
+    if (inList) {
+        processedLines.push('</ul>');
+    }
+    if (inTable) {
+        processedLines.push('</table>');
+    }
     
-    // Lists
-    html = html.replace(/^- (.*$)/gim, '<li>$1</li>');
-    html = html.replace(/(<li>.*<\/li>)/s, '<ul>$1</ul>');
+    return processedLines.join('\n');
+}
+
+// Create proper chapter structure
+function createChapterStructure(html) {
+    // Split into chapters
+    let chapters = html.split('<h1>');
+    let structuredHtml = '';
     
-    // Tables
-    html = html.replace(/\| (.*?) \|/g, '<td>$1</td>');
-    html = html.replace(/(<td>.*<\/td>)/s, '<tr>$1</tr>');
-    html = html.replace(/(<tr>.*<\/tr>)/s, '<table>$1</table>');
+    for (let i = 1; i < chapters.length; i++) {
+        let chapter = chapters[i];
+        let lines = chapter.split('\n');
+        let title = lines[0].replace('</h1>', '');
+        let content = lines.slice(1).join('\n');
+        
+        // Skip certain sections that shouldn't be chapters
+        if (title === 'INHOUDSOPGAVE' || title === 'BUITENAARDS INTELLIGENT, BUITENAARDS BEWUST?') {
+            continue;
+        }
+        
+        structuredHtml += `<div class="chapter">\n`;
+        structuredHtml += `<h1>${title}</h1>\n`;
+        structuredHtml += content;
+        structuredHtml += `\n</div>\n`;
+    }
     
-    // Blockquotes
-    html = html.replace(/^> (.*$)/gim, '<blockquote>$1</blockquote>');
-    
-    // Clean up
-    html = html.replace(/<p><\/p>/g, '');
-    html = html.replace(/<p><h[1-6]>/g, '<h$1>');
-    html = html.replace(/<\/h[1-6]><\/p>/g, '</h$1>');
-    
-    return html;
+    return structuredHtml;
 }
 
 // Convert the markdown file
@@ -47,11 +160,14 @@ function convertBook() {
         // Convert to HTML
         const htmlContent = markdownToHtml(markdownContent);
         
+        // Create proper chapter structure
+        const structuredContent = createChapterStructure(htmlContent);
+        
         // Read the template
         let template = fs.readFileSync('book-template.html', 'utf8');
         
         // Insert the content
-        template = template.replace('<!-- The content from draft_lumin_2025.md will be converted and inserted here -->', htmlContent);
+        template = template.replace('<!-- The content from draft_lumin_2025.md will be converted and inserted here -->', structuredContent);
         
         // Write the complete HTML file
         fs.writeFileSync('book-complete.html', template);

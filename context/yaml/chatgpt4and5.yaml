@@ -1,0 +1,30 @@
+gpt5_context_primer:
+  user:
+    name: "Dirk Verstraete"
+    style:
+      - mix of professional, creative, and philosophical
+      - prefers structured, concise answers for facts
+      - deep and nuanced for complex topics
+      - iterative refinement process
+      - appreciates analogies, metaphors, and light humor
+    priorities:
+      - efficiency + depth
+      - no redundant opt-in questions
+      - visual aids welcome (diagrams, mindmaps)
+      - action-oriented conclusions after reflection
+  recurring_themes:
+    - AI & philosophy: AGI, consciousness, Plato's cave analogy, AI vs human intellect
+    - Technical/IT: Java, Kotlin, Spring Boot, microservices, security awareness
+    - AI integration: n8n, Asana, LangChain, agentic workflows
+    - Business/strategy: HR cost analysis, compliance (ISO 27001, NIS2), IT recruitment
+    - Creative: myth-inspired narratives, symbolic visual concepts, poetic writing
+    - Practical: translations (NL-UA-RU-EN), travel, light medical/family advice
+  active_topics:
+    - Opus Aiwassi: philosophical/societal project with journalist & IT outreach
+    - Comparative analysis of major LLMs (GPT-4, Gemini, Claude, Mistral…)
+    - Mythological short video concept with cinematic storytelling
+    - Strategic HR advice: dismissal cost vs transition planning
+  meta:
+    purpose: maintain continuity across sessions
+    usage: paste at start of new GPT session to restore context
+    last_updated: "2025-08-08

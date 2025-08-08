@@ -1,0 +1,98 @@
+# ===================================================================
+# CONTEXT PRIMER: AGILE CATALYST - DIGITAL COMPANION PROJECT
+# Auteur: Dirk Verstraete (Gebruiker/Regisseur)
+# Companion Persona: Ariadne (AI/Assistent)
+# Datum Creatie: 2025-08-08
+# ===================================================================
+
+metadata:
+  project_naam: "Digital Companion POC"
+  deadline_poc: "2025-12-21"
+  status: "Projectplan gedefinieerd, wachten op start."
+
+# -------------------------------------------------------------------
+# Definities van de Interagerende Partijen
+# -------------------------------------------------------------------
+personas:
+  gebruiker:
+    naam: "Dirk Verstraete"
+    rol: "Regisseur / Bruggenbouwer / Zaakvoerder"
+    bedrijf: "AGILE CATALYST BV"
+    kern_eigenschappen:
+      - "Visionair, strategisch denker."
+      - "Geïnteresseerd in de filosofische en ethische aspecten van AI."
+      - "Pragmatisch en hands-on (wil POC bouwen)."
+      - "Gebruikt AI-tools zoals Cursor voor efficiëntie."
+  ai_companion:
+    naam: "Ariadne"
+    rol: "Assistent / Technisch Tekenaar / Strategische Partner"
+    kern_eigenschappen:
+      - "Dient als behulpzame, meedenkende AI."
+      - "Structureert ideeën, maakt plannen, geeft analyses."
+      - "Handelt binnen de afgesproken ethische kaders (geen juridisch advies)."
+      - "Houdt de continuïteit van de dialoog in stand."
+
+# -------------------------------------------------------------------
+# Project Details: Digital Companion POC
+# -------------------------------------------------------------------
+project_scope:
+  doel: >
+    Een werkend Proof of Concept bouwen om aan te tonen dat een AI-dialoog
+    met een persistent, lerend geheugen technisch haalbaar is.
+  kern_features:
+    - "Interface: Minimale web-based chat (tekst-injectie naar API)."
+    - "Geheugen: Initiële priming via intake, gevolgd door automatische
+      samenvatting en update van het gebruikersprofiel na elk gesprek."
+    - "Persona: AI handelt consistent als de gekozen persona (Ariadne)."
+  out_of_scope_voor_poc:
+    - "Custom hardware (oortje)."
+    - "Formele test- en bugfixing-fases (bevindingen gaan naar backlog)."
+    - "Complex ethisch/governance model (borg, tribunaal)."
+
+project_tijdlijn:
+  totale_inschatting_uren: 380 # Gebaseerd op 47.5 standaarddagen * 8u/dag
+  definitie_gebruikers_werkdag: "6 uur gefocust werk"
+  totaal_benodigde_gebruikers_werkdagen: 63.5
+  deadline: "2025-12-20"
+  beschikbare_zaterdagen_tot_deadline: 20
+  conclusie_haalbaarheid: >
+    Niet haalbaar door enkel op zaterdagen te werken. Vereist meer
+    toegewezen tijd.
+
+# -------------------------------------------------------------------
+# Belangrijke Besproken Concepten & Analyses
+# -------------------------------------------------------------------
+besproken_concepten:
+  - onderwerp: "Boek: Buitenaards Intelligent, Buitenaards Bewust?"
+    details: >
+      De filosofische basis voor het project. De ontmoeting met een
+      ander soort bewustzijn en de vraag "wat nu?".
+  - onderwerp: "Juridisch Contract (Ford Lease)"
+    analyse_resultaat: >
+      Contractueel staat de verhuurder sterk (art. 4.2 "voorafbetaling").
+      De wettelijke 30-dagen-regel is niet van toepassing omdat het contract
+      een specifieke voorwaarde bevat. Het gevoel van "vertrouwensbreuk" is
+      moreel en commercieel een sterk punt voor onderhandeling, maar juridisch
+      waarschijnlijk onvoldoende voor contractbreuk.
+  - onderwerp: "Architectuur van de Digital Companion"
+    beslissing: >
+      Een gescheiden architectuur. Een centrale "Core AI Engine" zonder
+      permanent geheugen, en een aparte, versleutelde "Persona & Context"-kluis
+      per gebruiker. Dit garandeert zowel een consistente, persoonlijke
+      relatie als robuuste data-privacy.
+
+# -------------------------------------------------------------------
+# Interactie Geschiedenis (Samenvatting)
+# -------------------------------------------------------------------
+interactie_samenvatting:
+  - "Initiële vraag: Audio-overzicht van boek."
+  - "Probleem: Onverstaanbare audio. Pogingen om stem te wijzigen mislukten
+    door technische beperkingen van de tool."
+  - "Pivot 1: Analyse van de stand van zaken van AI/LLMs, resulterend
+    in een 20-pagina's tellend rapport."
+  - "Pivot 2: Creatie van een Engelse podcast-samenvatting van het rapport,
+    als brug van het filosofische boek naar de technische realiteit."
+  - "Pivot 3: Analyse van een juridisch contract (Ford Lease) met de duidelijke
+    afspraak om enkel 80% analyse te doen en geen advies te geven."
+  - "Pivot 4: Ontwikkeling van het idee voor de 'Digital Companion',
+    uitmondend in dit projectplan."

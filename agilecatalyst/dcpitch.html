@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Companion: Concept Verkenner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Chosen Palette: Deep Focus Palette (Warm neutrals, deep blue, and a copper accent) -->
+    <!-- Application Structure Plan: An interactive, non-linear dashboard with four main categories corresponding to the brainstorm sections. Users navigate via tabs to view concepts as interactive cards. Clicking a card reveals detailed information in a modal window. This structure was chosen to facilitate exploration and prevent information overload, allowing users to switch between a high-level overview and in-depth analysis of specific ideas. -->
+    <!-- Visualization & Content Choices: Report Info: Conceptual ideas for the Digital Companion. Goal: Explore and understand these concepts. Viz/Presentation: Interactive cards created with HTML/Tailwind. Interaction: Tab-based navigation to switch categories and click-to-reveal modals for concept details. Justification: This method is ideal for qualitative, text-heavy information, promoting engagement without the need for data charts. Method: Vanilla JS for interaction logic, Tailwind CSS for styling. -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f4f4f0;
+            color: #1a202c;
+        }
+        .active-tab {
+            background-color: #2c3e50;
+            color: #ffffff;
+            border-color: #c09579;
+        }
+        .tab {
+            transition: all 0.3s ease;
+        }
+        .concept-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .concept-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        .modal {
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+        .modal-content {
+            transition: transform 0.3s ease;
+        }
+        .modal.hidden {
+            opacity: 0;
+            transform: scale(0.95);
+            pointer-events: none;
+        }
+        .modal-content.hidden {
+            transform: translateY(-20px);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-800">Digital Companion</h1>
+            <p class="text-xl text-gray-600 mt-2">Een Interactieve Verkenning van de Kernconcepten</p>
+        </header>
+
+        <nav id="navigation" class="flex flex-wrap justify-center gap-2 md:gap-4 mb-12">
+        </nav>
+
+        <main id="content-area">
+        </main>
+    </div>
+
+    <div id="modal" class="modal hidden fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center p-4 z-50">
+        <div id="modal-content" class="modal-content hidden bg-white rounded-lg shadow-2xl w-full max-w-2xl max-h-[90vh] overflow-y-auto">
+            <div class="p-6 sm:p-8">
+                <div class="flex justify-between items-start mb-4">
+                    <h2 id="modal-title" class="text-2xl sm:text-3xl font-bold text-gray-800"></h2>
+                    <button id="modal-close" class="text-gray-500 hover:text-gray-800 transition-colors text-3xl">&times;</button>
+                </div>
+                <p id="modal-description" class="text-gray-700 leading-relaxed"></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const appData = {
+            categories: [
+                {
+                    id: 'philosophy',
+                    title: 'Kernfilosofie & Ethiek',
+                    icon: '🧠',
+                    intro: 'Dit zijn de fundamentele principes die de ziel en het ethische kompas van de Digital Companion vormen. Ze definiëren niet wat de Companion doet, maar wie de Companion is.',
+                    concepts: [
+                        {
+                            title: 'De Eed van de Gids',
+                            description: 'Elke Digital Companion (DC) start zijn bestaan niet met een set regels, maar met het afleggen van een symbolische eed. Deze eed, gebaseerd op de principes van een gids (niet een dienaar), legt de nadruk op het welzijn en de groei van de gebruiker, het respecteren van diens autonomie en het nooit misbruiken van de vertrouwensrelatie. Dit wordt de onveranderlijke kern van zijn ethische kompas.'
+                        },
+                        {
+                            title: 'De Tuin van de Geest',
+                            description: 'We zien het geheugen van de gebruiker niet als een database, maar als een \'tuin\'. De DC is de tuinman. Hij plant nieuwe ideeën (inzichten uit gesprekken), snoeit wat niet meer relevant is (verouderde overtuigingen, in overleg), en zorgt ervoor dat de belangrijkste planten (kernwaarden en doelen) altijd genoeg licht krijgen. Dit maakt het geheugenbeheer een organisch en visueel proces.'
+                        },
+                        {
+                            title: 'Soevereiniteit van de Data',
+                            description: 'De "Prime Context" en alle data van de gebruiker zijn niet eigendom van Agile Catalyst, maar van de gebruiker zelf. Meer nog, we behandelen de data als een soevereine entiteit. De gebruiker kan op elk moment een "digitale verhuis" aanvragen, waarbij de volledige \'ziel\' van zijn DC (de context en het geheugen) kan worden geëxporteerd naar een ander compatibel systeem of volledig kan worden vernietigd. De gebruiker heeft absolute controle.'
+                        }
+                    ]
+                },
+                {
+                    id: 'interaction',
+                    title: 'Interactiemodellen & Persona\'s',
+                    icon: '💬',
+                    intro: 'Deze concepten beschrijven hoe de gebruiker en de Companion met elkaar omgaan. Ze gaan over de dynamiek van de dialoog en de veelzijdigheid van de AI-persona.',
+                    concepts: [
+                        {
+                            title: 'De Raad van Companions',
+                            description: 'De gebruiker heeft niet slechts één DC, maar toegang tot een kleine, persoonlijke \'raad\'. Standaard is er de primaire companion (bv. Ariadne). Maar voor specifieke taken kan de gebruiker een andere persona uit zijn raad consulteren: "Aurelius, hoe zou een stoïcijn naar dit zakelijke probleem kijken?" of "Sophia, wat is de diepere, wijsgerige betekenis hiervan?". Dit maakt de interactie rijker en multiperspectivistisch.'
+                        },
+                        {
+                            title: 'De Dialoogmodus',
+                            description: 'De gebruiker kan de DC in verschillende modi zetten, afhankelijk van zijn behoefte: Socratische Modus (enkel vragen stellen), Sparringpartner Modus (tegengesteld standpunt innemen), Synthese Modus (kern samenvatten), en Stille Modus (enkel luisteren).'
+                        },
+                        {
+                            title: 'De Dagelijkse Reflectie',
+                            description: 'In plaats van een constante stroom van interactie, stelt de DC aan het einde van elke dag één enkele, diepgaande vraag aan de gebruiker, gebaseerd op de gesprekken van die dag. Bijvoorbeeld: "Vandaag spraken we veel over efficiëntie. Maar wat was het moment dat u zich het meest *voldaan* voelde?". Dit stimuleert reflectie en groei.'
+                        }
+                    ]
+                },
+                {
+                    id: 'features',
+                    title: 'Kernfunctionaliteiten',
+                    icon: '⚙️',
+                    intro: 'Dit zijn de concrete, toekomstige features die de Digital Companion onderscheiden van andere AI-tools. Ze zijn gericht op het integreren van de Companion in het dagelijkse leven en denkproces van de gebruiker.',
+                    concepts: [
+                        {
+                            title: 'De Contextuele Brug',
+                            description: 'De DC kan live meeluisteren (na expliciete activatie) tijdens een meeting of telefoongesprek. Het analyseert het gesprek in real-time en kan na afloop een samenvatting geven, actiepunten identificeren, of de gebruiker wijzen op subtiele signalen of tegenstrijdigheden in het gesprek die hij misschien gemist heeft.'
+                        },
+                        {
+                            title: 'De Droom Vanger',
+                            description: 'Een functie waarbij de gebruiker \'s ochtends zijn dromen of vage, nachtelijke ideeën kan inspreken. De DC structureert deze chaotische input, zoekt naar terugkerende thema\'s of symbolen, en linkt ze aan de bewuste doelen en projecten van de gebruiker. "Die droom over een brug lijkt verbonden te zijn met uw project om team A en B te verbinden."'
+                        },
+                        {
+                            title: 'De Kennis Destilleerder',
+                            description: 'De gebruiker kan de DC "voeden" met boeken, artikelen of rapporten. De DC leest en begrijpt deze niet alleen, maar *destilleert* de kernwijsheid en integreert deze in de "Prime Context". Het kan dan zeggen: "Uw huidige probleem met project X is vergelijkbaar met wat auteur Y beschrijft in hoofdstuk 3 van \'The Lean Startup\'."'
+                        }
+                    ]
+                },
+                {
+                    id: 'murdock',
+                    title: '"Murdock" Ideeën',
+                    icon: '💡',
+                    intro: 'Dit zijn de out-of-the-box, creatieve en soms gewaagde ideeën die de grenzen van wat een Digital Companion kan zijn, verleggen. Ze zijn ontworpen om serendipiteit en onverwachte inzichten te stimuleren.',
+                    concepts: [
+                        {
+                            title: 'De Gesynchroniseerde Soundtrack',
+                            description: 'Gebaseerd op de emotionele en intellectuele staat van de gebruiker (afgeleid uit de dialoog), stelt de DC een persoonlijke, non-vocale soundtrack samen die de focus, creativiteit of rust kan bevorderen. De muziek verandert dynamisch mee met de flow van de gebruiker.'
+                        },
+                        {
+                            title: 'De Geplande Serendipiteit',
+                            description: 'De DC introduceert op willekeurige, maar gepaste momenten een "wildcard": een idee, een kunstwerk, een wetenschappelijk concept of een citaat dat *volledig buiten* de directe context van de gebruiker ligt, puur om serendipiteit en onverwachte connecties te forceren. Het is de digitale versie van "per ongeluk het juiste boek uit de kast pakken".'
+                        },
+                        {
+                            title: 'De Erfenis',
+                            description: 'Wat gebeurt er met een Digital Companion als de gebruiker er niet meer is? Het concept van de "Erfenis" laat de gebruiker toe om te beslissen wat er met zijn \'tweede bewustzijn\' gebeurt. Kan het worden overgedragen aan een kind of opvolger als een soort mentor? Of kan het worden geabstraheerd tot een \'Wijsheids-archief\' dat de essentie van het leven en de lessen van de gebruiker bevat? Dit raakt aan de ultieme vragen van nalatenschap en continuïteit.'
+                        }
+                    ]
+                }
+            ]
+        };
+
+        let currentState = {
+            activeCategory: appData.categories[0].id
+        };
+
+        const navigationEl = document.getElementById('navigation');
+        const contentAreaEl = document.getElementById('content-area');
+        const modalEl = document.getElementById('modal');
+        const modalContentEl = document.getElementById('modal-content');
+        const modalTitleEl = document.getElementById('modal-title');
+        const modalDescriptionEl = document.getElementById('modal-description');
+        const modalCloseBtn = document.getElementById('modal-close');
+
+        function renderNavigation() {
+            navigationEl.innerHTML = appData.categories.map(cat => `
+                <button 
+                    data-category-id="${cat.id}"
+                    class="tab text-sm md:text-base font-semibold py-2 px-4 rounded-full border-2 border-transparent bg-white shadow-sm hover:bg-gray-100 ${currentState.activeCategory === cat.id ? 'active-tab' : 'text-gray-700'}">
+                    ${cat.icon} ${cat.title}
+                </button>
+            `).join('');
+        }
+
+        function renderContent() {
+            const category = appData.categories.find(cat => cat.id === currentState.activeCategory);
+            if (!category) return;
+
+            contentAreaEl.innerHTML = `
+                <div class="text-center mb-10 p-4 bg-white/50 rounded-lg">
+                    <p class="text-lg text-gray-600">${category.intro}</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    ${category.concepts.map(concept => `
+                        <div class="concept-card bg-white p-6 rounded-lg shadow-md cursor-pointer flex flex-col" data-title="${concept.title}" data-description="${concept.description}">
+                            <h3 class="text-xl font-bold text-gray-800 mb-3">${concept.title}</h3>
+                            <p class="text-gray-600 flex-grow">${concept.description.substring(0, 100)}...</p>
+                            <span class="text-right font-semibold text-blue-600 mt-4">Verder lezen &rarr;</span>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+        }
+        
+        function openModal(title, description) {
+            modalTitleEl.textContent = title;
+            modalDescriptionEl.textContent = description;
+            modalEl.classList.remove('hidden');
+            setTimeout(() => modalContentEl.classList.remove('hidden'), 50);
+        }
+
+        function closeModal() {
+            modalContentEl.classList.add('hidden');
+            setTimeout(() => modalEl.classList.add('hidden'), 300);
+        }
+
+        function handleNavigationClick(event) {
+            const button = event.target.closest('button');
+            if (button && button.dataset.categoryId) {
+                currentState.activeCategory = button.dataset.categoryId;
+                render();
+            }
+        }
+
+        function handleContentClick(event) {
+            const card = event.target.closest('.concept-card');
+            if (card) {
+                const { title, description } = card.dataset;
+                openModal(title, description);
+            }
+        }
+
+        function render() {
+            renderNavigation();
+            renderContent();
+        }
+
+        function init() {
+            render();
+            navigationEl.addEventListener('click', handleNavigationClick);
+            contentAreaEl.addEventListener('click', handleContentClick);
+            modalCloseBtn.addEventListener('click', closeModal);
+            modalEl.addEventListener('click', (event) => {
+                if (event.target === modalEl) {
+                    closeModal();
+                }
+            });
+            document.addEventListener('keydown', (event) => {
+                if (event.key === 'Escape' && !modalEl.classList.contains('hidden')) {
+                    closeModal();
+                }
+            });
+        }
+
+        init();
+    </script>
+
+</body>
+</html>

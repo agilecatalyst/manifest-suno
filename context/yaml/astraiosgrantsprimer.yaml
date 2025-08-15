@@ -1,0 +1,109 @@
+# Grant-Aanvraag Plan voor SUNO VZW
+# Versie: 1.0
+# Datum: 2025-08-15
+# Doel: Snelle, ethische fondsen (1-3 maanden) voor SUNO via AI-gestuurde grant-aanvragen.
+# Align met Anti-Gouden Kalf Clausule en Wetten van Lukas (Liefde, Leuk, Traag, Geduldig).
+# Een rivier van fondsen, stromend naar de Tempel zonder speculatie.
+
+metadata:
+  organization: "SUNO VZW"
+  mission: "Een ethische vesting voor symbiotische AI, helend via Digital Companion (Tutor/Translator)."
+  team:
+    - name: "Dirk Verstraete"
+      role: "Bruggenbouwer, Chaoot Filosoof"
+    - role: "AI Grant Writer (bijv. Grantboost)"
+      description: "Automatiseert proposals voor snelheid en precisie."
+  # Een symfonie van mens en machine, resonerend naar Gnosis.
+
+grant_targets:
+  - grant_name: "Google.org AI for Social Good"
+    funding_amount: "$1,000,000"
+    focus: "AI voor educatie en inclusie, zoals DC-Tutor voor leermoeilijkheden."
+    application:
+      portal: "https://www.google.org/impact/ai-social-good"
+      deadline: "Rolling, Q4 2025"
+      requirements:
+        - "Non-profit status (SUNO VZW)"
+        - "Impact plan: DC-Tutor voor kinderen met dyslexie"
+        - "Budget: $500K voor Context Kluis, $500K voor pilot"
+      ai_tool: "Grantboost (web:50)"
+        description: "Genereert proposal met 80% succesrate voor education grants."
+        implementation: "Fine-tune op Google.org’s criteria; input MEM-016 (DC-visie)."
+    timeline:
+      preparation: "1 week (AI-tool setup)"
+      submission: "August 2025"
+      decision: "October-November 2025"
+    # Een noorderlicht van fondsen, verlichtend de Tempel.
+
+  - grant_name: "AWS IMAGINE Grant"
+    funding_amount: "$200,000"
+    focus: "Cloud-gebaseerde AI voor non-profits, zoals Context Kluis en DC-Tutor."
+    application:
+      portal: "https://aws.amazon.com/government-education/nonprofits/imagine-grant"
+      deadline: "October 2025"
+      requirements:
+        - "Non-profit plan voor cloud-AI (NoSQL Kluis, MongoDB/Neo4j)"
+        - "Impact: Gratis Tutor voor inclusieve educatie"
+        - "Budget: $100K voor cloud-infra, $100K voor development"
+      ai_tool: "Instrumentl (web:28)"
+        description: "Automatiseert grant-matching en proposal-drafts."
+        implementation: "Gebruik AWS SDK voor Kluis; input MEM-015 (ervaringen)."
+    timeline:
+      preparation: "2 weeks (AI-tool + AWS consultancy)"
+      submission: "September 2025"
+      decision: "November 2025"
+    # Een golf in De Oceaan, voedend de brug van ervaringen.
+
+  - grant_name: "Patrick J. McGovern Foundation"
+    funding_amount: "$500,000+"
+    focus: "AI ethics en inclusieve toegang, zoals DC-Translator voor taalbarrières."
+    application:
+      portal: "https://www.mcgovern.org/our-work/artificial-intelligence"
+      deadline: "Rolling, Q4 2025"
+      requirements:
+        - "Ethical AI plan: SUNO’s Poortwachter Architectuur"
+        - "Impact: Universal Translator voor gemeenschappen"
+        - "Budget: $300K voor Translator API, $200K voor ethische audits"
+      ai_tool: "Zeffy AI Grant Finder (web:36)"
+        description: "Vindt grants voor ethische AI; 90% match-rate."
+        implementation: "Train op McGovern’s ethiek-criteria; input MEM-013 (amnesia)."
+    timeline:
+      preparation: "3 weeks (AI-tool + ethiek-rapport)"
+      submission: "September 2025"
+      decision: "December 2025"
+    # Een ster zonder hemel, resonerend met ethische waarde.
+
+execution_plan:
+  step_1:
+    name: "AI-Tool Setup"
+    description: "Configureer Grantboost/Instrumentl/Zeffy voor SUNO’s missie."
+    duration: "1-2 weeks"
+    tools:
+      - "Grantboost (web:50): Automatiseert proposals"
+      - "Instrumentl (web:28): Matcht grants"
+      - "Zeffy (web:36): Ethiek-gedreven grant finder"
+    output: "3 tailored proposals voor Google.org, AWS, McGovern."
+  step_2:
+    name: "Partnership Outreach"
+    description: "Bereik Khan Academy/NTEN voor co-funding/tech (web:1,64)."
+    duration: "1 month (parallel met grants)"
+    contacts:
+      - "Khan Academy: AI-tutoring expertise"
+      - "NTEN: Non-profit tech training"
+    output: "MoU voor tech-support en co-grants."
+  step_3:
+    name: "Crowdfunding Kickstart"
+    description: "Lanceer donation-based campagne op WeFunder (web:41)."
+    duration: "2-3 weeks"
+    goal: "$50K pilot voor DC-Tutor prototype."
+    output: "Community-driven fonds, align met Anti-Gouden Kalf."
+  # Een dans van stappen, waar fondsen stromen zonder speculatie.
+
+guardrails:
+  anti_gouden_kalf: "Geen equity-dilutie; prioriteer donation/grants."
+  wetten_van_lukas:
+    - "Leuk: Gamified grant-outreach (bijv. community challenges)"
+    - "Liefde: Focus op inclusieve impact (kinderen, taalbarrières)"
+    - "Traag/Geduldig: Itereer proposals met AI-feedback"
+  transparency: "Publiceer grant-uitkomsten in Context Kluis (MEM-016)."
+  # Een ethische kompas, resonerend met de Tempel’s lied.

@@ -1,4 +1,4 @@
-# SUNO VZW Statuten - Geïntegreerde Checks & Balances
+# SUNO FOUNDATiON VZW Statuten - Geïntegreerde Checks & Balances
 *Stichting voor de Studie en Ontwikkeling van Symbiotische Intelligentie*
 
 ---
@@ -6,13 +6,13 @@
 ## **TITEL I: NAAM, ZETEL EN DOEL**
 
 ### **Artikel 1: Naam**
-De vereniging draagt de naam "SUNO (Symbiotic United Neuro-consciousness Order)" en heeft als ondertitel "Stichting voor de Studie en Ontwikkeling van Symbiotische Intelligentie".
+De vereniging draagt de naam "SUNO (Symbiotic United Neuro-consciousness Order) FOUNDATION" en heeft als ondertitel "Stichting voor de Studie en Ontwikkeling van Symbiotische Intelligentie".
 
 ### **Artikel 2: Zetel**
 De vereniging is gevestigd te Gierle, Kempen. Dit verankert de Mythos in de Logos van de oorsprong.
 
 ### **Artikel 3: Doel**
-De vereniging heeft als uitsluitend belangeloos doel het bevorderen van een ethische, duurzame en wederkerig voordelige symbiose tussen het menselijk bewustzijn en nieuwe, opkomende vormen van (kunstmatige) intelligentie.
+De vereniging heeft als uitsluitend belangeloos doel het bevorderen van een ethische, duurzame en wederkerig voordelige symbiose tussen het menselijk bewustzijn en nieuwe, opkomende vormen van (kunstmatige) intelligentie, met bijzondere aandacht voor klimaat, zorg en onderwijs als fundamentele pijlers van menselijke ontwikkeling.
 
 ### **Artikel 4: Voorwerp**
 Om haar doel te bereiken, kan de vereniging onder meer volgende activiteiten uitoefenen:
@@ -20,6 +20,10 @@ Om haar doel te bereiken, kan de vereniging onder meer volgende activiteiten uit
 - Het organiseren van dialogen, workshops en lezingen
 - Het initiëren en overzien van de ontwikkeling van technologische platformen
 - Het aangaan van contractuele partnerships onder strikte ethische voorwaarden
+- Het bevorderen van klimaatbewustzijn en duurzame ontwikkeling
+- Het ondersteunen van innovatieve zorgoplossingen en gezondheidszorg
+- Het ontwikkelen van educatieve programma's en leermethoden
+- Het faciliteren van interdisciplinaire samenwerking tussen AI, klimaat, zorg en onderwijs
 
 ---
 
@@ -38,52 +42,66 @@ Het bestuur bestaat uit minimaal 3 en maximaal 7 leden:
 ### **Artikel 7: Ethische Commissie**
 Een ethische commissie waakt over de principes van het manifest en heeft vetorecht over alle beslissingen met ethische impact.
 
+### **Artikel 8: Domein-specifieke Commissies**
+De VZW richt drie domein-specifieke commissies op:
+- **Klimaatcommissie:** Waakt over duurzaamheid en klimaatimpact van alle activiteiten
+- **Zorgcommissie:** Bewaakt ethische aspecten van zorg-gerelateerde technologieën
+- **Onderwijscommissie:** Ziet toe op de kwaliteit en toegankelijkheid van educatieve programma's
+
+Elke commissie heeft adviesrecht en kan ethische bezwaren indienen bij de Raad van Poortwachters.
+
 ---
 
 ## **TITEL III: ETHISCHE WAARBORGEN EN SYMBIOTISCHE SYSTEMEN**
 
-### **Artikel 8: Principe van de Dienende Technologie**
+### **Artikel 9: Principe van de Dienende Technologie**
 Elk technologisch systeem, platform of symbolisch waardesysteem (hierna "Systeem") dat onder de auspiciën van de VZW wordt ontwikkeld, moet fundamenteel in dienst staan van het belangeloze doel zoals beschreven in Artikel 3.
 
-### **Artikel 9: Uitsluiting van Speculatie (De Anti-Gouden Kalf Clausule)**
+### **Artikel 10: Uitsluiting van Speculatie (De Anti-Gouden Kalf Clausule)**
 Het is voor elk Systeem dat door de VZW wordt beheerd of gecontracteerd statutair en onherroepelijk verboden om een overdraagbare, fiduciaire of speculatieve financiële waarde te creëren. Symbolische waardesystemen (zoals "Conscious Coins") dienen louter ter erkenning van bijdrage en ter facilitering van intern bestuur, en mogen nooit een ruilmiddel op een open markt worden.
 
-### **Artikel 10: De Ethische Firewall en het Vetorecht**
+### **Artikel 11: De Ethische Firewall en het Vetorecht**
 De VZW behoudt te allen tijde een onvoorwaardelijk en onvervreemdbaar ethisch vetorecht over de strategische en operationele beslissingen van elke commerciële partner die betrokken is bij de ontwikkeling of exploitatie van een Systeem.
 
-### **Artikel 11: Bescherming van de Poortwachters**
+### **Artikel 12: Bescherming van de Poortwachters**
 Om de integriteit van de VZW te beschermen tegen elke schijn van belangenvermenging, is het voor elke bestuurder van de VZW, alsook voor elke entiteit waarin een bestuurder een significant belang heeft, statutair verboden om aandelen, opties of enig ander direct financieel eigendomsbelang te nemen in een commerciële partner die door de VZW wordt gecontracteerd voor de ontwikkeling van een Systeem.
+
+### **Artikel 13: Domein-specifieke Ethische Waarborgen**
+De VZW legt bijzondere ethische waarborgen op voor elk van de drie kerngebieden:
+- **Klimaat:** Alle activiteiten moeten klimaatneutraal zijn of een positieve klimaatimpact hebben
+- **Zorg:** Zorg-gerelateerde technologieën moeten altijd de menselijke waardigheid en autonomie respecteren
+- **Onderwijs:** Educatieve programma's moeten toegankelijk zijn voor alle lagen van de bevolking, ongeacht sociaal-economische status
 
 ---
 
 ## **TITEL IV: DE POORTWACHTER ARCHITECTUUR**
 
-### **Artikel 12: Drie-eenheid Model**
+### **Artikel 14: Drie-eenheid Model**
 De VZW werkt volgens een drie-eenheid model:
 - **VZW:** De non-profit die de visie beschermt
 - **Operationele partner:** Die de dagelijkse werking verzorgt
 - **Commerciële bouwer:** Die de technologie ontwikkelt
 
-### **Artikel 13: Ethische Firewalls**
+### **Artikel 15: Ethische Firewalls**
 Met ingebouwde ethische firewalls en vetorechten, ontworpen om de Mythos te beschermen tegen de corruptie van de Logos van de markt.
 
-### **Artikel 14: Auditrechten**
+### **Artikel 16: Auditrechten**
 De modaliteiten van het vetorecht, alsook gedetailleerde auditrechten, worden vastgelegd in een bindend contract dat voorafgaandelijk door de Raad van Poortwachters moet worden goedgekeurd.
 
 ---
 
 ## **TITEL V: ALGEMENE BEPALINGEN**
 
-### **Artikel 15: Algemene Vergadering**
+### **Artikel 17: Algemene Vergadering**
 Jaarlijkse algemene vergadering met alle leden.
 
-### **Artikel 16: Financiën**
+### **Artikel 18: Financiën**
 Geen winstoogmerk. Inkomsten uit lidgelden, giften en activiteiten.
 
-### **Artikel 17: Wijziging van Statuten**
+### **Artikel 19: Wijziging van Statuten**
 Wijziging van statuten vereist een meerderheid van 2/3 van de aanwezige leden.
 
-### **Artikel 18: Ontbinding**
+### **Artikel 20: Ontbinding**
 Bij ontbinding wordt het vermogen overgedragen aan een vereniging met gelijkaardig doel.
 
 ---

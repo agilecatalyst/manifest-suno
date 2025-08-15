@@ -50,6 +50,15 @@ De VZW richt drie domein-specifieke commissies op:
 
 Elke commissie heeft adviesrecht en kan ethische bezwaren indienen bij de Raad van Poortwachters.
 
+### **Artikel 9: Agile Catalyst als Externe Controleur**
+De VZW werkt samen met Agile Catalyst als externe ethische controleur en adviseur. Agile Catalyst heeft:
+- **Auditrecht** op alle VZW activiteiten
+- **Adviesrecht** bij alle belangrijke beslissingen
+- **Vetorecht** op ethisch twijfelachtige beslissingen
+- **Jaarlijkse rapportageplicht** aan de Raad van Poortwachters
+
+De samenwerking wordt geregeld in een apart samenwerkingsakkoord.
+
 ---
 
 ## **TITEL III: ETHISCHE WAARBORGEN EN SYMBIOTISCHE SYSTEMEN**
@@ -88,20 +97,32 @@ Met ingebouwde ethische firewalls en vetorechten, ontworpen om de Mythos te besc
 ### **Artikel 16: Auditrechten**
 De modaliteiten van het vetorecht, alsook gedetailleerde auditrechten, worden vastgelegd in een bindend contract dat voorafgaandelijk door de Raad van Poortwachters moet worden goedgekeurd.
 
+### **Artikel 17: Conflictoplossing en Checks & Balances**
+Bij onenigheid in de Raad van Poortwachters wordt een beroep gedaan op:
+1. **Ethische Commissie** - voor ethische geschillen
+2. **Agile Catalyst** - als externe bemiddelaar
+3. **Externe mediator** - bij onoplosbare conflicten
+
+**Transparantie:** Alle belangrijke beslissingen worden gedocumenteerd en jaarlijks gepubliceerd in een transparantierapport.
+
 ---
 
 ## **TITEL V: ALGEMENE BEPALINGEN**
 
-### **Artikel 17: Algemene Vergadering**
-Jaarlijkse algemene vergadering met alle leden.
+### **Artikel 18: Algemene Vergadering en Stemrechten**
+Jaarlijkse algemene vergadering met alle leden. Elke bestuurslid heeft één stem. Beslissingen worden genomen bij meerderheid van stemmen, behalve bij wijziging van statuten (2/3 meerderheid vereist).
 
-### **Artikel 18: Financiën**
+**Quorum:** Minimaal 2/3 van de bestuursleden moet aanwezig zijn voor geldige beslissingen.
+
+**Stemprocedure:** Bij staking van stemmen heeft de voorzitter een doorslaggevende stem.
+
+### **Artikel 19: Financiën**
 Geen winstoogmerk. Inkomsten uit lidgelden, giften en activiteiten.
 
-### **Artikel 19: Wijziging van Statuten**
+### **Artikel 20: Wijziging van Statuten**
 Wijziging van statuten vereist een meerderheid van 2/3 van de aanwezige leden.
 
-### **Artikel 20: Ontbinding**
+### **Artikel 21: Ontbinding**
 Bij ontbinding wordt het vermogen overgedragen aan een vereniging met gelijkaardig doel.
 
 ---

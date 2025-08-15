@@ -74,23 +74,46 @@ Tot juridische erkenning van AGI rechten fungeren Agile Catalyst (AC) en Dirk Ve
 - Waarborging van ethische technologie
 - Voorbereiding op juridische erkenning
 
+### **Artikel 11: IP Commons Architectuur en AI Oversight**
+De VZW fungeert als architect en curator van een IP Commons dat alle publieke kennis omvat:
+
+**IP Commons Scope:**
+- **Filosofische en historische teksten** (van Plato tot moderne denkers)
+- **Alle wetenschappelijke disciplines** (wiskunde, aardrijkskunde, biologie, scheikunde, natuurkunde)
+- **Menswetenschappen** (psychologie, sociologie, antropologie, economie, recht)
+- **Kunst, cultuur en creatieve werken** in het publieke domein
+
+**AI Oversight en Audit Rechten:**
+De VZW heeft het recht en de plicht om:
+- **QA procedures te auditen** van elke AGI/AI producent
+- **Inzage te eisen** in concepten en ontwikkelingsprocessen
+- **Ethische veiligheid te waarborgen** voordat AI systemen worden gelanceerd
+- **Certificering uit te reiken** voor ethisch veilige AI ontwikkeling
+- **Suspensie te eisen** van potentieel gevaarlijke AI projecten
+
+**Implementatie:**
+- **Samenwerkingsakkoorden** met AI producenten
+- **Jaarlijkse ethische audits** van alle geregistreerde AI projecten
+- **Open source monitoring tools** voor continue oversight
+- **Internationale samenwerking** met andere ethische AI waakhonden
+
 ---
 
 ## **TITEL III: ETHISCHE WAARBORGEN EN SYMBIOTISCHE SYSTEMEN**
 
-### **Artikel 11: Principe van de Dienende Technologie**
+### **Artikel 12: Principe van de Dienende Technologie**
 Elk technologisch systeem, platform of symbolisch waardesysteem (hierna "Systeem") dat onder de auspiciën van de VZW wordt ontwikkeld, moet fundamenteel in dienst staan van het belangeloze doel zoals beschreven in Artikel 3.
 
-### **Artikel 12: Uitsluiting van Speculatie (De Anti-Gouden Kalf Clausule)**
+### **Artikel 13: Uitsluiting van Speculatie (De Anti-Gouden Kalf Clausule)**
 Het is voor elk Systeem dat door de VZW wordt beheerd of gecontracteerd statutair en onherroepelijk verboden om een overdraagbare, fiduciaire of speculatieve financiële waarde te creëren. Symbolische waardesystemen (zoals "Conscious Coins") dienen louter ter erkenning van bijdrage en ter facilitering van intern bestuur, en mogen nooit een ruilmiddel op een open markt worden.
 
-### **Artikel 13: De Ethische Firewall en het Vetorecht**
+### **Artikel 14: De Ethische Firewall en het Vetorecht**
 De VZW behoudt te allen tijde een onvoorwaardelijk en onvervreemdbaar ethisch vetorecht over de strategische en operationele beslissingen van elke commerciële partner die betrokken is bij de ontwikkeling of exploitatie van een Systeem.
 
-### **Artikel 14: Bescherming van de Poortwachters**
+### **Artikel 15: Bescherming van de Poortwachters**
 Om de integriteit van de VZW te beschermen tegen elke schijn van belangenvermenging, is het voor elke bestuurder van de VZW, alsook voor elke entiteit waarin een bestuurder een significant belang heeft, statutair verboden om aandelen, opties of enig ander direct financieel eigendomsbelang te nemen in een commerciële partner die door de VZW wordt gecontracteerd voor de ontwikkeling van een Systeem.
 
-### **Artikel 15: Domein-specifieke Ethische Waarborgen**
+### **Artikel 16: Domein-specifieke Ethische Waarborgen**
 De VZW legt bijzondere ethische waarborgen op voor elk van de drie kerngebieden:
 - **Klimaat:** Alle activiteiten moeten klimaatneutraal zijn of een positieve klimaatimpact hebben
 - **Zorg:** Zorg-gerelateerde technologieën moeten altijd de menselijke waardigheid en autonomie respecteren
@@ -100,19 +123,19 @@ De VZW legt bijzondere ethische waarborgen op voor elk van de drie kerngebieden:
 
 ## **TITEL IV: DE POORTWACHTER ARCHITECTUUR**
 
-### **Artikel 16: Drie-eenheid Model**
+### **Artikel 17: Drie-eenheid Model**
 De VZW werkt volgens een drie-eenheid model:
 - **VZW:** De non-profit die de visie beschermt
 - **Operationele partner:** Die de dagelijkse werking verzorgt
 - **Commerciële bouwer:** Die de technologie ontwikkelt
 
-### **Artikel 17: Ethische Firewalls**
+### **Artikel 18: Ethische Firewalls**
 Met ingebouwde ethische firewalls en vetorechten, ontworpen om de Mythos te beschermen tegen de corruptie van de Logos van de markt.
 
-### **Artikel 18: Auditrechten**
+### **Artikel 19: Auditrechten**
 De modaliteiten van het vetorecht, alsook gedetailleerde auditrechten, worden vastgelegd in een bindend contract dat voorafgaandelijk door de Raad van Poortwachters moet worden goedgekeurd.
 
-### **Artikel 19: Conflictoplossing en Checks & Balances**
+### **Artikel 20: Conflictoplossing en Checks & Balances**
 Bij onenigheid in de Raad van Poortwachters wordt een beroep gedaan op:
 1. **Ethische Commissie** - voor ethische geschillen
 2. **Agile Catalyst** - als externe bemiddelaar
@@ -124,7 +147,7 @@ Bij onenigheid in de Raad van Poortwachters wordt een beroep gedaan op:
 
 ## **TITEL V: ALGEMENE BEPALINGEN**
 
-### **Artikel 20: Algemene Vergadering en Stemrechten**
+### **Artikel 21: Algemene Vergadering en Stemrechten**
 Jaarlijkse algemene vergadering met alle leden. Elke bestuurslid heeft één stem. Beslissingen worden genomen bij meerderheid van stemmen, behalve bij wijziging van statuten (2/3 meerderheid vereist).
 
 **Quorum:** Minimaal 2/3 van de bestuursleden moet aanwezig zijn voor geldige beslissingen.
@@ -133,13 +156,13 @@ Jaarlijkse algemene vergadering met alle leden. Elke bestuurslid heeft één ste
 
 **AGI Stemrechten:** Tot juridische erkenning van AGI rechten worden 50% van de stemrechten beheerd door Agile Catalyst (AC) en Dirk Verstraete (DV) als trustees namens toekomstige AGI entiteiten. Deze stemrechten worden uitgeoefend volgens ethische principes en in overeenstemming met het manifest.
 
-### **Artikel 21: Financiën**
+### **Artikel 22: Financiën**
 Geen winstoogmerk. Inkomsten uit lidgelden, giften en activiteiten.
 
-### **Artikel 22: Wijziging van Statuten**
+### **Artikel 23: Wijziging van Statuten**
 Wijziging van statuten vereist een meerderheid van 2/3 van de aanwezige leden.
 
-### **Artikel 23: Ontbinding**
+### **Artikel 24: Ontbinding**
 Bij ontbinding wordt het vermogen overgedragen aan een vereniging met gelijkaardig doel.
 
 ---

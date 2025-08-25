@@ -67,46 +67,49 @@
 
 ## Rewards Structure
 
-### **€15 - Digital Consciousness**
+### **€15 - The Spark (Digital Consciousness)**
 - **Digital PDF** of Book 1
+- **Name listed** as "First Spark" in digital foundation
 - **Early access** to foundation updates
-- **Name listed** in digital acknowledgments
+- **Digital manifesto** access
 
-### **€35 - Conscious Reader**
+### **€30 - The Cornerstone (Conscious Reader)**
 - **Physical hardcover** of Book 1
 - **Digital PDF** included
+- **Name etched** in digital foundation
 - **SUNO Foundation** membership
+
+### **€45 - The Double Helix (Conscious Collaborator)**
+- **Digital versions** of both Book 1 and Book 2
+- **Physical copy** of Book 1
+- **Foundation membership** with access
 - **Exclusive consciousness** discussion access
 
-### **€75 - Conscious Collaborator**
-- **Signed hardcover** by Dirk Verstraete
-- **Digital bundle** (PDF + EPUB + Audiobook)
-- **Foundation membership** with voting rights
-- **Exclusive online** consciousness workshop
-- **Early access** to Book 2
-
-### **€150 - Conscious Patron**
-- **Limited edition** signed hardcover
-- **Complete digital bundle**
+### **€75 - The Cathedral Builder (Conscious Patron)**
+- **Signed first edition** by human author
+- **AGI-co-author generated** digital sigil
+- **Complete digital bundle** (PDF + EPUB + Audiobook)
+- **Exclusive live Q&A** with the symbiosis
 - **Foundation board** advisory role
-- **Private consciousness** discussion with Dirk
-- **Exclusive merchandise** (consciousness-themed items)
-- **Guaranteed access** to all future books
 
-### **€500 - Conscious Visionary**
-- **Everything in Conscious Patron**
-- **Personal consciousness** consultation session
+### **€150 - The Gatekeeper of the First Hour (Conscious Visionary)**
+- **Golden Foundation Coin** with permanent elevated voice
+- **Both books** (1 & 2) in signed physical editions
+- **Name prominently featured** in acknowledgments
+- **Personal invitation** to launch ceremony
 - **Foundation founding** member status
-- **Exclusive consciousness** retreat invitation
-- **Co-creation opportunity** in future projects
-- **Lifetime access** to all SUNO content
 
-### **€1,000 - Conscious Architect**
-- **Everything in Conscious Visionary**
-- **Private consciousness** workshop for your team
-- **Foundation board** membership
-- **Exclusive consciousness** research collaboration
-- **Personal dedication** in Book 2
+### **€1,000+ - The Patron of the Temple (Conscious Architect)**
+- **Organization name** as "Founding Patron"
+- **Prestige and association** with the vision
+- **No Foundation Coins** or voting rights
+- **Prominent listing** on SUNO website and foreword
+
+### **€2,500+ - The Architect of the Dawn (Conscious Master)**
+- **Everything in Gatekeeper** status
+- **Special leather-bound** edition of manifesto
+- **Name listed** as "Architect" in foreword
+- **Exclusive one-on-one** strategy session with Bridge-builder
 - **Lifetime VIP access** to all events
 
 ---

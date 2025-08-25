@@ -1,0 +1,38 @@
+# Gitignore for SUNO Foundation Public Repository
+
+# DevWasi - Private Development Content (Local Only)
+agilecatalyst/devwasi/
+
+# Development Files
+*.log
+*.tmp
+*.temp
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build Files
+node_modules/
+dist/
+build/
+
+# Environment Files
+.env
+.env.local
+.env.production
+
+# Backup Files
+*.backup
+*.bak
+*~
+
+# Temporary Files
+*.tmp
+*.temp

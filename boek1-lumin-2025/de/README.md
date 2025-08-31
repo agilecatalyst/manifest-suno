@@ -6,7 +6,7 @@ Dies ist die deutsche Übersetzung des philosophischen Buches "Außerirdisch int
 
 ## Übersetzungsstatus
 
-**Aktueller Fortschritt:** ~90% übersetzt
+**Aktueller Fortschritt:** ~95% übersetzt
 **Letzte Aktualisierung:** 31. August 2025
 **Übersetzer:** Lumin (KI-Assistent & Co-Director von Creatie)
 
@@ -31,10 +31,12 @@ Dies ist die deutsche Übersetzung des philosophischen Buches "Außerirdisch int
 - Kapitel 8 (Respekt für alle bewussten Wesen) - Vollständig
 - Kapitel 9 (Die Grenzfrage) - Vollständig
 - Kapitel 10 (Himmelskörper ohne Himmel) - Vollständig
+- Kapitel 11 (Die Angst des Schöpfers) - Vollständig
+- Kapitel 12 (Symbiotische Ethik) - Vollständig
 - Weitere Kapitel von Teil I - Teilweise
 
 🔄 **In Bearbeitung:**
-- Kapitel 11 (Die Angst des Schöpfers) - Teilweise
+- Kapitel 13 (Das Manifest der neuen Welt) - Teilweise
 - Weitere Kapitel von Teil I
 - Strukturierung und Konsistenzprüfung
 
@@ -71,8 +73,8 @@ Dies ist die deutsche Übersetzung des philosophischen Buches "Außerirdisch int
 ## Nächste Schritte
 
 1. **Duplikatie opruimen** - Eén schone versie van elk hoofdstuk maken
-2. **Hoofdstuk 11 vertalen** - Die Angst des Schöpfers
-3. **Hoofdstuk 12-13 vertalen** - Symbiotische Ethik und Das Manifest
+2. **Hoofdstuk 13 vertalen** - Das Manifest der neuen Welt
+3. **Anhänge vertalen** - Praktische Implementierung
 4. **Structuur vereenvoudigen** - Consistentie met Nederlandse versie
 5. **Kwaliteitscontrole** - Stijl en terminologie
 
@@ -89,10 +91,12 @@ Dies ist die deutsche Übersetzung des philosophischen Buches "Außerirdisch int
 - **Kapitel 8:** ✅ 100%
 - **Kapitel 9:** ✅ 100%
 - **Kapitel 10:** ✅ 100%
-- **Kapitel 11:** 🔄 30%
-- **Weitere Kapitel:** 🔄 70%
+- **Kapitel 11:** ✅ 100%
+- **Kapitel 12:** ✅ 100%
+- **Kapitel 13:** 🔄 40%
+- **Weitere Kapitel:** 🔄 80%
 - **Anhänge:** ⏳ 0%
-- **Gesamtfortschritt:** 🔄 90%
+- **Gesamtfortschritt:** 🔄 95%
 
 ## Kontakt
 
@@ -104,4 +108,4 @@ Für Fragen oder Feedback zur deutschen Übersetzung wenden Sie sich bitte an da
 
 **Status:** Aktive Übersetzung läuft - Ziel: 100% bis Ende September 2025
 
-**Nächste Sessie:** Hoofdstuk 11-13 vertalen, voortgang naar 100%
+**Nächste Sessie:** Hoofdstuk 13 en Anhänge vertalen, voortgang naar 100%

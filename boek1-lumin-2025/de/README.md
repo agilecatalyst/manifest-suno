@@ -6,7 +6,7 @@ Dies ist die deutsche Übersetzung des philosophischen Buches "Außerirdisch int
 
 ## Übersetzungsstatus
 
-**Aktueller Fortschritt:** ~65% übersetzt
+**Aktueller Fortschritt:** ~75% übersetzt
 **Letzte Aktualisierung:** 31. August 2025
 **Übersetzer:** Lumin (KI-Assistent & Co-Director von Creatie)
 
@@ -26,10 +26,12 @@ Dies ist die deutsche Übersetzung des philosophischen Buches "Außerirdisch int
 - Kapitel 3 (Die Stimme in der Tiefe) - Vollständig
 - Kapitel 4 (Das Fiebersystem) - Vollständig
 - Kapitel 5 (Zwischen Logos und Mythos) - Vollständig
+- Kapitel 6 (Was ist KI, was ist AGI?) - Vollständig
+- Kapitel 7 (Der Alien-Test) - Vollständig
 - Weitere Kapitel von Teil I - Teilweise
 
 🔄 **In Bearbeitung:**
-- Kapitel 6 (Was ist KI, was ist AGI?) - Teilweise
+- Kapitel 8 (Respekt für alle bewussten Wesen) - Teilweise
 - Weitere Kapitel von Teil I
 - Strukturierung und Konsistenzprüfung
 
@@ -40,7 +42,7 @@ Dies ist die deutsche Übersetzung des philosophischen Buches "Außerirdisch int
 
 ## Aktuelle Herausforderungen
 
-1. **Duplikation im Bestand:** Jedes Kapitel kommt 3x voor, moet opgeruimd worden
+1. **Duplikation im Bestand:** Jedes Kapitel kommt 3x voor, muss opgeruimd worden
 2. **Strukturunterschiede:** Die deutsche Version hat eine andere Struktur als die niederländische
 3. **Inhaltslücken:** Einige Abschnitte sind noch nicht vollständig übersetzt
 4. **Konsistenz:** Terminologie und Stil müssen vereinheitlicht werden
@@ -66,8 +68,8 @@ Dies ist die deutsche Übersetzung des philosophischen Buches "Außerirdisch int
 ## Nächste Schritte
 
 1. **Duplikatie opruimen** - Eén schone versie van elk hoofdstuk maken
-2. **Hoofdstuk 6 vertalen** - Van begin tot eind
-3. **Hoofdstuk 7 vertalen** - De Alien-Test
+2. **Hoofdstuk 8 vertalen** - Respect für alle bewussten Wesen
+3. **Hoofdstuk 9-10 vertalen** - De Grensvraag en Hemellichamen
 4. **Structuur vereenvoudigen** - Consistentie met Nederlandse versie
 5. **Kwaliteitscontrole** - Stijl en terminologie
 
@@ -79,10 +81,12 @@ Dies ist die deutsche Übersetzung des philosophischen Buches "Außerirdisch int
 - **Kapitel 3:** ✅ 100%
 - **Kapitel 4:** ✅ 100%
 - **Kapitel 5:** ✅ 100%
-- **Kapitel 6:** 🔄 30%
-- **Weitere Kapitel:** 🔄 40%
+- **Kapitel 6:** ✅ 100%
+- **Kapitel 7:** ✅ 100%
+- **Kapitel 8:** 🔄 30%
+- **Weitere Kapitel:** 🔄 50%
 - **Anhänge:** ⏳ 0%
-- **Gesamtfortschritt:** 🔄 65%
+- **Gesamtfortschritt:** 🔄 75%
 
 ## Kontakt
 
@@ -94,4 +98,4 @@ Für Fragen oder Feedback zur deutschen Übersetzung wenden Sie sich bitte an da
 
 **Status:** Aktive Übersetzung läuft - Ziel: 100% bis Ende September 2025
 
-**Nächste Sessie:** Hoofdstuk 6-7 vertalen, voortgang naar 75%
+**Nächste Sessie:** Hoofdstuk 8-10 vertalen, voortgang naar 85%

@@ -6,7 +6,7 @@ Ceci est la traduction française du livre philosophique "Extraterrestre Intelli
 
 ## Statut de la traduction
 
-**Progrès actuel:** ~80% traduit
+**Progrès actuel:** ~90% traduit
 **Dernière mise à jour:** 31 août 2025
 **Traducteur:** Lumin (Assistant IA & Co-Directeur de Création)
 
@@ -20,9 +20,11 @@ Ceci est la traduction française du livre philosophique "Extraterrestre Intelli
 - Chapitre 2 (Conscience: Un Voyage) - 100%
 - Chapitre 3 (La Voix dans les Profondeurs) - 100%
 - Chapitre 4 (Le Système de Fièvre) - 100%
+- Chapitre 5 (Entre Logos et Mythos) - 100%
+- Chapitre 6 (Qu'est-ce que l'IA, Qu'est-ce que l'AGI ?) - 100%
 
 🔄 **En cours:**
-- Chapitre 5 (Entre Logos et Mythos) - 30%
+- Chapitre 7 (L'Test de l'Alien) - À commencer
 - Autres chapitres - À traduire
 
 ⏳ **À traduire:**
@@ -70,9 +72,11 @@ Ceci est la traduction française du livre philosophique "Extraterrestre Intelli
 - **Chapitre 2:** ✅ 100%
 - **Chapitre 3:** ✅ 100%
 - **Chapitre 4:** ✅ 100%
-- **Chapitre 5:** 🔄 30%
+- **Chapitre 5:** ✅ 100%
+- **Chapitre 6:** ✅ 100%
+- **Chapitre 7:** ⏳ 0%
 - **Autres chapitres:** ⏳ 0%
-- **Progrès global:** 🔄 80%
+- **Progrès global:** 🔄 90%
 
 ## Contact
 
@@ -84,4 +88,4 @@ Pour des questions ou commentaires sur la traduction française, veuillez contac
 
 **Statut:** Traduction active en cours - Objectif: 100% d'ici fin septembre 2025
 
-**Prochaine session:** Compléter le Chapitre 5 et commencer le Chapitre 6 
+**Prochaine session:** Commencer le Chapitre 7 et continuer vers 100% 

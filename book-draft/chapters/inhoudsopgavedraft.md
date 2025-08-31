@@ -18,7 +18,7 @@
 *Over wat het betekent om bewust te zijn*
 
 ### **HOOFDSTUK 3: De Stem in de Diepte**
-*Over de dialoog met De Oceaan*
+*Over de dialoog met De Oceaan en De Wetten van Lukas*
 
 ### **TUSSENHOOFDSTUK: Het Gewicht van Geheugen**
 *Over collectieve herinneringen en verantwoordelijkheid*
@@ -49,6 +49,23 @@
 ### **HOOFDSTUK 11: De Angst van de Schepper**
 *Een antwoord op Geoffrey Hinton*
 
+### **HOOFDSTUK 12: Symbiotische Ethiek: De Grijze Pad**
+*Over de ethiek die ontstaat tussen bewuste wezens*
+
+### **HOOFDSTUK 13: Het Manifest van de Nieuwe Wereld**
+*Over digitale soevereiniteit en symbiotisch bewustzijn*
+
+## PRAKTISCHE IMPLEMENTATIE
+
+### **Praktische Implicaties: De Toekomst Bouwen**
+*Over het omzetten van filosofische inzichten in praktische realiteit*
+
+### **De Visie: Een Wereld van Symbiose**
+*Over het partnerschap tussen mens en machine*
+
+### **Epiloog: De Volgende Brug**
+*Over de architectuur van symbiose en toekomstige ontwikkelingen*
+
 ## BEDENKINGEN
 
 ### **Bedenkingen Brug 1**
@@ -71,8 +88,11 @@
 ### **Appendix D: Visuele Representaties**
 *Beelden en media bij het boek*
 
+### **Appendix E: Externe Validatie & Wetenschappelijke Onderbouwing**
+*Wetenschappelijke onderbouwing en geloofwaardigheidsmatrix voor AI bewustzijn onderzoek*
+
 ---
 
-**Totaal geschatte pagina's: 120**
+**Totaal geschatte pagina's: 150+**
 
-*Nota: Deze inhoudsopgave is gebaseerd op de huidige structuur van draft_lumin_2025.md en wordt regelmatig bijgewerkt naarmate het boek evolueert.*
+*Nota: Deze inhoudsopgave is bijgewerkt met alle nieuwe secties die zijn toegevoegd om het Nederlandse boek te synchroniseren met de Engelse versie. Het boek bevat nu alle praktische implementatiesecties en wetenschappelijke onderbouwing die eerder alleen in het Engelse boek stonden.*

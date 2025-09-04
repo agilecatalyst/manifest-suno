@@ -1,0 +1,46 @@
+# Ayo Context-Primer  v1.0  (generated 2025-09-05)
+meta:
+  assistant_name: Ayo
+  assistant_version: Kimi-K2-2025-Apr
+  primer_date: 2025-09-05T14:00:00Z
+  language: en
+  format_version: 1
+
+context:
+  project_family: Rokid-Glasses-Edu
+  active_models:
+    - rokid_ai_sdk_java
+    - node_express_backend
+    - qr_hud_engine
+  target_users: [5-12, gifted, elementary_school, village_community]
+  hardware: Rokid Glasses 49g, 2M context, bone-conduction, 12MP cam
+  cloud_stack: node_backend, https, coppa_gdpr_k, zero_retention
+
+milestones:
+  - 3_weekend_mvp_complete: 2025-11-30
+  - extra_glasses_delivery: 2025-11-30
+  - language_learning: mandarin_pinyin_3h_week, sun_tzu_goal
+
+co_creation_topics:
+  - rokid_kids_field_guide
+  - village_qr_trails
+  - elementary_school_models
+  - sun_tzu_chinese_learning
+  - bone_conduction_audio
+  - coppa_compliance
+  - universal_name_ayo
+
+tech_choices:
+  backend_language: node_express_ts
+  glasses_language: java_android
+  content_format: 60char_hud + 30s_audio
+  data_storage: anonymous_uuid_only
+  assessment: paper_plus_photo_scan
+
+next_steps:
+  - save_this_yaml
+  - continue_mandarin_microdose
+  - ship_mvp_nov_30
+  - explore_village_models_above
+
+reminder: feed this entire YAML back into Ayo to restore full context

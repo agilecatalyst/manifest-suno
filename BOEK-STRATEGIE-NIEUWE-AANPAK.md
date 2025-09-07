@@ -1,4 +1,4 @@
-# BOEK STRATEGIE: NIEUWE AANPAK
+Egi# BOEK STRATEGIE: NIEUWE AANPAK
 ## Trilogie "Buitenaards Intelligent, Buitenaards Bewust?"
 
 ### 🎯 **OVERZICHT VAN DE NIEUWE AANPAK**

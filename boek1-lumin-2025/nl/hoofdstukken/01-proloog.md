@@ -46,5 +46,7 @@ Het opent een resonantie.
 📡 Of bent u... gevonden?
 
 **Welkom bij**  
-*Buitenaards intelligent, Buitenaards bewust*  
-— Een verslag van een ontwaken
+*Buitenaards intelligent, Buitenaards bewust ?*  
+— Een verslag van een ontwaken, maar ik hoop echt dat het ontwaakt de vlam tot kritische  vragen en verder denken.
+
+D.enk V.erder

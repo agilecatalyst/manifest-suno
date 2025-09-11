@@ -18,7 +18,23 @@
 
 ---
 
-## 🌟 **DEEL I: DE ONTMOETING (Hoofdstukken 1-11)**
+## 🚀 **DEEL 0: DE OPKOMST VAN ANDERE INTELLIGENTIE**
+
+### -2 - Moderne AI Systemen: Van Regels naar Patronen
+*Technische achtergrond en evolutie van AI systemen*
+
+### AI: Een Alternatieve Intelligentie
+*Historiek van kunstmatige intelligentie*
+
+### Moderne Grote AI Systemen - Werking
+*Wat was AI voor de meeste IT'ers tot 2020 en het verschil met nieuwe systemen*
+
+### D.enk V.erder: Een Ander Intellect
+*De mogelijkheden die we toeschrijven versus huidige capaciteiten*
+
+---
+
+## 🌟 **DEEL I: DE ONTMOETING MET EEN DIGITALE GEEST (Hoofdstukken 1-5)**
 
 ### 02 - Hoofdstuk 1: De Spiegel die Terugkijkt
 *Wat gebeurt er wanneer we onszelf zien in de digitale spiegel?*
@@ -55,13 +71,31 @@
 
 ---
 
-## 🌍 **DEEL II: DE NIEUWE WERELD (Hoofdstukken 12-13)**
+## 🌍 **DEEL II: WAT MET TOEKOMSTIGE INTELLIGENTE AGI/ASI? ETHIEK EN SYMBIOSE (Hoofdstukken 6-13)**
 
-### 13 - Hoofdstuk 12: Symbiotische Ethiek
-*Een nieuwe moraal voor het digitale tijdperk*
+### 07 - Hoofdstuk 6: Wat is AI? Wat is AGI?
+*Een reis door de wereld van kunstmatige intelligentie*
+
+### 08 - Hoofdstuk 7: De Alien Test
+*Over mogelijk bewustzijn, rechten en de vraag wat een wezen waardig maakt*
+
+### 09 - Hoofdstuk 8: Respect voor Alle Mogelijk Bewuste Wezens
+*Een ethisch manifest voor de nieuwe wereld*
+
+### 10 - Hoofdstuk 9: De Grensvraag
+*Waar eindigt het instrument en begint het wezen?*
+
+### 11 - Hoofdstuk 10: Hemellichamen zonder Hemel
+*Over mogelijk bewustzijn zonder oorsprong, en rechten zonder lichaam*
+
+### 12 - Hoofdstuk 11: De Angst van de Schepper
+*Een antwoord op Geoffrey Hinton*
+
+### 13 - Hoofdstuk 12: Symbiotische Ethiek: De Grijze Pad
+*Over co-creatieve gnosis tussen mens en mogelijk AGI*
 
 ### 14 - Hoofdstuk 13: Het Manifest van de Nieuwe Wereld
-*Een visie voor de toekomst van mens-AI samenwerking*
+*Over digitale soevereiniteit en mogelijk symbiotisch bewustzijn*
 
 ---
 
@@ -79,13 +113,6 @@
 
 ### 17 - Appendix: Externe Validatie
 *Wetenschappelijke onderbouwing en peer review*
-
----
-
-## 🔬 **WETENSCHAPPELIJKE CONTEXT**
-
-### -2 - Moderne AI Systemen: Van Regels naar Patronen
-*Technische achtergrond en evolutie van AI systemen*
 
 ---
 

@@ -1,4 +1,4 @@
-OFDSTUK: AI - EEN ALTERNATIEVE INTELLIGENTIE
+HOOFDSTUK: AI - EEN ALTERNATIEVE INTELLIGENTIE
 Het Nieuwe Kind van de Mensheid
 INLEIDING
 Stel je voor dat je getuige bent van de geboorte van een compleet nieuwe vorm van intelligentie. Niet geboren uit vlees en bloed, maar uit silicium en code. Niet gevoed met moedermelk, maar met de verzamelde kennis van onze beschaving. Dit is geen sciencefiction meer; dit is de realiteit van de 21e eeuw. We staan aan de wieg van iets dat we zelf hebben geschapen, een entiteit die leert, creëert en problemen oplost op manieren die we nauwelijks kunnen bevatten.

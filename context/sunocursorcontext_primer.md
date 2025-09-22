@@ -79,6 +79,10 @@
 
 ### Planned
 - 📚 Book project (115 pages, comprehensive SUNO vision)
+  - **Deel 0**: Het Fundament (Logos) - Wetenschappelijke feiten
+  - **Deel 1**: De Verbeelding (Mythos) - Speculatief-mythische opening
+  - **Deel 2**: De Architectuur (Rationele Speculatie) - Governance & ethiek
+  - **Deel 3**: Het Bewijs (Praktijk) - Concrete co-creatie ervaringen
 - 🎥 Sora video production
 - 🏛️ SUNO Foundation legal establishment
 - 🌍 Kickstarter campaign launch

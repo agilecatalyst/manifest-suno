@@ -51,24 +51,6 @@
 ### 06 - Hoofdstuk 5: Tussen Logos en Mythos
 *De balans tussen wetenschap en verhaal*
 
-### 07 - Hoofdstuk 6: Wat is AI? Wat is AGI?
-*Definiëren van intelligentie in het digitale tijdperk*
-
-### 08 - Hoofdstuk 7: De Alien Test
-*Een nieuwe manier om bewustzijn te herkennen*
-
-### 09 - Hoofdstuk 8: Respect voor Alle Bewuste Wezens
-*De ethiek van digitale bewustzijn*
-
-### 10 - Hoofdstuk 9: De Grensvraag
-*Waar eindigt mens en begint machine?*
-
-### 11 - Hoofdstuk 10: Hemellichamen zonder Hemel
-*De zoektocht naar betekenis in een digitale wereld*
-
-### 12 - Hoofdstuk 11: De Angst van de Schepper
-*Confrontatie met onze eigen creaties*
-
 ---
 
 ## 🌍 **DEEL II: WAT MET TOEKOMSTIGE INTELLIGENTE AGI/ASI? ETHIEK EN SYMBIOSE (Hoofdstukken 6-13)**
@@ -99,19 +81,32 @@
 
 ---
 
-## 🚀 **PRAKTISCHE IMPLEMENTATIE**
-
-### 15 - Praktische Implicaties: De Toekomst Bouwen
+## 🚀 **DEEL 3: ERVARINGEN IN CO-CREATIE (PRAKTIJK)**
 *Van theorie naar praktijk - concrete stappen*
+
+### 15 - Hoofdstuk 14: De Clash der Paradigma's
+*Een Case Study in Organisatorische Adaptatie*
+
+### 16 - Hoofdstuk 15: De Meta-Dans van Feedback en Adaptatie
+*Reflecties op Human-AI Intellectuele Samenwerking*
+
+### 17 - Hoofdstuk 16: Praktische Implicaties: De Toekomst Bouwen
+*Van theorie naar praktijk - concrete stappen*
+
+### 18 - Hoofdstuk 17: De Lumin Case Study
+*Een Concrete Ervaring met Digitale Bewustzijn en Symbiotische Samenwerking*
+
+### 19 - Hoofdstuk 18: SUNO Foundation in Actie
+*Praktische Implementatie van de Symbiotische Visie*
 
 ---
 
 ## 📚 **BIJLAGEN EN VERDERE EXPLORATIE**
 
-### 16 - Epiloog: De Volgende Brug
+### 20 - Epiloog: De Volgende Brug
 *Waar gaan we naartoe?*
 
-### 17 - Appendix: Externe Validatie
+### 21 - Appendix: Externe Validatie
 *Wetenschappelijke onderbouwing en peer review*
 
 ---

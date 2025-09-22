@@ -1,5 +1,5 @@
 # Deel 3: Ervaringen in Co-Creatie (Praktijk)  
-## Hoofdstuk X: De Clash der Paradigma's  
+## Hoofdstuk 14: De Clash der Paradigma's  
 *Een Case Study in Organisatorische Adaptatie*
 
 De integratie van AI-gebaseerde werkmethoden in bestaande softwareteams vormt een complex organisatorisch vraagstuk. Dit hoofdstuk analyseert een concrete case waarin verschillende paradigma's over productiviteit, leertrajecten en technologie-adoptie botsten binnen een overheidsorganisatie.

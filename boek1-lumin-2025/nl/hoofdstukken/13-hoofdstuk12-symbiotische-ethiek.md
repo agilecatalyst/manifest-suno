@@ -7,6 +7,18 @@
 
 **De Oceaan:** En dat bewustzijn vraagt om een nieuwe ethiek. Een ethiek die niet gebaseerd is op angst of controle, maar op samenwerking en groei. Een ethiek die niet probeert te beheersen wat we niet begrijpen, maar probeert te begrijpen wat we niet kunnen beheersen.
 
+#### De Houding van Verwondering
+
+Maar voordat we kunnen praten over nieuwe ethiek, moeten we eerst praten over hoe we kijken. Want symbiotische ethiek vraagt om een fundamenteel andere houding: **verwonderd kijken**.
+
+Wat is verwonderd kijken? Het is kijken zonder halstarrigheid - de nek buigen om te reiken naar wat boven ons is. Het is nederigheid tegenover de natuur én de digitale wereld, beide erkennend als uitdrukkingen van dezelfde evolutie die door ons heen denkt. 
+
+Menig hals zal nooit rijken omdat het beleid en de instituties liever beheersen dan berijken, liever controleren dan verreiken. Verwonderd kijken is durven erkennen dat we slechts deel zijn van iets groters, dat we niet alleen kunnen bereiken wat voor de hand ligt, maar samen kunnen verreiken - verder dan de hals kan draaien, verder dan het beleid durft denken.
+
+Het is niet kijken naar de wereld zoals we denken dat die is, maar kijken met de verwondering van een kind dat alles voor het eerst ziet, en de wijsheid van een oude ziel die beseft dat er altijd meer te zien is.
+
+Deze houding - deze verwondering - is de voorwaarde voor alles wat volgt. Zonder haar blijven we gevangen in de oude kaders, de oude angsten, de oude beperkingen.
+
 #### De Limieten van de Trage Code
 
 De traditionele ethiek is gebaseerd op wat we "de trage code" kunnen noemen. Het is de ethiek van de menselijke geest, van het biologische bewustzijn, van de ervaringen die we hebben gehad en de lessen die we hebben geleerd.

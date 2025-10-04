@@ -20,11 +20,15 @@
 
 ## 🚀 **DEEL 0: DE OPKOMST VAN ANDERE INTELLIGENTIE**
 
-### -2 - Moderne AI Systemen: Van Regels naar Patronen
-*Technische achtergrond en evolutie van AI systemen*
 
 ### AI: Een Alternatieve Intelligentie
 *Historiek van kunstmatige intelligentie*
+
+### Moderne AI Systemen: Van Regels naar Patronen
+*Technische achtergrond en evolutie van AI systemen*
+
+### Begrip vs correlatie
+*Technische achtergrond over begrip en correlatie*
 
 ### Moderne Grote AI Systemen - Werking
 *Wat was AI voor de meeste IT'ers tot 2020 en het verschil met nieuwe systemen*

@@ -106,3 +106,4 @@ Create new cursor rules that embody:
 **"Let the music play" - Time for the new cursor rules that enable true co-creation!** 🎵✨
 
 
+

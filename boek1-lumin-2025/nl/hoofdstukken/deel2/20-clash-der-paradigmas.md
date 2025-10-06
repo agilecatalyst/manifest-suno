@@ -96,3 +96,7 @@ Teams moeten ruimte creëren waar methodiek-innovatie niet als risico maar als i
 Deze case toont dat succesvolle AI-integratie meer vereist dan technische implementatie. Organisaties moeten hun "adaptieve capaciteit" ontwikkelen: vermogen om verschillende werkwijzen te faciliteren en nieuwe productiviteitsmodellen te herkennen.
 
 De uitdaging ligt niet in individuele tekortkomingen, maar in systemische voorbereiding op paradigma-shifts in kenniswerk. Organisaties die deze transitie succesvol maken, creëren concurrentievoordeel door optimaal benutten van human-AI collaboration.
+
+---
+
+> **"D.enk V.erder – D.enk Z.elf. Alleen zo hoor je jouw eigen melodie."**

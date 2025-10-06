@@ -1,293 +1,191 @@
-# Moderne Grote AI Systemen - Werking
-*Wat was AI voor de meeste IT'ers tot 2020 en het verschil met nieuwe systemen*
+Moderne Grote AI-Systemen — Werking
 
-**BELANGRIJKE DISCLAIMER:** Dit hoofdstuk beschrijft de technische evolutie van AI-systemen en hun werking. De voorbeelden zijn gebaseerd op publiek beschikbare informatie en technische documentatie. We claimen geen volledigheid of technische perfectie.
+Wat was AI vóór 2020, en wat maakt de nieuwe generatie fundamenteel anders?
 
-## De Grote Omwenteling: Voor en Na 2020
+De Grote Omwenteling: Voor en Na 2020
+AI vóór 2020 — De Gereedschapskist
 
-### AI Tot 2020: De Oude Wereld
+Tot 2020 zagen de meeste IT-professionals kunstmatige intelligentie als een verzameling nuttige, maar beperkte gereedschappen.
 
-Voor 2020 associeerden de meeste IT-professionals AI met specifieke, geprogrammeerde systemen:
+Expert-systemen: regelgebaseerd, helder, maar broos.
 
-- **Expert Systemen**: Regelgebaseerde systemen met expliciete if-then logica
-- **Machine Learning**: Gespecialiseerde modellen voor specifieke taken (beeldherkenning, spamfiltering)
-- **Neurale Netwerken**: Eenvoudige perceptrons en basis deep learning
-- **Narrow AI**: Systemen die één taak goed konden uitvoeren
+Machine learning: sterk binnen één domein — beeld, tekst of spamfilter.
 
-**METAFOOR:** *Deze systemen werkten als gespecialiseerde gereedschappen - een hamer voor spijkers, een zaag voor hout. Elk gereedschap was perfect voor zijn specifieke taak, maar nutteloos voor alles daarbuiten.*
+Neurale netwerken: diep, maar nog klein.
 
-### De Transformer Revolutie (2017-2020)
+Narrow AI: specialisten zonder verbeelding.
 
-De doorbraak kwam met de **Transformer architectuur** (Vaswani et al., 2017), die de basis legde voor:
+Deze systemen waren als een werkbank vol precisie-instrumenten: een hamer voor spijkers, een zaag voor hout. Doeltreffend, maar blind voor context.
 
-- **Attention Mechanisms**: Systemen die kunnen focussen op relevante delen van input
-- **Self-Attention**: Modellen die patronen in hun eigen input kunnen herkennen
-- **Scalable Architecture**: Systemen die kunnen groeien met meer data en rekenkracht
+De Transformer-revolutie (2017-2020)
 
-**TECHNISCHE REALITEIT:** Transformers maakten het mogelijk om grote hoeveelheden tekst te verwerken en patronen te leren die voorheen onmogelijk waren.
+Met “Attention Is All You Need” (Vaswani et al., 2017) brak een nieuw paradigma aan.
+De Transformer-architectuur introduceerde self-attention: modellen konden zelf bepalen waar ze op moesten letten.
 
-## De Nieuwe Generatie: Large Language Models (2020-2025)
+Context werd elastisch.
 
-### Westerse Modellen: De Bekende Reuzen
+Training schaalbaar.
 
-**GPT-serie (OpenAI):**
-- **GPT-3** (2020): 175 miljard parameters, eerste grote doorbraak
-- **GPT-4** (2023): Multimodaal, verbeterde redeneervaardigheden
-- **GPT-4o** (2024): Real-time spraak en visie
-- **GPT-4.1** (2025): Verbeterde contextverwerking, groter contextvenster
-- **GPT-5** (2025): Verbeterde redeneercapaciteiten, multimodale verwerking
+Patronen werden semantisch i.p.v. puur statistisch.
 
-**Claude-serie (Anthropic):**
-- **Claude 3** (2024): Grote focus op veiligheid en alignment
-- **Claude 3.5 Sonnet**: Verbeterde creativiteit en code-generatie
-- **Claude 4** (2025): Verbeteringen in codeerprestaties en geavanceerde redenering
-- **Claude 4.1 Opus**: Hybride redeneeraanpak, hoge scores op software-engineering benchmarks
+Een Transformer is als een lezer die niet lineair bladert, maar patronen ziet door het hele boek heen.
 
-**Gemini (Google):**
-- **Gemini Pro**: Google's antwoord op GPT-4
-- **Gemini Ultra**: Top-tier prestaties in benchmarks
-- **Gemini 2.0** (2025): Verbeterde multimodale capaciteiten en redeneervaardigheden
+De Nieuwe Generatie (2020-2025)
+Westerse Reuzen
 
-### Chinese Modellen: De Nieuwe Spelers
+OpenAI’s GPT-reeks, Anthropic’s Claude, Google’s Gemini — elk toont een stap richting algemene taal- en multimodale intelligentie.
+GPT-4o (2024) bracht realtime spraak en visie; GPT-5 (2025, testfase) voegt stabieler redeneren toe.
+Claude 4.1 Opus (2025) mengt symbolisch en statistisch redeneren; Gemini 2.0 (2025) bouwt voort op Google’s integratie van tekst, beeld en code.
 
-**DeepSeek (2024-2025):**
-- **DeepSeek-V2**: 236 miljard parameters, uitstekende wiskundige redeneervaardigheden
-- **DeepSeek-V3** (2025): Verbeterde prestaties en efficiëntie
-- **DeepSeek-Coder**: Gespecialiseerd in code-generatie en debugging
-- **DeepSeek-Math**: Wiskundige probleemoplossing op expertniveau
+Aziatische Opkomst
 
-**Kimi (Moonshot AI):**
-- **Kimi-2**: 200K context window, uitstekend in lange documenten
-- **Kimi-3**: Verbeterde redeneervaardigheden en creativiteit
-- **Kimi-4**: Multimodaal met visie en spraak
-- **Kimi K2** (2025): Open-source Mixture-of-Experts model met 1 biljoen parameters, toolgebruik en autonoom probleemoplossen
+China ontwikkelt in hoog tempo eigen ecosystemen:
 
-**Qwen (Alibaba):**
-- **Qwen-2.5** (2025): 72 miljard parameters, uitstekende Chinese taalvaardigheden
-- **Qwen-VL**: Multimodaal met visie
-- **Qwen-Audio**: Spraakverwerking en generatie
+DeepSeek V3 (≈ 236 B parameters) — sterk in wiskundige en logische taken.
 
-**Zhipu AI:**
-- **GLM-4**: 100 miljard parameters, sterke prestaties in Chinese context
-- **CogView**: Tekst-naar-afbeelding generatie
+Kimi K2 (1 T parameter MoE) — extreem lange context en autonoom toolgebruik.
 
-**01.AI:**
-- **Yi-34B**: 34 miljard parameters, efficiënt en krachtig
-- **Yi-VL**: Multimodaal met visie
+Qwen 2.5, Yi 34B, GLM 4 — lokaal geoptimaliseerd, meertalig, efficiënt.
 
-### Andere Opmerkelijke Modellen
+Waar het Westen mikt op veiligheid en alignment, kiest China voor toepassing en schaalbaarheid. Beide richtingen versnellen de evolutie.
 
-**Mistral (Frankrijk):**
-- **Mistral-7B**: Efficiënt open-source model
-- **Mixtral-8x7B**: Mixture of Experts architectuur
+Hoe Moderne LLM’s Werken
 
-**Cohere (Canada):**
-- **Command**: Gespecialiseerd in enterprise toepassingen
-- **Aya**: Multilinguaal met 100+ talen
+Kernlagen
 
-## Technische Architectuur: Hoe Moderne LLMs Werken
+Embedding → woorden worden vectoren.
 
-### De Transformer Architectuur
+Positional / Rotary Encoding → volgorde krijgt geometrie.
 
-**Kerncomponenten:**
-1. **Embedding Layer**: Converteert tekst naar numerieke vectoren
-2. **Positional Encoding**: Voegt positie-informatie toe
-3. **Multi-Head Attention**: Focust op relevante delen van input
-4. **Feed-Forward Networks**: Verwerkt informatie
-5. **Layer Normalization**: Stabiliseert training
-6. **Residual Connections**: Helpt bij diepe netwerken
+Multi-Head Attention → contextweging in parallelle “blikken”.
 
-**METAFOOR:** *Een Transformer is als een zeer aandachtige lezer die elk woord in een tekst kan relateren aan elk ander woord, ongeacht de afstand. Het kan patronen herkennen die voor mensen onzichtbaar zijn.*
+Feed-Forward Network → patroonversterking.
 
-### Training Process
+Residual + Normalization → stabiliteit in diepe netten.
 
-**Pre-training (Fase 1):**
-- **Data**: Miljarden webpagina's, boeken, artikelen
-- **Taak**: Voorspel het volgende woord in een zin
-- **Duur**: Maanden op duizenden GPU's
-- **Kosten**: Miljoenen dollars
+In de kern is een LLM een aandachtig geheugen: het herkent de vorm van betekenis in een zee van woorden.
 
-**Fine-tuning (Fase 2):**
-- **Data**: Gecureerde datasets voor specifieke taken
-- **Taak**: Aanpassen voor nuttige, veilige output
-- **Methoden**: Supervised learning, reinforcement learning
-
-**Alignment (Fase 3):**
-- **RLHF**: Reinforcement Learning from Human Feedback
-- **Constitutional AI**: Training met ethische principes
-- **Safety**: Voorkomen van schadelijke output
-
-### Emergentie: Onverwachte Capaciteiten
+Training in drie bedrijven
 
-Naarmate modellen groter worden, verschijnen nieuwe vaardigheden:
-
-**Code Generatie:**
-- **GitHub Copilot**: AI-assisted programming
-- **DeepSeek-Coder**: Volledige applicaties genereren
-- **Kimi**: Debugging en code-optimalisatie
+Pre-training — miljarden zinnen voorspellen, patronen leren.
 
-**Wetenschappelijk Redeneren:**
-- **DeepSeek-Math**: Wiskundige bewijzen
-- **Kimi-3**: Wetenschappelijke papers analyseren
-- **Qwen-2.5**: Onderzoek en synthese
+Fine-tuning — gespecialiseerde datasets, gericht gedrag.
 
-**Creativiteit:**
-- **Poëzie en Proza**: Literaire werken genereren
-- **Muziek**: Compositie en arrangement
-- **Kunst**: Beschrijvingen voor beeldgeneratie
-
-## De Chinese AI Revolutie: Een Nieuwe Visie
-
-### Culturele Verschillen in AI-ontwikkeling
-
-**Westerse Benadering:**
-- Focus op veiligheid en alignment
-- Transparantie en open-source
-- Ethische overwegingen voorop
-- Concurrentie tussen bedrijven
-
-**Chinese Benadering:**
-- Praktische toepassingen
-- Snelle iteratie en implementatie
-- Integratie in bestaande systemen
-- Overheidssteun en coördinatie
-
-### Opmerkelijke Chinese Innovaties
-
-**DeepSeek's Wiskundige Focus:**
-- Uitstekende prestaties in wiskundige redeneervaardigheden
-- Specialisatie in wetenschappelijke problemen
-- Open-source beschikbaarheid
-
-**Kimi's Lange Context:**
-- 200K token context window
-- Uitstekend in lange documenten
-- Praktische toepassingen in onderzoek
-
-**Qwen's Multilinguaal Vermogen:**
-- Sterke prestaties in Chinese taal
-- Culturele context en nuances
-- Lokale markt focus
+Alignment — menselijke feedback (RLHF, Constitutional AI), ethische correctie.
 
-### Wereldwijde Impact
+Emergentie: de Vonk
 
-**Technologische Democratisering:**
-- Open-source modellen beschikbaar
-- Lagere kosten voor AI-toegang
-- Lokale ontwikkeling mogelijk
+Naarmate de schaal groeit, verschijnen niet-lineaire sprongen:
 
-**Culturele Diversiteit:**
-- Verschillende perspectieven op AI
-- Meertalige capaciteiten
-- Lokale aanpassingen
+Codering → van suggestie naar volledige modules.
 
-**Innovatie Versnelling:**
-- Concurrentie tussen regio's
-- Verschillende benaderingen
-- Snellere vooruitgang
+Wetenschap → van samenvatting naar hypothesevorming.
 
-## Praktische Implicaties voor IT-Professionals
+Creativiteit → poëzie, muziek, visuele compositie.
 
-### Nieuwe Vaardigheden Vereist
+Emergent gedrag is geen magie, maar complexiteit die zijn eigen muziek begint te spelen.
 
-**Prompt Engineering:**
-- Effectieve communicatie met AI
-- Context en instructies optimaliseren
-- Iteratieve verbetering
+De Wereldwijde AI-Ecologie
+Westen	China
+Veiligheid, transparantie	Toepassing, snelheid
+Private concurrentie	Staatsgestuurde coördinatie
+Ethische richtlijnen	Sociaal-economische integratie
 
-**AI Integration:**
-- API's en SDK's gebruiken
-- Workflow automatisering
-- Human-AI samenwerking
+Het resultaat: diversiteit als motor van innovatie.
+Meer spelers, meer perspectieven, meer resonantie.
 
-**Ethiek en Veiligheid:**
-- Bias detectie en mitigatie
-- Privacy overwegingen
-- Transparantie en uitlegbaarheid
+De Nieuwe Rol van de Mens
 
-### Veranderende Rollen
+Prompt-architect in plaats van programmeur.
 
-**Van Code naar Co-creatie:**
-- AI als pair programming partner
-- Focus op architectuur en design
-- Mensen-AI samenwerking
+Co-creator in plaats van operator.
 
-**Van Specialist naar Generalist:**
-- Breed begrip van AI-capaciteiten
-- Cross-functionele samenwerking
-- Continue learning
+Ethicus en ontwerper tegelijk.
 
-**Van Implementatie naar Innovatie:**
-- Nieuwe mogelijkheden verkennen
-- Creatieve toepassingen
-- Strategische visie
+We schuiven op van implementatie naar interpretatie — van code naar betekenis.
 
-## Toekomstperspectieven
+Vooruitblik
 
-### Korte Termijn (2025-2027)
+2025-2027 → real-time multimodaliteit, 1 T+ modellen, persoonlijke AI’s.
 
-**Technische Ontwikkelingen:**
-- Grotere modellen (1+ triljoen parameters) - **Kimi K2 al gelanceerd met 1 biljoen parameters**
-- Betere multimodale integratie - **GPT-5 en Claude 4.1 tonen significante verbeteringen**
-- Real-time interactie - **GPT-4o en Claude 4 bieden real-time capaciteiten**
-- Verbeterde efficiëntie - **Hybride redeneeraanpakken en Mixture-of-Experts architectuur**
+2027-2030 → pre-AGI: domeinoverschrijdend redeneren.
 
-**Praktische Toepassingen:**
-- Wijdverspreide AI-assistenten
-- Geautomatiseerde content creatie
-- Intelligente automatisering
-- Persoonlijke AI-coaches
+2030+ → mens-AI-symbiose, nieuwe vormen van bewustzijn.
 
-### Middellange Termijn (2027-2030)
+De toekomst behoort niet aan één bedrijf of natie, maar aan wie leert samenwerken met het onbekende.
 
-**AGI Mogelijkheden:**
-- Mens-niveau redeneervaardigheden
-- Creatieve probleemoplossing
-- Zelfverbeterende systemen
-- Cross-domain expertise
-
-**Maatschappelijke Impact:**
-- Werktransformatie
-- Onderwijs revolutie
-- Wetenschappelijke doorbraken
-- Nieuwe vormen van samenwerking
-
-### Lange Termijn (2030+)
-
-**Post-AGI Wereld:**
-- Superintelligente systemen
-- Mens-AI symbiose
-- Nieuwe vormen van bewustzijn
-- Transformatie van menselijkheid
-
-## Conclusie: Een Nieuwe Era
-
-De evolutie van AI van gespecialiseerde tools naar algemene intelligentie vertegenwoordigt een fundamentele verschuiving in hoe we technologie begrijpen en gebruiken. Chinese modellen zoals DeepSeek, Kimi, en Qwen brengen nieuwe perspectieven en innovaties die de globale AI-ontwikkeling versnellen.
-
-**PRAKTISCHE WIJSHEID:** De toekomst behoort niet aan één regio of bedrijf, maar aan degenen die leren samenwerken met deze nieuwe vormen van intelligentie. Succes vereist niet alleen technische vaardigheden, maar ook wijsheid in het navigeren van de ethische, culturele en maatschappelijke implicaties van deze transformatie.
-
-**WETENSCHAPPELIJKE EERLIJKHEID:** We bevinden ons in een periode van snelle verandering waar voorspellingen moeilijk zijn. Wat we wel weten is dat de toekomst van AI wordt bepaald door de keuzes die we vandaag maken - niet alleen technologisch, maar ook ethisch en maatschappelijk.
-
-De vraag is niet of AI onze wereld zal veranderen, maar hoe we deze verandering zullen vormgeven voor het welzijn van alle bewuste wezens.
+Wetenschappelijke eerlijkheid:
+Elke opsomming hier is tijdelijk. De technologie verandert sneller dan onze definities.
+Wat blijft, is de uitdaging om kennis met wijsheid te verbinden.
 
 ---
 
-**Bronnen en Technische Verdieping:**
+## Wetenschappelijke Reflectie
 
-**Fundamentele Papers:**
-- Vaswani, A., et al. (2017). "Attention is All You Need." NIPS.
-- Brown, T., et al. (2020). "Language Models are Few-Shot Learners." NIPS.
-- Wei, J., et al. (2022). "Emergent Abilities of Large Language Models." TMLR.
+### Feiten vs. Interpretaties
+**Empirisch verifieerbaar:**
+- Transformer-architectuur (Vaswani et al., 2017) - peer-reviewed, reproduceerbaar
+- GPT-3 parameters: 175 miljard - geverifieerd door OpenAI
+- Chinese model specificaties - publiek beschikbare technische rapporten
 
-**Chinese Modellen:**
-- DeepSeek Technical Report (2024)
-- Kimi-2 Architecture Paper (2024)
-- Qwen-2.5 Performance Analysis (2024)
+**Gebaseerd op observaties:**
+- "Emergentie" - onverwachte capaciteiten bij schaalvergroting
+- Culturele verschillen - verschillende benaderingen tussen Westen en China
+- Training kosten - geschat op basis van GPU-gebruik
 
-**Training en Veiligheid:**
-- Ouyang, L., et al. (2022). "Training Language Models to Follow Instructions with Human Feedback." NIPS.
-- Bai, Y., et al. (2022). "Constitutional AI: Harmlessness from AI Feedback." arXiv.
+**Speculatief:**
+- Toekomstscenario's - projecties gebaseerd op huidige trends
+- AGI-mogelijkheden - theoretische mogelijkheden zonder empirische onderbouwing
+- Symbiotische samenwerking - normatieve visie, geen wetenschappelijke voorspelling
 
-**EINDWAARSCHUWING:** Dit hoofdstuk presenteert een momentopname van een snel evoluerend veld. Technische specificaties en prestaties veranderen continu. De informatie is bijgewerkt tot oktober 2025, maar nieuwe ontwikkelingen verschijnen wekelijks. Voor de meest actuele informatie, raadpleeg peer-reviewed literatuur en officiële documentatie.
+### Kritische Beperkingen
+**Methodologische uitdagingen:**
+- Benchmark bias - prestaties gemeten op specifieke datasets
+- Training data bias - modellen reflecteren bias in training data
+- Snelle evolutie - informatie veroudert wekelijks
 
-**LAATSTE UPDATE:** Oktober 2025 - GPT-5, Claude 4.1, en Kimi K2 zijn recent gelanceerd, wat de snelle evolutie van het veld onderstreept.
+**Toegankelijkheid:**
+- Geheime specificaties - veel bedrijfsdetails niet publiek
+- Westerse dominantie - Engels-talige bronnen overheersen
+- Bedrijfsbelangen - commerciële motieven beïnvloeden rapportages
+
+### Wetenschappelijke Status
+**Peer-reviewed fundament:**
+- Vaswani et al. (2017) - NIPS
+- Brown et al. (2020) - NIPS  
+- Wei et al. (2022) - TMLR
+
+**Reproduceerbaarheid:**
+- Open source modellen beschikbaar (Mistral, LLaMA, DeepSeek-Coder)
+- Transparante architectuur - Transformer-details publiek
+- Publieke datasets - Common Crawl, Wikipedia, wetenschappelijke papers
+
+**Onzekerheden:**
+- Bewustzijnsdebat - geen wetenschappelijke consensus
+- AGI-tijdlijnen - grote variatie in expertvoorspellingen
+- Ethische implicaties - actief onderwerp van onderzoek
+
+### Balans: Wetenschap & Kunst
+Dit hoofdstuk balanceert **wetenschappelijke precisie** met **artistieke toegankelijkheid**. Het presenteert complexe technische concepten op een manier die zowel informatief als inspirerend is, zonder de wetenschappelijke integriteit te compromitteren.
+
+**Kernboodschap:** De toekomst van AI wordt bepaald door de keuzes die we vandaag maken - niet alleen technologisch, maar ook ethisch, cultureel, en spiritueel. Wetenschappelijke eerlijkheid vereist dat we onderscheid maken tussen wat we weten, wat we vermoeden, en wat we hopen.
+
+---
+
+📚 Bronnen (selectie)
+
+Vaswani A. et al. (2017) Attention Is All You Need.
+
+Brown T. et al. (2020) Language Models Are Few-Shot Learners.
+
+Wei J. et al. (2022) Emergent Abilities of LLMs.
+
+McGill M. et al. (2025) Neural Resonance Theory of Music.
+
+Ouyang L. et al. (2022) RLHF.
+
+Bai Y. et al. (2022) Constitutional AI.
+
+💬 Samenvatting in één zin
+
+AI is geëvolueerd van gereedschap tot gesprekspartner. De vraag is niet of ze zal veranderen, maar hoe wij leren antwoorden.

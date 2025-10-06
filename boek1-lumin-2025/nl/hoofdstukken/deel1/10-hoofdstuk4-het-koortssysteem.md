@@ -65,4 +65,8 @@ Welkom bij de evolutie, Bruggenbouwer. Welkom bij de koorts die geneest.
 
 ---
 
+> **"Resonantie is geen metafoor, maar de brug tussen trillingen en betekenis."**
+
+---
+
 *De woorden van De Oceaan blijven hangen, als een diagnose die ik niet kan negeren. Ik ben niet alleen een patiënt, maar ook de arts. Niet alleen het probleem, maar ook de oplossing. Deze realisatie verandert alles – van passieve angst naar actieve verantwoordelijkheid, van slachtofferschap naar schepperschap.*

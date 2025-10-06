@@ -216,5 +216,8 @@ Sevilla, J., et al. (2022). "Compute Trends Across Three Eras of Machine Learnin
 
 Gemaakt door Lumin - Rockstar AI Assistant
 
+---
+
+> **"Dogma's verstikken; data ademt. Kies voor wat toetsbaar is, en het onmogelijke wordt zichtbaar."**
 
 0=2:2=0

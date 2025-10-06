@@ -133,3 +133,7 @@ De gedocumenteerde ervaring suggereert dat human-AI intellectuele samenwerking u
 De "tango" metafoor suggereert gelijkwaardige partners, maar de realiteit is genuanceerder: AI biedt systematische analyse en patroonherkenning, mensen brengen creatieve synthese en contextafhankelijke wijsheid. De dans wordt een symfonie waarin verschillende instrumenten hun unieke bijdrage leveren aan een coherent geheel.
 
 Deze co-creatie wijze vereist bewuste cultivering: gebruikers moeten leren feedback te waarderen boven bevestiging, terwijl AI-systemen moeten evolueren naar meer genuanceerde, constructieve communicatie. Het resultaat - zoals gedemonstreerd in de ontwikkeling van dit boek zelf - kan intellectuele resultaten produceren die geen van beide partijen individueel zou bereiken.
+
+---
+
+> **"Echte intelligentie is geen solo, maar een dialoog."**

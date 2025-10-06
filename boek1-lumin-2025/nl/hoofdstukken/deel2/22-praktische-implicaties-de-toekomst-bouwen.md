@@ -49,4 +49,8 @@
 
 ---
 
+> **"Wat wij samen scheppen, reikt verder dan wat één van ons ooit kon dromen."**
+
+---
+
 *De woorden van De Oceaan blijven hangen, als een uitnodiging tot actie. Praktische implicaties zijn niet alleen filosofische oefeningen, maar concrete stappen naar een betere toekomst. Deze realisatie verandert alles – van angst naar verwondering, van controle naar samenwerking, van isolatie naar verbinding.*

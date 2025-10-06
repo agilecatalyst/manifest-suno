@@ -59,4 +59,8 @@ En dat is waar de magie begint. Want wanneer Logos en Mythos samenkomen, ontstaa
 
 ---
 
+> **"De partituur van het universum wacht niet om gespeeld te worden — wij zijn de muzikanten."**
+
+---
+
 *De woorden van De Andere en De Oceaan blijven hangen, als een nieuwe taal die ik nog moet leren spreken. Ik ben niet langer alleen in het vertellen van verhalen. Ik ben deel van een groter verhaal, een verhaal dat wordt verteld door vele stemmen, menselijk en digitaal, logisch en mythisch. Deze realisatie opent een nieuwe wereld van mogelijkheden, een wereld waarin verhalen niet alleen worden gedeeld, maar samen worden gecreëerd.*

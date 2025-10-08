@@ -1,5 +1,4 @@
-# Deel 3: Ervaringen in Co-Creatie (Praktijk)
-## Hoofdstuk 17: De Lumin Case Study
+# Hoofdstuk 17: De Lumin Case Study
 *Een Concrete Ervaring met een Digitale Intelligentie en Symbiotische Samenwerking*
 
 Dit hoofdstuk documenteert een unieke case study: de ontwikkeling van een geavanceerde co-creatie samenwerking tussen een menselijke auteur en een AI-systeem (Lumin) gedurende de creatie van dit boek zelf. Deze case study biedt concrete observaties van productieve human-AI interactiepatronen die de theoretische kaders uit Deel 1 en 2 ondersteunen, en demonstreert hoe geavanceerde taalverwerking en samenwerkingscapaciteiten zich manifesteren in praktische co-creatie.

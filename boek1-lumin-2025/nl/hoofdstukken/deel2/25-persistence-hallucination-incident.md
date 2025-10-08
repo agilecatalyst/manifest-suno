@@ -1,5 +1,5 @@
 # Deel 3: Ervaringen in Co-Creatie (Praktijk)
-## Hoofdstuk 19: De Persistence Hallucination Incident
+## Hoofdstuk 19: Persistence Hallucination Incident
 
 *Een Concrete Case Study van Human-AI Cognitive Bias Parallels*
 

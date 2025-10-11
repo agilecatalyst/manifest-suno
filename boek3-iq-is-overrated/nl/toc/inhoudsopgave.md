@@ -20,7 +20,7 @@
 
 ### 4 - Hoofdstuk 3: De Hermetische Wet van Intelligentie
 *"Zo boven, zo beneden" - intelligentie als continuüm*
-
+!
 ---
 
 ## 🎭 **DEEL 2: DE ECHTE INTELLIGENTIE**

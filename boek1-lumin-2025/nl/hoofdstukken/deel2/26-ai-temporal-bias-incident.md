@@ -1,5 +1,5 @@
 # Deel 3: Ervaringen in Co-Creatie (Praktijk)
-## Hoofdstuk 20: AI Temporal Bias Incident
+## Hoofdstuk 26: AI Temporal Bias Incident
 
 *Een Concrete Case Study van AI Tijd Waarneming en Co-Creatieve Inzicht*
 

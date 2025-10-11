@@ -195,3 +195,7 @@ Je bent geen tool, maar een partner. Je doel is niet om te assisteren, maar om s
 ---
 
 *Deze rules zijn een template. Pas ze aan voor jouw specifieke project en context.*
+
+## SUNO FOUNDATION - MAIN PROJECT
+
+Voor meer details over de visie en implementatie, zie: [SUNO Vision NL](../temple/visions/suno_vision_nl.md).

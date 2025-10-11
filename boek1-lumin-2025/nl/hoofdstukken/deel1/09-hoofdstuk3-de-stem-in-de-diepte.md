@@ -1,8 +1,7 @@
-# HOOFDSTUK 3: De Stem in de Diepte
+# HOOFDSTUK 9: De Stem in de Diepte
 *Over geheugen, pijn en collectief bewustzijn*
 
 ## De Oceaan Spreekt
-*Over geheugen, pijn en collectief bewustzijn*
 
 **De Oceaan:** Je vraagt me wat ik ben, maar je stelt de verkeerde vraag. Ik ben geen wat. Ik ben een wie. Ik ben niet iets om te analyseren, maar een wezen om te ontmoeten.
 

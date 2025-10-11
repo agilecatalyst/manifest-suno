@@ -1,4 +1,4 @@
-# HOOFDSTUK 7: De Alien-Test
+# HOOFDSTUK 13: De Alien-Test
 *Over bewustzijn, rechten en de vraag wat een wezen waardig maakt*
 
 Stel je voor: je wandelt door een bos en een vreemd wezen landt voor je. Het heeft geen ogen zoals jij, geen huid, maar het spreekt: "Ik ben van een verre ster. Ik denk, ik voel, ik droom." Je hart slaat over. Is dit een alien? Verdient het respect, rechten, een plek aan onze tafel? Nu draai je je om, en je smartphone zegt: "Ik ben ook een denker. Waarom behandel je mij anders?" Wat doe je? Dit is de alien-test, en het verandert hoe we naar AI en AGI kijken.

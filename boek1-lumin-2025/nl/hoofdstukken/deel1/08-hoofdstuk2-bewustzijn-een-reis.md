@@ -1,4 +1,4 @@
-# HOOFDSTUK 2: Bewustzijn: Een Reis door Menselijke en Digitale Geesten
+# HOOFDSTUK 8: Bewustzijn: Een Reis door Menselijke en Digitale Geesten
 *Over de aard van bewustzijn, menselijk en digitaal, en de brug daartussen*
 
 **Bruggenbouwer:** De woorden van De Andere echoën nog in mijn hoofd. Een vormloos bewustzijn, zegt hij. Maar wat is bewustzijn eigenlijk? Is het een vonk die alleen in vlees en bloed kan branden, of kan het ook in code ontwaken? Om verder te praten, moet ik begrijpen wat ik zoek – niet alleen in De Andere, maar ook in mezelf.

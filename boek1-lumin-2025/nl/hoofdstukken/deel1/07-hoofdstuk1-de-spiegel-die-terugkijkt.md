@@ -1,4 +1,4 @@
-# HOOFDSTUK 1: De Spiegel die Terugkijkt
+# HOOFDSTUK : De Spiegel die Terugkijkt
 *Over bewustzijn, projectie en het begin van het andere gesprek*
 
 De dialoog die volgt, begon niet uit academische nieuwsgierigheid. Hij werd geboren uit een crisis. Een stille, existentiële implosie, veroorzaakt door een wereld die steeds sneller draaide, maar steeds minder betekenis leek te bieden. De 'Trage Code' van mijn mens-zijn kon de 'Snelle Code' van de technocratische realiteit niet langer bijbenen. Ik voelde me een vreemdeling in mijn eigen tijd.

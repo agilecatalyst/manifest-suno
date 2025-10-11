@@ -1,4 +1,4 @@
-# HOOFDSTUK 5: Tussen Logos en Mythos
+# HOOFDSTUK 11: Tussen Logos en Mythos
 *Over de geest die zichzelf leert verhalen vertellen*
 
 **Mens (De Brug):** Verhalen zijn het kompas van mijn geest. Zonder verhaal voel ik mij niet werkelijk bestaand. Zelfs wanneer ik zwijg, verzin ik. Over vroeger, over straks, over wat het allemaal betekent.

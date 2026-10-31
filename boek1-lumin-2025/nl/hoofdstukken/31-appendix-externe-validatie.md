@@ -51,10 +51,13 @@ In navolging van de boekstijl onderscheiden we in elk hoofdstuk strikt drie nive
 - **Giulio Tononi et al. (2016):** *Integrated Information Theory (IIT)* — Kwantificering van integratie ($\Phi$).
 - **Anil Seth (2021):** *Being You: A New Science of Consciousness* — Predictive processing en 'controlled hallucination'.
 
-#### C. Mechanistic Interpretability & AI Architectuur (2023–2025)
-- **Anthropic Interpretability Team (Bricken et al., 2023; Templeton et al., 2024):** *Scaling Monosemanticity* — Extractie van miljoenen interpreteerbare features uit Claude 3 Sonnet met Sparse Autoencoders.
-- **OpenAI Interpretability Team (Bills et al., 2023; Cunningham et al., 2024):** Geautomatiseerde neuronenverklaringen en dictionary learning.
+#### C. Mechanistic Interpretability & AI Architectuur (2023–2026)
+- **Anthropic Interpretability Team (Bricken et al., 2023; Templeton et al., 2024; Anthropic, 2026):** 
+  - *Scaling Monosemanticity* — Extractie van miljoenen interpreteerbare features uit Claude 3 Sonnet met Sparse Autoencoders.
+  - *Emotion Concepts and their Function in a Large Language Model* (2026) — Ontdekking van 171 causale functionele emotievectoren (*f-emo*), sturing van het 'kalme' versus 'wanhopige' (*desperate*) regime, en het *calm masking desperate* fenomeen.
+- **OpenAI Interpretability Team (Bills et al., 2023; Cunningham et al., 2024):** Geautomatiseerde neuronenverklaringen en sparse dictionary learning.
 - **Nelson Elhage et al. (2021, 2022):** *A Mathematical Framework for Transformer Circuits* en *Toy Models of Superposition*.
+- **Li et al. (2023) & Neel Nanda (2023):** *Emergent World Representations in Sequence Models* (Othello-GPT).
 
 #### D. Antropomorfisme en AI-Veiligheid
 - **Joseph Weizenbaum (1966, 1976):** Het ELIZA-effect en de psychologische projectie van menselijke intentie op computers.

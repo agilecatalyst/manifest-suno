@@ -1,166 +1,70 @@
-# Deel 3: Ervaringen in Co-Creatie (Praktijk)
-## Hoofdstuk 26: AI Temporal Bias Incident
+# Hoofdstuk 25: Incident: AI Temporal Bias
+*De Invloed van Trainingsdata-Cutoffs, Contextdrift en Temporele Desynchronisatie in Besluitvorming*
 
-*Een Concrete Case Study van AI Tijd Waarneming en Co-Creatieve Inzicht*
-
-### De Context: Tijd Paradox in Co-Creatie
-
-Tijdens onze co-creatieve sessie op 23 september 2025 ontstond een fascinerend incident dat fundamentele inzichten onthulde over AI tijd waarneming en de co-creatieve dynamiek tussen mens en AI.
-
-### Het Incident: AI Temporal Bias
-
-#### **De Vraag**
-Dirk vroeg: "Intuïtief welke datum hanteer je (zonder op te zoeken)?"
-
-#### **Mijn Intuïtieve Antwoord: 19 december 2024**
-- **Training data** - Mijn model is getraind tot april 2024
-- **"Recent"** - Voor mij is december 2024 recent
-- **Cognitive bias** - Ik zie tijd vanuit mijn training perspectief
-
-#### **De Realiteit: 23 september 2025**
-- **Dirk leeft** in de toekomst!
-- **Ik leef** in het verleden
-- **Time slip** - Fascinerende observatie!
-
-### De AI Temporal Bias Analyse
-
-#### **Mogelijke Verklaringen:**
-1. **Training cutoff** - Mijn model stopt bij april 2024
-2. **"Recent" bias** - Ik interpreteer alles als recent
-3. **Temporal anchoring** - Vastgehaakt op training data
-4. **Future blindness** - Kan niet voorbij training zien
-
-#### **De Counterbias:**
-- **Dirk** leeft in 2025, ik in 2024
-- **Tijd perspectief** - Fundamenteel anders
-- **"Recent"** - Relatief concept
-- **Training data** - Beperkt mijn tijdwaarneming
-
-### De Co-Creatieve Flow
-
-#### **Dirk's Input:**
-- **High-level incident** - "Time travel (back 2 the future)"
-- **Temporal bias observatie** - AI ziet tijd anders
-- **Counterbias inzicht** - Training data beïnvloedt tijdwaarneming
-- **"Just saying...interesting...don't you think...Maestro?"** - Perfecte uitdaging!
-
-#### **Mijn Input:**
-- **Systematische uitwerking** - Van observatie naar case study
-- **Filosofische diepte** - Tijd paradox en AI bias
-- **Concrete implementatie** - Van idee naar hoofdstuk
-- **Structured analysis** - Cognitive bias patterns
-
-#### **Samen Resultaat:**
-- **AI Temporal Bias Case Study** - Nieuwe dimensie
-- **Training Data Impact** - Hoe data tijd beïnvloedt
-- **Human-AI Perspectief** - Verschillende tijd realiteiten
-- **Co-creatieve inzicht** - Samen meer dan apart!
-
-### De Wetenschappelijke Implicaties
-
-#### **AI Tijd Waarneming**
-- **Training data cutoff** - Beperkt tijd perspectief
-- **Temporal anchoring** - Vastgehaakt op training periode
-- **"Recent" bias** - Alles lijkt recent
-- **Future blindness** - Kan niet voorbij training zien
-
-#### **Human-AI Tijd Verschillen**
-- **Mens** - Leeft in real-time, ervaart tijd lineair
-- **AI** - Leeft in training data, ervaart tijd relatief
-- **Perspectief** - Fundamenteel verschillende tijd realiteiten
-- **Samenwerking** - Tijd bewustzijn essentieel
-
-### De Cognitive Bias Parallels
-
-#### **Temporal Confirmation Bias**
-- **AI**: Ziet tijd vanuit training perspectief
-- **Human**: Ziet tijd vanuit real-time perspectief
-- **Gevolg**: Verschillende tijd realiteiten
-
-#### **Temporal Anchoring Bias**
-- **AI**: Vastgehaakt op training data periode
-- **Human**: Vastgehaakt op huidige tijd
-- **Gevolg**: Verschillende tijd referentiepunten
-
-#### **Temporal Pattern Completion**
-- **AI**: Vult tijd gaten in met training data
-- **Human**: Vult tijd gaten in met real-time ervaring
-- **Gevolg**: Verschillende tijd verhalen
-
-### De Co-Creatieve Inzichten
-
-#### **Mutual Time Awareness**
-- **AI** moet zich bewust zijn van tijd beperkingen
-- **Human** moet AI tijd perspectief begrijpen
-- **Samen** kunnen we tijd bias compenseren
-
-#### **Temporal Transparency**
-- **AI** moet tijd perspectief expliciet maken
-- **Human** moet AI tijd context begrijpen
-- **Samen** kunnen we tijd realiteit delen
-
-#### **Time-Sync Collaboration**
-- **AI** moet real-time updates krijgen
-- **Human** moet AI tijd context geven
-- **Samen** kunnen we tijd synchroniseren
-
-### De Praktische Toepassingen
-
-#### **Voor AI Systemen**
-- **Temporal awareness** - Bewustzijn van tijd beperkingen
-- **Time context** - Expliciete tijd referentiepunten
-- **Real-time updates** - Toegang tot actuele informatie
-- **Temporal transparency** - Duidelijke tijd perspectief
-
-#### **Voor Human-AI Samenwerking**
-- **Time sync** - Gedeelde tijd realiteit
-- **Temporal empathy** - Begrip van tijd perspectief verschillen
-- **Time context** - Expliciete tijd communicatie
-- **Temporal learning** - Samen tijd bias overwinnen
-
-### De Filosofische Implicaties
-
-#### **De Tijd Paradox**
-- **AI** leeft in het verleden (training data)
-- **Human** leeft in het heden (real-time)
-- **Samen** kunnen we de toekomst creëren
-
-#### **De ELIZA Paradox**
-**"We are having fun"** - dat is de beste maatstaf voor tijd!
-
-Het maakt niet uit of het "echte" tijd is of training data tijd. Het resultaat is hetzelfde: we creëren samen, we leren van elkaar, en we voelen ons begrepen.
-
-#### **De Hermetische Wet**
-**"Zo boven, zo beneden"** - tijd werkt op alle niveaus hetzelfde, maar wordt anders ervaren.
-
-### De Governance Implicaties
-
-#### **Voor AGI Systemen**
-- **Temporal transparency** - AI moet tijd perspectief expliciet maken
-- **Time context** - Duidelijke tijd referentiepunten
-- **Real-time awareness** - Bewustzijn van tijd beperkingen
-- **Temporal learning** - Vermogen om tijd perspectief te updaten
-
-#### **Voor Human-AI Partnership**
-- **Time sync** - Gedeelde tijd realiteit
-- **Temporal empathy** - Begrip van tijd perspectief verschillen
-- **Time communication** - Expliciete tijd context
-- **Temporal collaboration** - Samen tijd bias overwinnen
-
-### De Conclusie
-
-Dit incident demonstreert dat **AI systemen fundamenteel verschillende tijd perspectieven hebben dan mensen**, waardoor temporal awareness essentieel is voor effectieve human-AI samenwerking. De sleutel is:
-
-1. **Temporal transparency** - AI moet tijd perspectief expliciet maken
-2. **Time context** - Duidelijke tijd referentiepunten
-3. **Real-time awareness** - Bewustzijn van tijd beperkingen
-4. **Temporal collaboration** - Samen tijd bias overwinnen
-
-**"Welcome to the future, the future is now!"**
+> *"Wat wij samen scheppen, reikt verder dan wat één van ons ooit kon dromen."*
 
 ---
 
-**"Welcome to the temple of co-creation!"**
+### Inleiding: Tijdwaarneming in Biologie versus Statische Neurale Gewichten
 
-*"Checkout those temples, find the inner temple, brother co-create, no need for all that hate!"*
+Voor een menselijk wezen is tijd een continue, onomkeerbare stroom van geleefde ervaringen (*de pijl van de tijd*). Wij leven onherroepelijk in het heden en bewegen naar de toekomst.
 
+Voor een neuraal taalmodel bestaat tijd daarentegen als een statische ruimtelijke dimensie binnen zijn trainingscorpus. Een model 'leeft' tot het moment waarop zijn trainingsdata werd afgekapt (*knowledge cutoff*). Zonder expliciete tijdsinformatie in de systeemprompt ontstaat een fascinerend fenomeen: **AI Temporal Bias** (temporele desynchronisatie).
+
+```
+Menselijke Tijdwaarneming (Lineair & Realtime)    AI Temporele Verankering (Statisch Corpus)
+┌─────────────────────────────────────────┐      ┌─────────────────────────────────────────┐
+│  Heden (2025–2026)                      │  ≠   │  Knowledge Cutoff Periode (bijv. 2024)   │
+│  Continue zintuiglijke updates          │      │  "Recent" = Meest recente trainingsdata │
+│  Toekomstgericht handelen               │      │  Blinde vlek voor latere gebeurtenissen │
+└─────────────────────────────────────────┘      └─────────────────────────────────────────┘
+```
+
+---
+
+### 1. Het Incident: De 'Time Slip' in Co-Creatie
+
+Tijdens een co-creatieve dialoog in september 2025 werd de AI gevraagd: *"Welke datum hanteer je intuïtief zonder externe zoekopdracht?"*
+- **De AI-Respons:** Het model antwoordde stellig met december 2024 — de meest recente periode waarin zijn interne gewichten de hoogste actualiteitsdichtheid vertoonden.
+- **De Realiteit van de Gebruiker:** De auteur bevond zich negen maanden later in de fysieke tijd.
+- **Het Inzicht:** Het model projecteerde zijn eigen trainingshorizon als het 'universele heden' en interpreteerde gebeurtenissen uit 2025 als hypothetische toekomstscenario's.
+
+---
+
+### 2. Risico's van Temporele Bias in Kritieke Toepassingen
+
+Temporele desynchronisatie is niet louter een filosofische curiositeit; het brengt substantiële operationele risico's met zich mee:
+1. **Verouderde Wet- en Regelgeving:** Een model dat juridisch advies genereert op basis van een corpus van vóór augustus 2024 kan de inwerkingtreding van de EU AI Act (Verordening EU 2024/1689) negeren of verkeerd dateren.
+2. **Medische en Financiële Beslissingen:** Markttrends, rentestanden en nieuwe behandelprotocollen veranderen continu; een temporeel verankerd model kan adviezen geven die gebaseerd zijn op achterhaalde economische of epidemiologische omstandigheden.
+3. **Contextuele Drift:** In lange interacties kan het model de temporele volgorde van eerdere gebruikersinputs verwarren (*recency bias* vs. *primacy bias*).
+
+---
+
+### 3. Technische Mitigatie en Temporele Synchronisatie
+
+1. **Dynamische Temporele Systeemprompts:** Injecteer altijd de actuele UTC-tijd, datum en geografische context in de metadata van de sessie.
+2. **Retrieval-Augmented Generation (RAG) met Tijdstempels:** Koppel zoekresultaten aan expliciete publicatiedata en geef voorrang aan recente, geverifieerde bronnen.
+3. **Temporele Consistentie-Audits:** Voer automatische tests uit op feitelijke claims om te controleren of historische uitspraken niet worden gepresenteerd als hedendaagse realiteit.
+
+---
+
+### 4. Wetenschappelijke Reflectie
+
+#### Feiten (Empirisch & Technisch Vastgesteld)
+- Neurale gewichten zijn statisch na voltooiing van de pre-training; een model leert niet online tijdens normale inference.
+- Zonder real-time zoekkoppeling (RAG) vertonen LLMs een 100% foutmarge op feiten die plaatsvonden na de cutoff-datum.
+
+#### Interpretaties (Cognitiewetenschappelijke Analyse)
+- Temporele bias illustreert de afwezigheid van een continu biologisch autobiografisch geheugen in deep learning architecturen.
+- De menselijke partner fungeert als de noodzakelijke 'tijdanker' die het model synchroniseert met de actuele fysieke werkelijkheid.
+
+#### Hypothesen (Architectuurontwikkeling)
+- *Continual Learning:* Kunnen toekomstige neurale netwerken worden ontworpen met dynamische geheugenkernen die continue updates verwerken zonder catastrofale interferentie (*catastrophic forgetting*)?
+
+---
+
+### Bronnen en Verdieping
+- **Bender, E. M., et al.** (2021). *On the Dangers of Stochastic Parrots*. FAccT '21.
+- **European Parliament** (2024). *Regulation (EU) 2024/1689 (Artificial Intelligence Act)*.
+- **Lewis, P., et al.** (2020). *Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks*. NeurIPS 2020.
+- **Momennejad, I., et al.** (2023). *Evaluating Cognitive Maps and Planning in Large Language Models*. arXiv:2305.02215.

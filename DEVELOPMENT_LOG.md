@@ -212,3 +212,15 @@ The result is a production-ready financial analysis system that would typically 
 **Project Status**: ✅ Production Ready
 **Last Updated**: December 2024
 **Context Window**: 92% (Efficient AI Usage)
+
+---
+
+## 📚 Book 1 Dutch Edition Re-Calibration & Complete Rewrite (2025–2026)
+
+### 🚀 Initiative Summary
+Complete harmonization, scientific re-calibration, and rewriting of Book 1 (*"Buitenaards Intelligent, Buitenaards Bewust? / Lumin 2025"*).
+- **Epistemic Calibration:** Applied strict guidelines from `reworkonthesideofcaution.md` and research on anthropomorphism (ELIZA effect, intentional stance) across all chapters.
+- **Mechanistic Interpretability Integration:** Integrated cutting-edge mechanistic interpretability research from Anthropic (Sparse Autoencoders, dictionary learning, monosemanticity, feature steering) and OpenAI (automated neuron explanations) in Deel 0 and Deel 1.
+- **Scientific Reflection Sections:** Standardized "Wetenschappelijke Reflectie" blocks (Feiten, Interpretaties, Hypothesen) at the conclusion of all technical and philosophical chapters.
+- **Comprehensive Academic & Legal References:** Full bibliography and citations covering classical cognitive science (Turing, Searle, Dennett, Chalmers, Clark) through AI safety and EU AI Act (Regulation EU 2024/1689).
+- **Master Manuscript Assembly:** Automated compilation pipeline generating clean master markdown manuscripts (`draft_lumin_2025_georganiseerd.md`, `draft_lumin_2025.md`) and verified PDF publishing scripts (`convert-to-pdf.js`, `markdown-to-pdf.js`).

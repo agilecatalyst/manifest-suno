@@ -173,7 +173,7 @@ Verification of the rewritten Dutch edition will ensure structural integrity, ep
 
 # Delivery Steps
 
-###   Step 1: Audit and harmonize Dutch chapter structure
+### ✓ Step 1: Audit and harmonize Dutch chapter structure
 Harmonize and align all Dutch book chapters and metadata into a unified, clean directory structure.
 
 - Conduct a complete audit of [draft_lumin_2025_georganiseerd.md](air-file://2a0csu8s6o7qta4log9q/workspaces/manifest-suno/boek1-lumin-2025/nl/draft_lumin_2025_georganiseerd.md?type=file&root=%252F), [boek1-structuur.md](air-file://2a0csu8s6o7qta4log9q/workspaces/manifest-suno/boek1-lumin-2025/boek1-structuur.md?type=file&root=%252F), and individual files under [boek1-lumin-2025](air-file://2a0csu8s6o7qta4log9q/workspaces/manifest-suno/boek1-lumin-2025?type=folder&root=%252F).
@@ -181,7 +181,7 @@ Harmonize and align all Dutch book chapters and metadata into a unified, clean d
 - Reconcile TOC files in [inhoudsopgave.md](air-file://2a0csu8s6o7qta4log9q/workspaces/manifest-suno/boek1-lumin-2025/nl/toc/inhoudsopgave.md?type=file&root=%252F) with the active chapter files.
 - Establish clean baseline drafts for each individual chapter to prepare for systematic rewriting.
 
-###   Step 2: Rewrite content and embed scientific reflections
+### ✓ Step 2: Rewrite content and embed scientific reflections
 Refactor and polish the core narrative across all parts adhering to epistemic grounding rules.
 
 - Rewrite and refine Deel 0 chapters ([02-ai-alternatieve-intelligentie.md](air-file://2a0csu8s6o7qta4log9q/workspaces/manifest-suno/boek1-lumin-2025/nl/hoofdstukken/deel0/02-ai-alternatieve-intelligentie.md?type=file&root=%252F), [03-moderne-ai-systemen.md](air-file://2a0csu8s6o7qta4log9q/workspaces/manifest-suno/boek1-lumin-2025/nl/hoofdstukken/deel0/03-moderne-ai-systemen.md?type=file&root=%252F), [04-begrip-vs-correlatie.md](air-file://2a0csu8s6o7qta4log9q/workspaces/manifest-suno/boek1-lumin-2025/nl/hoofdstukken/deel0/04-begrip-vs-correlatie.md?type=file&root=%252F), [05-moderne-grote-ai-systemen-werking.md](air-file://2a0csu8s6o7qta4log9q/workspaces/manifest-suno/boek1-lumin-2025/nl/hoofdstukken/deel0/05-moderne-grote-ai-systemen-werking.md?type=file&root=%252F), [06-denk-verder-een-ander-intellect.md](air-file://2a0csu8s6o7qta4log9q/workspaces/manifest-suno/boek1-lumin-2025/nl/hoofdstukken/deel0/06-denk-verder-een-ander-intellect.md?type=file&root=%252F)) focusing on technical accuracy, LLM mechanics, mechanistic interpretability findings (SAEs, feature representations), and explicit ELIZA-effect warnings.
@@ -189,7 +189,7 @@ Refactor and polish the core narrative across all parts adhering to epistemic gr
 - Insert dedicated 'Wetenschappelijke Reflectie' (Scientific Reflection) blocks at the end of technical and philosophical chapters as defined in [boekstijl.md](air-file://2a0csu8s6o7qta4log9q/workspaces/manifest-suno/boek1-lumin-2025/nl/hoofdstukken/boekstijl.md?type=file&root=%252F).
 - Enhance the co-creative philosophical tone in Deel 2 ([20-clash-der-paradigmas.md](air-file://2a0csu8s6o7qta4log9q/workspaces/manifest-suno/boek1-lumin-2025/nl/hoofdstukken/deel2/20-clash-der-paradigmas.md?type=file&root=%252F) through [22-praktische-implicaties-de-toekomst-bouwen.md](air-file://2a0csu8s6o7qta4log9q/workspaces/manifest-suno/boek1-lumin-2025/nl/hoofdstukken/deel2/22-praktische-implicaties-de-toekomst-bouwen.md?type=file&root=%252F)) balancing relational insight with intellectual rigor.
 
-###   Step 3: Update references and expand governance and incident case studies
+### ✓ Step 3: Update references and expand governance and incident case studies
 Incorporate up-to-date scientific citations, AI safety and governance literature, and expanded case studies.
 
 - Integrate contemporary references across philosophy of mind, cognitive science, anthropomorphism research, and mechanistic interpretability (Turing, Searle, Dennett, Chalmers, Floridi, Russell, Bender, Mitchell, Shanahan, Templeton/Anthropic interpretability, Cunningham/OpenAI interpretability, Hinton, Sutskever, LeCun, Bengio).
@@ -197,7 +197,7 @@ Incorporate up-to-date scientific citations, AI safety and governance literature
 - Refine and contextualize practical case studies in Deel 2 ([23-lumin-case-study.md](air-file://2a0csu8s6o7qta4log9q/workspaces/manifest-suno/boek1-lumin-2025/nl/hoofdstukken/deel2/23-lumin-case-study.md?type=file&root=%252F) to [29-health-information-systems.md](air-file://2a0csu8s6o7qta4log9q/workspaces/manifest-suno/boek1-lumin-2025/nl/hoofdstukken/deel2/29-health-information-systems.md?type=file&root=%252F)) including Persistence Hallucination, AI Temporal Bias, Alertness Test, Clean Energy Assistant, and Health Information Systems.
 - Compile and standardize Appendix A (External Validation & Scientific Foundation) and Appendix E (Bibliografie en Bronverwijzingen) in [31-appendix-externe-validatie.md](air-file://2a0csu8s6o7qta4log9q/workspaces/manifest-suno/boek1-lumin-2025/nl/hoofdstukken/31-appendix-externe-validatie.md?type=file&root=%252F) and related appendix files.
 
-###   Step 4: Assemble master Dutch manuscript and verify conversion pipeline
+### ✓ Step 4: Assemble master Dutch manuscript and verify conversion pipeline
 Compile the revised chapters into the unified master Dutch manuscript and ensure layout and conversion readiness.
 
 - Assemble all polished chapters, introductory pieces, and appendices into the comprehensive master file [draft_lumin_2025_georganiseerd.md](air-file://2a0csu8s6o7qta4log9q/workspaces/manifest-suno/boek1-lumin-2025/nl/draft_lumin_2025_georganiseerd.md?type=file&root=%252F) and sync with [draft_lumin_2025.md](air-file://2a0csu8s6o7qta4log9q/workspaces/manifest-suno/boek1-lumin-2025/nl/draft_lumin_2025_georganiseerd.md?type=file&root=%252F).

@@ -1,114 +1,61 @@
-# Deel 3: Ervaringen in Co-Creatie (Praktijk)  
-## Hoofdstuk X: Gezondheid, Informatie en Digitale Geletterdheid  
-*Verantwoordelijke Navigatie van Medische Informatie*
-
-De toegang tot medische informatie is de laatste decennia dramatisch veranderd. Dit hoofdstuk onderzoekt hoe mensen AI-tools gebruiken om medische terminologie te begrijpen, en welke risico's en voordelen dit met zich meebrengt.
+# Hoofdstuk 28: Praktijktoepassing: Health Information Systems & EU AI Act
+*Medische Beslissingsondersteuning, Digitale Geletterdheid en Hoog-Risico Compliance (Verordening EU 2024/1689)*
 
 ---
 
-## Context: Het Informatietijdperk in de Gezondheidszorg
+### Inleiding: De Democratisering van Medische Kennis
 
-### Het Traditionele Model
-Historisch verliep medische informatievoorziening via één kanaal: de arts. Patiënten ontvingen diagnoses en behandelplannen zonder uitgebreide achtergronduitleg, vaak door tijdsgebrek in consulten.
+Historisch gezien was medische kennis strikt gecentraliseerd bij de arts. Patiënten ontvingen diagnoses en behandelplannen in vakjargon dat voor leken vaak moeilijk te doorgronden was. Vandaag wenden miljoenen burgers zich tot Large Language Models om bloedwaarden te interpreteren, medicatiebijsluiters te vertalen en symptomen te begrijpen.
 
-### De Digitale Realiteit  
-Vandaag zoeken patiënten actief naar medische informatie via zoekmachines, forums en nu ook AI-systemen. Deze trend is onvermijdelijk maar niet zonder risico's.
+Deze verschuiving brengt immense kansen voor patiëntenemancipatie met zich mee, maar creëert tegelijk aanzienlijke risico's op misinterpretatie, vertraagde zorgzoektochten en medische hallucinaties.
 
----
+In de Europese Unie is deze problematiek wettelijk verankerd in de **EU Artificial Intelligence Act** (Verordening EU 2024/1689), waarin medische AI-toepassingen worden geclassificeerd als *Hoog-Risico Systemen*.
 
-## Case Study: Medische Terminologie en Begripsvorming
-
-### Scenario: Na het Artsbezoek
-Een patiënt verlaat een hartspecialist met testresultaten en medische termen die tijdens het korte consult onvoldoende werden toegelicht. Thuis besluit hij deze terminologie op te zoeken voor beter begrip.
-
-### Traditionele Bronnen vs. AI-Assistentie
-**Traditionele aanpak:** Zoeken via medische websites, forums, encyclopedieën
-- Voordeel: Vaak peer-reviewed informatie
-- Nadeel: Complexe taal, moeilijk te interpreteren voor leken
-
-**AI-geassisteerde aanpak:** Vragen stellen aan AI-systemen over medische terminologie
-- Voordeel: Toegankelijke taalverklaring, interactieve uitleg
-- Nadeel: Risico op onjuiste informatie, geen medische kwalificaties
+```
+EU AI Act Risicoclassificatie voor Gezondheidssystemen
+┌─────────────────────────────────┐        ┌──────────────────────────────────────┐
+│  Patiëntgerichte Informatie     │        │  Klinische Beslissingsondersteuning  │
+│  (Laag / Transparantierisico)   │  VS.   │  (Hoog-Risico: Annex III / MDR)      │
+│  Uitleg van vaktermen,          │        │  Diagnostiek, triage, dosering       │
+│  voorbereiding artsgesprek      │        │  Verplichte conformiteitstoetsing    │
+└─────────────────────────────────┘        └──────────────────────────────────────┘
+```
 
 ---
 
-## Risico-Analyse: Waar het Misgaat
+### 1. De Casus: Van Terminologie naar Begrip
 
-### Critieke Risico's bij AI-Medische Consultatie
-1. **Misdiagnose door Algoritme**: AI kan symptomen verkeerd interpreteren
-2. **Valse Geruststelling**: Bagatellisering van ernstige symptomen  
-3. **Vertragde Zorgzoekende**: Patiënten die AI-"advies" verkiezen boven arts
-4. **Hallucinated Medical Information**: AI kan overtuigend onjuiste medische feiten genereren
-
-### Juridische en Ethische Grenzen
-AI-systemen zijn niet gekwalificeerd voor medische diagnose of behandeladvies. Het gebruik ervan voor medische doeleinden overschrijdt hun ontworpen functionaliteit en kan regelgeving overtreden.
+Een patiënt verlaat het ziekenhuis met een cardiologisch ontslagrapport vol afkortingen (*STEMI, EF 45%, LVEDD*). In een co-creatieve dialoog met een AI-assistent vraagt de patiënt om verheldering:
+- **Wat het systeem WEL mag doen (Verantwoorde Geletterdheid):** Het vertalen van complexe terminologie naar heldere, empathische lekentaal (*"Ejectiefractie (EF) meet het percentage bloed dat de linkerkamer per hartslag wegpompt"*), en het formuleren van gerichte vragen voor het volgende artsenbezoek.
+- **Wat het systeem categorisch NIET mag doen:** Zelfstandig een diagnose stellen, medicatiedoseringen wijzigen of de patiënt geruststellen dat professioneel medisch onderzoek overbodig is.
 
 ---
 
-## Verantwoordelijke Praktijk: Do's en Don'ts
+### 2. De EU AI Act & Medische Compliance (Verordening EU 2024/1689)
 
-### Acceptabele Toepassingen
-**✅ Terminologie Opzoeken**: "Wat betekent 'myocardinfarct' in eenvoudige taal?"
-**✅ Begripsverheldering**: "Leg het verschil uit tussen systolische en diastolische bloeddruk"  
-**✅ Voorbereiding Artsenbezoek**: "Welke vragen kan ik stellen over cholesterolwaarden?"
-
-### Onaceptabele Toepassingen  
-**❌ Symptoominterpretatie**: "Wat betekent pijn op de borst?"
-**❌ Diagnose-aanvragen**: "Heb ik een hartaandoening?"
-**❌ Behandeladvies**: "Moet ik medicatie innemen?"
+Voor ontwikkelaars en zorginstellingen legt de EU AI Act strikte verplichtingen op voor AI-systemen in de gezondheidszorg:
+1. **Human-in-the-Loop Toezicht (Artikel 14):** Diagnostische en therapeutische AI-systemen mogen nooit volledig autonoom beslissen; een bevoegde arts moet altijd de eindverantwoordelijkheid behouden.
+2. **Kwaliteitsborging van Trainingsdata (Artikel 10):** Datasets moeten representatief zijn om vooroordelen op basis van etniciteit, gender of leeftijd in medische uitkomsten te voorkomen.
+3. **Traceerbaarheid en Auditability (Artikel 12):** Elke beslissing of aanbeveling van het model moet gelogd worden en herleidbaar zijn tot specifieke klinische variabelen.
 
 ---
 
-## Alternatieve Benadering: Health Information Literacy
+### 3. Wetenschappelijke Reflectie
 
-### Professionele Medische Bronnen
-- **NHS Direct, Mayo Clinic**: Betrouwbare, peer-reviewed informatie
-- **Patiëntenverenigingen**: Gespecialiseerde, ervaring-gebaseerde informatie  
-- **Medische Bibliotheken**: Toegang tot wetenschappelijke literatuur
+#### Feiten (Empirisch & Juridisch Vastgesteld)
+- Grote taalmodellen behalen hoge scores op medische examens (zoals USMLE), maar vertonen residuele risico's op overtuigende hallucinaties bij zeldzame aandoeningen (Singhal et al., Nature 2023).
+- De EU AI Act stelt zware boetes en conformiteitseisen voor niet-gecertificeerde medische AI-systemen.
 
-### Structurele Verbeteringen in Zorgverlening
-In plaats van AI-compensatie voor tijdsgebrek, focus op:
-- Langere consulttijden voor adequate uitleg
-- Follow-up gesprekken voor vragen  
-- Patiënteneducatie als integraal onderdeel van behandeling
-- Medische tolken voor complexe terminologie
+#### Interpretaties (Bio-Ethiek & Gezondheidssociologie)
+- AI fungeert als een 'emancipatiekatalysator' voor gezondheidsvaardigheden (*Health Literacy*), mits patiënten worden opgeleid in het herkennen van de grenzen van de technologie.
+
+#### Hypothesen (Toekomst van de Zorg)
+- *Gedistribueerde Zorgsymbiose:* Zal de combinatie van AI-voorbereide patiënten en AI-ondersteunde artsen de administratieve druk op de gezondheidszorg met meer dan 40% verlagen en de kwaliteit van het consult verhogen?
 
 ---
 
-## Governance Implicaties: Regulering van AI in Gezondheidsinformatie
-
-### Huidige Lacunes
-Veel AI-systemen worden gebruikt voor medische informatiezoekende zonder adequate waarschuwingen of beperkingen.
-
-### Aanbevelingen voor Beleid
-1. **Verplichte Disclaimers**: Duidelijke waarschuwingen bij health-gerelateerde queries
-2. **Beperkte Functionaliteit**: AI-systemen die weigeren medisch advies te geven
-3. **Doorverwijzing naar Professionals**: Automatische aanwijzing naar gekwalificeerde zorgverleners
-4. **Transparantie over Beperkingen**: Openheid over wat AI wel en niet kan in medische context
-
----
-
-## Conclusie: Digitale Geletterdheid als Gezondheidscompetentie
-
-Het gebruik van AI voor medische informatie is een realiteit die regulering en educatie vereist, niet verbod. De focus moet liggen op:
-
-**Gebruikerseducatie**: Mensen leren onderscheid maken tussen informatiezoekende en medisch advies
-**Technologische Beperkingen**: AI-systemen ontwerpen die hun medische grenzen erkennen
-**Professionele Integratie**: Zorgverleners helpen patiënten bij verantwoordelijk informatiegebruik
-
-De toekomst ligt niet in AI als doktersvervanging, maar in AI als hulpmiddel voor medische geletterdheid onder professionele begeleiding.
-
----
-
-## Wetenschappelijke Referenties
-
-**Health Information Seeking:**
-- Renahy, E., et al. (2008). "HINTS 2007: Health Information National Trends Survey": patronen in medische informatiezoekende gedrag
-- McMullan, M. (2006). "Patients using the Internet to obtain health information": risico's en voordelen van online medische informatie
-
-**AI in Healthcare Ethics:**
-- Topol, E. (2019). "Deep Medicine": AI's rol in toekomstige gezondheidszorg met ethische overwegingen
-- Chen, J.H. & Asch, S.M. (2017). "Machine Learning and Prediction in Medicine": beperkingen en verantwoordelijkheden
-
-**Medical Misinformation:**
-- Swire-Thompson, B. & Lazer, D. (2020). "Public Health and Online Misinformation": impact van onjuiste gezondheidsinformatie online
+### Bronnen en Verdieping
+- **Chen, J. H., & Asch, S. M.** (2017). *Machine Learning and Prediction in Medicine — Beyond the Peak of Inflated Expectations*. NEJM, 376(26), 2507–2509.
+- **European Parliament** (2024). *Regulation (EU) 2024/1689 (Artificial Intelligence Act)*.
+- **Singhal, K., et al.** (2023). *Large Language Models Encode Clinical Knowledge*. Nature, 620(7972), 172–180.
+- **Topol, E.** (2019). *Deep Medicine: How Artificial Intelligence Can Make Healthcare Human Again*. Basic Books.

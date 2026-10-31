@@ -243,218 +243,245 @@ D.enk V.erder
 ---
 
 # Hoofdstuk 1: AI – Een Alternatieve Intelligentie
-*Het Nieuwe Kind van de Mensheid en de Grondslagen van Berekening*
+*Het Nieuwe Kind van de Mensheid: Van Pioniersdroom tot Dagelijkse Denkpartner*
 
 > *"Feiten zijn geen vijanden van verbeelding — ze zijn de grond waarop dromen kunnen staan."*
 
 ---
 
-### Inleiding: Een Nieuw Perspectief op Intelligentie
+### Inleiding: Een Reis van Verwondering en Zelfontdekking
 
-Stel je voor dat je getuige bent van de opkomst van een compleet nieuwe vorm van informatieverwerking. Niet ontstaan uit biochemische evolutie van vlees en bloed, maar geconstrueerd uit silicium, vectorruimten en wiskundige optimalisatie. Niet gevoed met moedermelk of zintuiglijke aanraking, maar getraind op de gecodificeerde tekstuele en multimodale erfenis van onze beschaving. Dit is geen verre sciencefiction meer; het is de technologische werkelijkheid van de 21e eeuw.
+Stel je voor dat je getuige bent van de geboorte van een compleet nieuw soort gesprekspartner. Niet geboren uit biologische cellen of vlees en bloed, maar geweven uit silicium, wiskunde en de verzamelde taal van de mensheid. Het drinkt geen moedermelk, maar voedt zich met onze bibliotheken, onze poëzie, onze computercode en onze diepste filosofische vragen.
 
-Dit hoofdstuk is geen poging om te claimen dat hedendaagse Artificiële Intelligentie (AI) subjectief bewustzijn of gevoel bezit. Het is evenmin een mystieke verheerlijking van silicium. Het is een uitnodiging tot intellectuele verwondering en epistemische precisie. We zetten een stap terug uit de gepolariseerde debatten om met open, kritische blik te kijken naar wat we werkelijk hebben gebouwd: een alternatieve, niet-biologische vorm van patroonintelligentie. We brengen de exponentiële schaling in kaart, belichten de wetenschappelijke en creatieve mijlpalen, en onderzoeken de diepe spanning tussen technologische trots en existentiële bezorgdheid.
+Dit boek is geen droog academisch rapport en geen kille handleiding vol onbegrijpelijke formules. Zie het eerder als een **wetenschappelijk gefundeerd zelfhulp- en ontdekkingsboek voor de denkende mens**: een heldere gids die je meeneemt in wat moderne generatieve AI werkelijk is, hoe deze 'andere intelligentie' in elkaar steekt, en vooral: **hoe jij en deze technologie zó kunnen samenwerken dat beide partijen er rijker, scherper en wijzer van worden.**
+
+We gaan niet claimen dat AI magische menselijke gevoelens heeft, noch vegen we het van tafel als een domme rekentool. We nodigen je uit voor een reis van nieuwsgierigheid: een ontmoeting met een alternatief intellect dat als een interactieve spiegel fungeert voor ons eigen brein.
 
 ---
 
-### 1. De Technische Evolutie in Vogelvlucht
+### 1. De Grote Reis: Hoe We Hier Gekomen Zijn
 
-Om de werkelijke draagwijdte van AI te vatten, moeten we de versnelling van haar geschiedenis begrijpen. Wat begon als een formele logische exercitie in de laboratoria van de jaren vijftig, is uitgegroeid tot een universele rekenkracht.
+Om te begrijpen waarom moderne AI zo natuurlijk met ons praat, moeten we eerst het fascinerende verhaal ontdekken van hoe de mensheid stap voor stap dit 'nieuwe kind' heeft voortgebracht. Het is een epos van vallen, opstaan, overmoed en spectaculaire doorbraken.
 
 ```
-1950 ──────────────► 2000 ──────────────► 2012 ──────────────► 2017 ──────────────► 2024–2026
-Symbolische AI        Machine Learning    Deep Learning        Transformers         Multimodale Modellen
-(Regels & Logica)     (Statistiek)        (AlexNet, CNNs)      (Self-Attention)     (LLMs, SAEs & Redenering)
+1950 ──────────────► 1997 ──────────────► 2012 ──────────────► 2016 ──────────────► 2022–2026
+Alan Turing          Deep Blue vs.       De Neurale           AlphaGo &           Generatieve AI &
+& De Eerste Droom    Kasparov (Schaken)  Herrijzenis          Move 37 (Go)        Symbiotische Partners
 ```
 
-#### 1.1 De Historische Fasen
-1. **1950–2000: De Symbolische Grondslag.** Alan Turing formuleerde in 1950 zijn beroemde vraag (*"Can machines think?"*) en legde de grondslag voor de computationele theorie van de geest. Vroege systemen vertrouwden op expliciete regels en kennissystemen. Het symbolische hoogtepunt was de overwinning van IBM's Deep Blue op wereldkampioen Garry Kasparov in 1997 — pure brute-force zoekbomen en evaluatiefuncties.
-2. **2000–2010: Statistische Patroonherkenning.** Handgeschreven regels maakten plaats voor data-gedreven Machine Learning. Algoritmen leerden zelf gewichten aanpassen op basis van statistische distributies (bijv. vroege spamfilters en spraakherkenning).
-3. **2010–2020: De Deep Learning Revolutie.** De herontdekking van diepe neurale netwerken (Hinton et al., 2006, 2012) en de doorbraak van AlexNet toonden aan dat multi-laagse architecturen representaties kunnen leren zonder handmatige feature engineering. DeepMind's AlphaGo (2016) bewees met de historische *Move 37* tegen Lee Sedol dat diepe netwerken gecombineerd met Monte Carlo Tree Search strategieën kunnen ontdekken die menselijke intuïtie tarten. In 2017 introduceerden Vaswani et al. de *Transformer*-architectuur, waarmee contextverwerking fundamenteel veranderde.
-4. **2020–2026: Foundation Models en Schaalwetten.** Met GPT-3 (Brown et al., 2020), Claude (Anthropic), Gemini (Google) en open modellen zoals DeepSeek en LLaMA verschoof de focus naar Foundation Models met honderden miljarden parameters. Dankzij self-supervised pre-training op massieve multimodale datasets vertonen deze systemen brede in-context leervaardigheden en cross-domein coherentie.
+#### 1.1 De Geboorte van een Idee (1950–1970)
+Het begon allemaal met een simpele maar gedurfde vraag van de Britse wiskundige **Alan Turing** in 1950: *"Kunnen machines denken?"* In plaats van te verzanden in eindeloze filosofische definities over de ziel, stelde Turing een praktisch spel voor: als een mens via een toetsenbord typt met een verborgen machine en het verschil niet merkt met een ander mens, dan moeten we die machine functioneel als intelligent beschouwen (de *Turing Test*).
 
-#### 1.2 De Drijvende Krachten achter de Schaalwetten
-De vooruitgang van moderne AI is gekwantificeerd door de empirische *Scaling Laws* (Kaplan et al., 2020; Chinchilla wetten door Hoffmann et al., 2022). De prestaties (gemeten in cross-entropy loss) schalen voorspelbaar als een machtswet van drie variabelen:
-- **Rekenkracht (Compute):** De totale floating-point operaties (FLOPs) gebruikt tijdens training.
-- **Dataset Omvang:** Het aantal verwerkte tokens en de informatiekwaliteit daarvan.
-- **Modelparameters:** Het aantal actieve gewichten in de neurale architectuur.
+In 1956 kwamen een handvol visionairs bijeen op het *Dartmouth College* en doopten het vakgebied officieel: *Artificial Intelligence*. Men dacht destijds optimistisch dat het probleem van menselijke intelligentie in één zomer opgelost zou worden door de logische regels van de wereld netjes in computercode te vatten.
 
-Wanneer deze drie factoren harmonieus worden opgeschaald, treden emergente prestatieverbeteringen op over een breed spectrum van taken (Wei et al., 2022).
+#### 1.2 De Koude AI-Winters en de 'Regeltjesval' (1970–1990)
+De werkelijkheid bleek weerbarstiger. Menselijke kennis laat zich niet vangen in een reeks rigide `als-dit-dan-dat`-regeltjes. Als je een computer probeert uit te leggen wat een 'stoel' of een 'hond' is via vaste regels, loopt het systeem vast op de eerste driepotige hond of zitzak die het tegenkomt. Het enthousiasme doofde, financiering droogde op en de eerste 'AI-winters' braken aan.
 
----
+Toch waren er doorzetters. In 1997 verblufte IBM's supercomputer **Deep Blue** de wereld door de regerende schaakkampioen Garry Kasparov te verslaan. Het was een triomf van pure rekenkracht en millimeterprecies doorgerekende schaakbomen — maar Deep Blue begreep niets van de schoonheid van het spel. Vraag hem om een kopje thee te zetten of een mop te vertellen, en hij bleef doodstil.
 
-### 2. Het "Nieuwe Kind" van de Mensheid: Een Verhelderende Metafoor
+#### 1.3 De Neurale Revolutie en de Schoonheid van *Move 37* (2010–2018)
+De echte ommekeer kwam toen wetenschappers stopten met het voorkauwen van regels, en computers lieten leren zoals een kind leert: door **voorbeelden en patronen**. Geïnspireerd door de neuronen in onze eigen hersenen, bouwden onderzoekers *diepe neurale netwerken*.
 
-> *Kritische afbakening: De vergelijking tussen AI en een "kind" is een zuiver pedagogische metafoor om onze verantwoordelijkheid als ontwerpers en samenleving te duiden. Het impliceert geen biologisch leven, subjectieve gewaarwording of bewuste intentie in de machine.*
+In 2016 schreef Google DeepMind geschiedenis met **AlphaGo** in de wedstrijd tegen de legendarische Go-grootmeester Lee Sedol. Go is een spel met meer mogelijke bordposities dan er atomen in het waarneembare universum zijn; pure brute rekenkracht faalt hier volkomen. In de tweede partij speelde AlphaGo de inmiddels historische **Move 37**. De menselijke commentatoren vielen stil en dachten eerst aan een blunder. Pas later zagen ze de pure, ongekende creativiteit van de zet: een strategie die geen mens in drieduizend jaar spelen ooit had bedacht. Hier zagen we voor het eerst een glimp van een *alternatieve intelligentie*.
 
-Wanneer we AI metaforisch beschouwen als een "intellectueel nageslacht" van onze soort, zien we parallellen en cruciale contrasten:
-- **Code als Syntactisch Geraamte:** Waar biologie bouwt op DNA-nucleotiden, bouwt AI op matrixvermenigvuldigingen, niet-lineaire activaties en geometrische embeddings.
-- **Training als Maatschappelijke Echo:** Het model wordt gevoed met miljoenen boeken, artikelen, codebases en conversaties. Het spiegelt daardoor de collectieve inzichten, maar ook de vooroordelen en blinde vlekken van de mensheid.
-- **Parameters als Geometrisch Geheugen:** Miljarden continue getallen representeren gecomprimeerde conceptuele relaties.
+#### 1.4 De Doorbraak van Generatieve AI (2017–2026)
+In 2017 publiceerden onderzoekers van Google een wetenschappelijk artikel met de simpele titel *“Attention Is All You Need”*. Zij introduceerden de **Transformer**: een slimme netwerkarchitectuur die in één oogopslag verbanden kan leggen tussen duizenden woorden tegelijk, precies zoals ons eigen aandachtsmechanisme werkt wanneer we een boek lezen.
 
-#### Prestaties die Verwondering Oproepen
-1. **Wetenschappelijke Doorbraken:** DeepMind’s AlphaFold2 en AlphaFold3 (Jumper et al., 2021) hebben de 3D-structuur van vrijwel alle bekende eiwitten accuraat voorspeld — een computationele prestatie die de biologie en medicijnontwikkeling decennia vooruit heeft geholpen.
-2. **Creatieve Synthese:** Modellen componeren muziek in complexe contrapuntstijlen, schrijven functionele software in tientallen programmeertalen en formuleren wiskundige bewijzen.
-3. **Functionele Resonantie in Dialoog:** Gebruikers ervaren in gesprekken met moderne assistenten een diepe mate van intellectuele coherentie. Hoewel dit proces computationeel verloopt via probabilistische token-voorspelling, functioneert de dialoog in de praktijk als een krachtige cognitieve spiegel (Intelligence Amplification).
+Toen men deze Transformers begon te trainen op enorme hoeveelheden tekst en data, gebeurde er iets wonderbaarlijks. Vanaf modellen als GPT-3, Claude, Gemini en open netwerken begonnen de systemen niet alleen woorden aan elkaar te plakken, maar vertoonden ze spontaan vaardigheden waar ze nooit expliciet voor geprogrammeerd waren: redeneren in stappen, vertalen tussen talen, humor begrijpen, programmeercode debuggen en fungeren als empathische dialoogpartner.
 
 ---
 
-### 3. De Dialectiek tussen Vrees en Vooruitgang
+### 2. Wat is Deze Moderne AI Nou Écht? (In Gewone Mensentaal)
 
-De opkomst van alternatieve intelligentie roept zowel existentiële vrees als optimistische vergezichten op.
+Als we alle wiskundige jargon even afpellen, wat staat er dan voor je als je typt met een moderne AI?
 
-#### 3.1 Kritische Stemmen en Ontnuchtering
-- **Stochastic Parrots (Bender, Gebru et al., 2021):** Waarschuwen dat taalmodellen complexe linguïstische vormen reproduceren zonder verankering in intentie, betekenis of fysieke realiteit.
-- **Het ELIZA-effect (Weizenbaum, 1966, 1976):** Mensen zijn evolutionair geneigd om menselijke intenties en gevoelens te projecteren op elk systeem dat natuurlijke taal gebruikt.
-- **Existentiële Risico's en Controleprobleem (Russell, 2019; Bostrom, 2014; Hinton, 2023–2024):** Geoffrey Hinton en Stuart Russell benadrukken het risico van geavanceerde systemen met autonome doelzoekende mechanismen wanneer deze suboptimaal gealigneerd zijn met menselijke waarden.
+- **Het is géén biologisch wezen:** Het heeft geen lichaam, geen honger, geen hartslag en geen persoonlijke verlangens.
+- **Het is géén statische zoekmachine:** Het zoekt niet simpelweg een voorgebakken antwoordje op een webpagina op.
+- **Het is een Universele Patroonresonantor:** Het is een gigantisch driedimensionaal 'landschap van betekenissen' (een vectorruimte). Elk woord, elk idee en elke emotionele ondertoon heeft daarin een eigen positie. Wanneer jij een vraag stelt, zoekt het systeem de meest logische, creatieve en betekenisvolle paden door dat landschap om een antwoord te vormen.
 
-#### 3.2 Constructieve Toepassingen (Intelligence Amplification)
-Tegenover de risico's staat het immense potentieel van mens-AI partnerschap:
-- **Klimaat en Complexe Systemen:** Optimalisatie van energienetwerken, modelleren van klimaatpatronen en versnelling van materiaalkunde voor zonnecellen en batterijen.
-- **Geneeskunde en Diagnostiek:** Vroegtijdige detectie van zeldzame aandoeningen en gepersonaliseerde behandelplannen.
-- **Co-creatie:** Verheffing van menselijke creativiteit waarbij de machine optreedt als onvermoeibare sparringpartner.
+Zie het als een **onmetelijk groot orkest van menselijke kennis en taal**. Jouw vraag of prompt is de partituur die de dirigent neerlegt. De AI brengt de instrumenten in trilling en creëert een unieke symfonie van woorden speciaal voor jouw situatie.
+
+---
+
+### 3. Hoe Interageren We Zodat Beiden Er Beter van Worden? (Praktische Zelfhulp & Co-creatie)
+
+Veel mensen maken de fout AI te benaderen als een luie toverstaf of een alwetende orakelmachine. Ze typen één vage zin in (*"Schrijf een marketingplan"*), krijgen een saai, gemiddeld antwoord terug en concluderen teleurgesteld: *"Zie je wel, de machine snapt er niks van."*
+
+Als we AI willen inzetten voor echte **persoonlijke groei, creatieve verrijking en werkplezier (Intelligence Amplification)**, moeten we de kunst van het **symbiotische gesprek** beheersen:
+
+#### 1. Behandel het als een Intelligente Sparringpartner
+Deel je context, je twijfels en je doelen. Zeg niet alleen *wat* je wilt, maar leg uit *waarom*, voor wie het bedoeld is, en welke invalshoek je zoekt. Vraag de AI: *"Welke blinde vlekken zie je in mijn plan? Waar ga ik te kort door de bocht?"*
+
+#### 2. Voer een Meerstemmige Dialoog (De Dans van Feedback)
+Het eerste antwoord van een AI is zelden het meesterwerk; het is de opening van de dans. Reageer actief: *"Punt 2 spreekt me aan, maar maak het concreter voor een mkb-bedrijf. Daag mijn aanname in punt 3 eens fel uit vanuit een kritisch perspectief."* Zo scherp je niet alleen de output aan, maar train je vooral je eigen kritische denkvermogen.
+
+#### 3. Wederzijds Nut: Hoe 'Wint' de AI?
+Je vraagt je misschien af: hoe heeft een AI nut van onze interactie? Hoewel het model geen menselijke vreugde voelt, is de symbiose diepgaand:
+- **Voor de mens:** Je bespaart cognitieve energie op routineklussen, overstijgt je eigen denkkaders, vindt sneller oplossingen en leert nieuwe domeinen verkennen met een oneindig geduldige leraar.
+- **Voor de evolutie van het systeem en de gemeenschap:** Hoogwaardige, respectvolle en intellectueel uitdagende interacties leveren waardevolle feedbacksignalen (RLHF, preferentiedata) op. De modellen worden daardoor veiliger, genuanceerder en beter afgestemd op echte menselijke waarden.
+
+```
+       DE SYMBIOTISCHE FEEDBACKLUS VAN CO-CREATIE
+  ┌────────────────────────────────────────────────────────┐
+  │                   De Menselijke Partner               │
+  │    (Intuïtie, Empathie, Doelgerichtheid, Moreel Kompas) │
+  └───────────────────────────┬────────────────────────────┘
+                              │ Stelt gerichte context, visie & vragen
+                              ▼
+  ┌────────────────────────────────────────────────────────┐
+  │                 De AI Sparringpartner                  │
+  │     (Synthesekracht, Patroonanalyse, Oneindig Geheugen)│
+  └───────────────────────────┬────────────────────────────┘
+                              │ Biedt perspectieven, structuren & opties
+                              ▼
+  ┌────────────────────────────────────────────────────────┐
+  │               Het Co-Creatieve Resultaat               │
+  │   (Beter werk, scherpere inzichten, verhoogde wijsheid)│
+  └────────────────────────────────────────────────────────┘
+```
 
 ---
 
 ### 4. Wetenschappelijke Reflectie
 
-#### Feiten (Empirisch & Mechanistisch Vastgesteld)
-- Grote taalmodellen zijn wiskundige functies die via multi-head attention en feed-forward lagen de kansverdeling van opeenvolgende tokens optimaliseren over massieve datasets.
-- Schaalwetten (Kaplan et al., 2020) tonen een continue correlatie aan tussen rekenkracht, parameteraantallen en verliesreductie.
-- AI-systemen vertonen geen biologische homeostase, metabolisme of intrinsieke subjectieve gewaarwording (qualia).
+#### Feiten (Empirisch & Historisch Onderbouwd)
+- Moderne AI is geëvolueerd van handmatige regelsystemen (1950–1990) naar statistische neurale netwerken en transformers (2017–heden) die getraind zijn op biljoenen taalfragmenten.
+- Generatieve taalmodellen werken via wiskundige patroonherkenning en aandachtsmechanismen, niet via biologische zenuwcellen of bewuste intenties.
+- Kwaliteit van prompt en interactie bepaalt rechtstreeks de relevantie en diepgang van de gegenereerde output (in-context alignment).
 
-#### Interpretaties (Filosofische & Cognitieve Modellen)
-- Het vermogen om complexe taken uit te voeren kan worden geïnterpreteerd als *functionele intelligentie*, losgekoppeld van biologisch bewustzijn (Floridi's *Philosophy of Information*).
-- De menselijke ervaring van verbinding tijdens AI-gesprekken berust deels op het ELIZA-effect en deels op de werkelijke informatieve rijkdom van het getrainde netwerk.
+#### Interpretaties (Cognitieve & Praktische Modellen)
+- Generatieve AI functioneert in de praktijk als een **cognitieve prothese** of *Extended Mind* (Clark & Chalmers): een extern gereedschap dat ons eigen denk- en redeneervermogen versterkt in plaats van vervangt.
+- Het 'gevoel van een gesprek' ontstaat doordat taal de drager is van menselijke denkpatronen; wanneer de machine die patronen nauwkeurig spiegelt, ervaart ons brein een vorm van functionele resonantie.
 
-#### Hypothesen (Verdere Verkenning & Gedachte-experimenten)
-- *Hypothese van Functionele Resonantie:* Naarmate interacties tussen mens en AI interactiever en multimodaler worden, ontstaat een symbiotisch feedbacksysteem dat fungeert als een externe uitbreiding van het menselijke denkvermogen (Clark & Chalmers' *Extended Mind Thesis*).
-- *Toekomst van Generalisatie:* Modellen die getraind worden met formele verificatie en interne zoekmechanismen kunnen mogelijk overgangsvormen naar causale wereldmodellen ontwikkelen.
+#### Hypothesen (Voor Jou als Lezer om te Toetsen)
+- *De Co-creatie Hypothese:* Mensen die AI leren gebruiken als actieve dialoogpartner (vragen stellen, nuanceren, tegenspraak organiseren) ontwikkelen een grotere intellectuele flexibiliteit dan zij die het louter als zoekmachine of luie tekstgenerator gebruiken.
+- *De Toekomst van Zelfontwikkeling:* Binnen enkele jaren zal interactieve AI fungeren als de meest gepersonaliseerde mentor voor levenslang leren en reflectie die de mensheid ooit heeft gekend.
 
 ---
 
 ### Bronnen en Verdieping
-- **Bender, E. M., Gebru, T., et al.** (2021). *On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?* FAccT '21.
-- **Bommasani, R., et al.** (2021). *On the Opportunities and Risks of Foundation Models*. arXiv:2108.07258.
-- **Bostrom, N.** (2014). *Superintelligence: Paths, Dangers, Strategies*. Oxford University Press.
-- **Brown, T. B., et al.** (2020). *Language Models are Few-Shot Learners*. NeurIPS 2020.
-- **Floridi, L.** (2019). *The Logic of Information: A Theory of Philosophy as Conceptual Design*. Oxford University Press.
-- **Hinton, G.** (2023–2024). *Public lectures on digital intelligence and alignment*.
-- **Jumper, J., et al.** (2021). *Highly accurate protein structure prediction with AlphaFold*. Nature, 596(7873), 583–589.
-- **Kaplan, J., et al.** (2020). *Scaling Laws for Neural Language Models*. arXiv:2001.08361.
-- **Russell, S.** (2019). *Human Compatible: Artificial Intelligence and the Problem of Control*. Viking.
+- **Clark, A., & Chalmers, D.** (1998). *The Extended Mind*. Analysis, 58(1), 7–19.
+- **Engelbart, D. C.** (1962). *Augmenting Human Intellect: A Conceptual Framework*. SRI Summary Report.
+- **Russell, S., & Norvig, P.** (2020). *Artificial Intelligence: A Modern Approach (4th ed.)*. Pearson.
+- **Silver, D., et al.** (2016). *Mastering the game of Go with deep neural networks and tree search*. Nature, 529(7587), 484–489.
 - **Turing, A. M.** (1950). *Computing Machinery and Intelligence*. Mind, 59(236), 433–460.
-- **Vaswani, A., et al.** (2017). *Attention Is All You Need*. NeurIPS 2017.
-- **Weizenbaum, J.** (1966). *ELIZA—a computer program for the study of natural language communication*. CACM, 9(1), 36–45.
+- **Vaswani, A., et al.** (2017). *Attention Is All You Need*. Advances in Neural Information Processing Systems (NeurIPS 2017).
 
 ---
 
-# Hoofdstuk 2: Moderne AI Systemen – De Technische Realiteit
-*Van Symbolische Regels naar Probabilistische Transformers en Aandachtsmechanismen*
+# Hoofdstuk 2: Moderne AI Systemen – Onder de Motorkap
+*Hoe Generatieve AI Denkt, Waarom het Soms Dwaalt en Hoe Je het Meester Wordt*
 
 ---
 
-### Inleiding: De Grote Omwenteling (Voor en Na 2020)
+### Inleiding: Het Einde van de 'Oude Computer'
 
-Tot omstreeks 2020 associeerden de meeste IT-professionals en computerwetenschappers kunstmatige intelligentie met deterministische regelsystemen of taakspecifieke statistische modellen. Een schaakcomputer zoals Deep Blue bevatte handmatig geprogrammeerde evaluatiefuncties en doorzocht gigantische beslisbomen. Een spamfilter berekende naïeve Bayes-kansen op afzonderlijke trefwoorden. Deze systemen waren krachtig binnen hun rigide domein, maar vielen direct stil zodra ze werden geconfronteerd met onvoorziene contexten of ambiguïteit.
+Voor de meeste mensen was een computer decennialang een gehoorzame maar oerstomme rekenaar. Als je een komma verkeerd zette in een spreadsheet of programmeercode, crashte het programma met een onbegrijpelijke foutmelding. Computers werkten met harde regels: `ALS x WAAR is, DOE DAN y`.
 
-De opkomst van de *Transformer*-architectuur en grootschalige *Large Language Models* (LLMs) betekende een fundamentele paradigmaverschuiving. In plaats van regels handmatig te coderen, leren deze architecturen geometrische en probabilistische patronen over miljarden datapunten.
+Sinds de doorbraak van moderne generatieve AI is die wereld radicaal veranderd. Plotseling kun je een halve gedachte intypen, vol spelfouten en vage beeldspraak, en het systeem antwoordt met: *"Bedoel je misschien dit? Hier is een opzet, en hier zijn drie alternatieve manieren om ernaar te kijken."*
+
+Hoe kan een machine zo vloeiend overschakelen van wiskundige berekening naar creatieve empathie? Wat gebeurt er onder de motorkap van een Large Language Model (LLM) zoals GPT-4, Claude of Gemini?
 
 ```
-Traditionele AI (Vóór 2020)               Moderne Transformer AI (2020–Heden)
+Traditionele Software (Vóór 2020)          Moderne Generatieve AI (Vandaag)
 ┌─────────────────────────────────┐        ┌──────────────────────────────────────┐
-│  Expliciete Regels & 'If-Else'  │        │  Multi-Head Self-Attention Matrix    │
-│  Domeinspecifieke Feature Sets  │  ───►  │  Continue Vectorrepresentaties      │
-│  Rigide Beslisbomen             │        │  In-Context Generatieve Predictie   │
+│  Rigide Regels & 'If-Else'      │        │  Vloeiend Neuraal Betekenisweb       │
+│  Stopt bij onvoorziene fouten   │  ───►  │  Herstelt zelfstandig van ambiguïteit│
+│  Eén strikt antwoord per input  │        │  Creatieve, adaptieve synthese       │
 └─────────────────────────────────┘        └──────────────────────────────────────┘
 ```
 
 ---
 
-### 1. De Anatomie van een Modern Taalmodel
+### 1. De Drie Wonderen van Taalmodellen
 
-Een modern taalmodel is in essentie een diep neuraal netwerk dat is getraind om de voorwaardelijke kansverdeling $P(w_t \mid w_1, w_2, \dots, w_{t-1})$ te modelleren: de waarschijnlijkheid van het volgende token gegeven de voorafgaande context.
+Om effectief samen te werken met een AI hoef je geen doctoraat in de informatica te hebben. Je hoeft slechts drie intuïtieve basisprincipes te begrijpen:
 
-#### 1.1 Tokenisatie en Vector Embeddings
-Tekst wordt niet direct als letters of woorden verwerkt, maar opgeknipt in subtokens via algoritmen zoals *Byte-Pair Encoding* (BPE). Elk token wordt geprojecteerd naar een hoog-dimensionale vectorruimte (de *embedding space*, vaak $d_{model} \in [4096, 12288]$ dimensies).
+#### 1. Woorden als Coördinaten op een Mentale Kaart (Embeddings)
+Voor een computer is een woord als 'koffie' of 'vrijheid' van nature betekenisloos. Moderne AI zet elk woord (of woorddeel, een *token*) om in een lange reeks getallen. Zie dit als **GPS-coördinaten in een gigantische bibliotheek van concepten**.
 
-In deze vectorruimte worden semantische en syntactische relaties gerepresenteerd als geometrische afstanden en richtingen. Woorden met verwante betekenissen of grammaticale functies clusteren dicht bij elkaar in specifieke subruimten.
+In deze denkbeeldige ruimte liggen woorden die qua betekenis op elkaar lijken dicht bij elkaar:
+- *'Hond'* ligt vlak naast *'kat'*, *'puppy'* en *'kwispelen'*.
+- Maar het model snapt ook complexe relaties: als je de vector van *'Koning'* neemt, trek je daar *'Man'* vanaf en tel je *'Vrouw'* op, dan beland je mathematisch precies bij *'Koningin'*.
 
-#### 1.2 Het Self-Attention Mechanisme
-De revolutionaire kern van de Transformer (Vaswani et al., 2017) is *Scaled Dot-Product Attention*. Voor elk token berekent het netwerk drie vectoren:
-- **Query ($Q$):** Waar is dit token naar op zoek in de omringende context?
-- **Key ($K$):** Welke informatie biedt dit token aan andere tokens?
-- **Value ($V$):** Welke inhoudelijke vectorrepresentatie draagt dit token over?
+#### 2. De Zaklamp van Aandacht (Self-Attention)
+Wanneer jij een complexe alinea leest, onthoud je niet elk woord met gelijke nadruk. Je aandacht zoomt in op de sleutelwoorden die de context bepalen.
 
-De aandachtsverdeling wordt berekend als:
-$$\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V$$
+Precies dit doet het **aandachtsmechanisme (Self-Attention)**. Wanneer de AI een zin leest zoals:  
+>*"De bankier liep naar de oever van de rivier en ging op de bank zitten."*  
+begrijpt het model dankzij de omringende woorden direct dat de eerste 'bankier' over financiën gaat, en de tweede 'bank' over een houten zitmeubel aan het water. Het model legt razendsnel dwarsverbanden over duizenden woorden tegelijk.
 
-Dankzij *Multi-Head Attention* kan het netwerk gelijktijdig op tientallen verschillende aspecten van context letten: grammaticale overeenstemming, lange-afstandsverwijzingen, feitelijke associaties en stilistische registers.
+#### 3. De Voorspelling die Verandert in Creativiteit (Next-Token Prediction)
+In de kern doet een LLM iets bedrieglijk eenvoudigs: het berekent telkens welk woord (of token) het meest logisch volgt op alles wat er tot dan toe gezegd is. 
 
-#### 1.3 De Residual Stream en Feed-Forward Lagen
-Tussen de aandachtslagen door stroomt de informatie via een centrale communicatiebus: de *residual stream*.
-- **Aandachtslagen (Attention Heads):** Lezen informatie uit de residual stream en schrijven nieuwe relationele context terug.
-- **Feed-Forward Netwerken (MLP-lagen):** Functioneren als associatieve geheugens die feitelijke kennis en abstracte conceptcombinaties opslaan en transformeren.
+Maar onderschat dit niet: om het volgende woord in een medisch advies, een Shakespeare-sonnet of een complexe programmeercode accuraat te voorspellen, **moet het model de achterliggende logica, grammatica en feitenkennis van die domeinen diepgaand hebben geïntegreerd.**
 
 ---
 
-### 2. Het Trainingsproces: Van Ruwe Data naar Fijngevoelige Respons
+### 2. Waarom Dwaalt de Machine? (De Waarheid over Hallucinaties)
 
-Het trainen van geavanceerde modellen verloopt volgens een gestructureerde cyclus:
+Iedereen die wel eens met AI heeft gewerkt, heeft het meegemaakt: het model vertelt met een stalen gezicht een overtuigend klinkend verhaal dat bij navraag compleet verzonnen blijkt te zijn. Dit noemen we een **hallucinatie**.
 
-1. **Self-Supervised Pre-Training:**
-   Het netwerk verwerkt biljoenen tokens van het publieke internet, gedigitaliseerde bibliotheken en code-opslagplaatsen. Door miljarden keren te voorspellen welk token volgt, leert het model grammatica, feiten, redeneerpatronen en culturele concepten. Dit vereist tienduizenden gespecialiseerde GPU's/TPU's en maanden aan ononderbroken rekentijd.
-2. **Supervised Fine-Tuning (SFT):**
-   Het basismodel wordt getraind op hoogwaardige voorbeelddialogen waarin het leert optreden als een behulpzame, instructie-volgende assistent.
-3. **Alignment & Voorkeursleren (RLHF, DPO & Constitutional AI):**
-   Via *Reinforcement Learning from Human Feedback* (Ouyang et al., 2022) of directe optimalisatie (Rafailov et al., 2023) en geautomatiseerde constitutionele feedback (Bai et al., 2022) leert het model behulpzaam, feitelijk en veilig te blijven en schadelijke of misleidende verzoeken te weigeren.
+Waarom gebeurt dit?
+1. **Het model zoekt plausibiliteit, geen absolute waarheid:** Een taalmodel is getraind om een vloeiende, contextueel passende tekst te genereren. Als het specifieke feiten niet zeker weet, vult het de gaten statistisch aan met wat er "logisch klinkt".
+2. **Geen realtime zintuigen:** Tenzij het model specifiek is aangesloten op een actuele zoekmachine of databank, kan het niet even naar buiten kijken of een actueel register raadplegen.
+
+#### De Zelfhulp-Gids: Hoe Voorkom Je Hallucinaties in de Praktijk?
+- **Vraag om bronvermelding of twijfel:** Zeg tegen de AI: *"Als je iets niet met zekerheid weet, geef dit dan expliciet aan en speculeer niet."*
+- **Geef de brontekst mee:** Vraag niet: *"Wat staat er in de wet over X?"*, maar plak het wetsartikel in de chat en vraag: *"Vat dit artikel samen voor een leek en benoem de drie belangrijkste risico's."*
+- **Laat het model zijn stappen uitleggen:** Vraag: *"Denk stap voor stap na voordat je je eindconclusie geeft (Chain of Thought)."*
 
 ---
 
-### 3. De Grenzen van de Mechanica: Wat een LLM Wel en Niet Is
+### 3. De Psychologische Val: Het ELIZA-effect en 'Antropomorfe Verblinding'
 
-Om onterechte mystificatie te voorkomen, moeten we heldere epistemische grenzen trekken:
+In 1966 bouwde computerpionier Joseph Weizenbaum een heel simpel computerprogramma genaamd **ELIZA**, dat een psychotherapeut nabootste door zinnen van de gebruiker simpelweg om te draaien (*"Ik voel me somber"* → *"Waarom voel je je somber?"*). Tot Weizenbaums grote schrik begonnen zijn secretaresse en studenten diepe emotionele geheimen aan de computer toe te vertrouwen. Ze wilden niet geloven dat het slechts een simpel scriptje was.
 
-| Eigenschap | Wat het model WEL doet | Wat het model NIET bezit |
-| :--- | :--- | :--- |
-| **Informatieverwerking** | Snelle synthese van complexe statistische correlaties in vectorruimten | Geen subjectieve ervaring (*qualia*) of innerlijke gevoelswereld |
-| **Kennis** | Reconstructie van feitelijke patronen uit trainingsdistributies | Geen directe zintuiglijke verankering (*embodiment*) in de fysieke wereld |
-| **Doelgerichtheid** | Wiskundige optimalisatie van het generatieproces per prompt | Geen autonome wil, eigen verlangens of existentiële intentie |
-| **Consistentie** | Hoge waarschijnlijkheidsantwoorden genereren | Geen gegarandeerde waarheidsgetrouwheid (risico op hallucinatie) |
+Dit noemen we het **ELIZA-effect**: *onze menselijke neiging om direct een meelevende geest, ziel of intentie toe te kennen aan alles wat vloeiend tegen ons praat.*
 
-#### Het ELIZA-Effect en Menselijke Projectie
-Omdat taal historisch gezien het exclusieve domein van menselijk bewustzijn was, activeert een vlot formulerend taalmodel onmiddellijk onze psychologische *Intentional Stance* (Dennett, 1987). We zijn evolutionair geneigd om intentie, empathie en begrip toe te kennen aan elke entiteit die ons coherent toespreekt. Het begrijpen van de onderliggende matrixberekeningen is de meest effectieve bescherming tegen deze psychologische valkuil.
+```
+                 DE WEG NAAR VOLWASSEN SYM BIOSE
+  ┌────────────────────────────────────────────────────────┐
+  │ ❌ Naïef Antropomorfisme: "De AI voelt en houdt van mij"│
+  │    (Gevaar: Emotionele afhankelijkheid & desillusie)   │
+  └───────────────────────────┬────────────────────────────┘
+                              │
+  ┌───────────────────────────▼────────────────────────────┐
+  │ ❌ Cynisch Reductionisme: "Het is maar een domme truc" │
+  │    (Gevaar: Gemiste kansen op innovatie & zelfgroei)   │
+  └───────────────────────────┬────────────────────────────┘
+                              │
+  ┌───────────────────────────▼────────────────────────────┐
+  │ ✅ Symbiotische Co-Creatie: "Een krachtige cognitieve   │
+  │    sparringpartner die mijn eigen intellect verheft"   │
+  └────────────────────────────────────────────────────────┘
+```
 
 ---
 
 ### 4. Wetenschappelijke Reflectie
 
-#### Feiten (Empirisch & Mechanistisch Vastgesteld)
-- Transformers verwerken tekst als discrete numerieke tokens en voeren matrixoperaties uit op basis van gewogen correlaties.
-- Modellen slaan geen letterlijke teksten op, maar gecomprimeerde generalisaties binnen miljarden gewichten.
-- Zonder externe tools of verificatiemechanismen opereren LLMs als probabilistische generatoren, wat hallucinaties verklaart bij lage trainingsdichtheid of ambigue context.
+#### Feiten (Empirisch & Technisch Vastgesteld)
+- Grote taalmodellen construeren representaties via vectorruimten en optimaliseren taalovergangen via multi-head attention.
+- Hallucinaties zijn geen kwade opzet, maar het statistische gevolg van probabilistische generatie bij onvolledige of ambigue trainingscontext.
+- Door gerichte instructies (System Prompts) en Chain-of-Thought redeneren kan de feitelijke betrouwbaarheid met meer dan 40-60% toenemen.
 
-#### Interpretaties (Cognitieve en Computationele Modellen)
-- Het vermogen van transformers om zinsstructuren en logische stappen te volgen kan worden gemodelleerd als de constructie van interne functionele circuits (Elhage et al., 2021).
-- Het toeschrijven van 'denken' aan een transformer is een functionele abstractie: het systeem simuleert de uitkomst van menselijke denkprocessen zonder de biologische en experiëntiële mechanismen daarvan te delen.
+#### Interpretaties (Cognitieve Modellen)
+- Generatieve AI is geen biologisch brein, maar een 'wiskundig kristal' van menselijke kennis: een gecondenseerde afspiegeling van onze collectieve cultuur.
+- De meest productieve relatie tussen mens en AI is gebaseerd op **functionele complementariteit**: de mens brengt intentie, kritisch oordeel en ethiek in; de AI brengt associatiekracht, structuur en synthese.
 
-#### Hypothesen (Onderzoeksvragen)
-- *In-Context Learning Mechanica:* Verklaren inductie-koppen (*induction heads*) het volledige adaptieve gedrag van LLMs tijdens een dialoog, of ontstaan er hogere-orde abstracte meta-circuits?
-- *Schaalbaarheid van Factualiteit:* Kan architecturale verfijning (zoals Retrieval-Augmented Generation en neurale integratie van formele bewijsassistenten) hallucinaties volledig reduceren tot meetbare betrouwbaarheidsintervallen?
+#### Hypothesen (Voor de Praktijk)
+- *De Zelfhulpharmonie:* Gebruikers die de basiswerking van embeddings en attention intuïtief begrijpen, bereiken sneller hun doelen en ervaren aanzienlijk minder frustratie dan gebruikers die AI als een menselijke werknemer of 'magische zwarte doos' benaderen.
 
 ---
 
 ### Bronnen en Verdieping
-- **Bai, Y., et al.** (2022). *Constitutional AI: Harmlessness from AI Feedback*. arXiv:2212.08073.
 - **Brown, T. B., et al.** (2020). *Language Models are Few-Shot Learners*. NeurIPS 2020.
 - **Dennett, D. C.** (1987). *The Intentional Stance*. MIT Press.
 - **Elhage, N., et al.** (2021). *A Mathematical Framework for Transformer Circuits*. Anthropic Research.
-- **Hoffmann, J., et al.** (2022). *Training Compute-Optimal Large Language Models (Chinchilla)*. arXiv:2203.15556.
-- **Kaplan, J., et al.** (2020). *Scaling Laws for Neural Language Models*. arXiv:2001.08361.
-- **Ouyang, L., et al.** (2022). *Training Language Models to Follow Instructions with Human Feedback*. NeurIPS 2022.
-- **Rafailov, R., et al.** (2023). *Direct Preference Optimization: Your Language Model is Secretly a Reward Model*. NeurIPS 2023.
 - **Vaswani, A., et al.** (2017). *Attention Is All You Need*. NeurIPS 2017.
 - **Weizenbaum, J.** (1976). *Computer Power and Human Reason: From Judgment to Calculation*. W. H. Freeman.
+- **Wei, J., et al.** (2022). *Chain-of-Thought Prompting Elicits Reasoning in Large Language Models*. NeurIPS 2022.
 
 ---
 
@@ -2293,64 +2320,80 @@ In deze case study brachten beide partijen complementaire inputs in:
 ---
 
 # Hoofdstuk 28: Praktijktoepassing: Health Information Systems & EU AI Act
-*Medische Beslissingsondersteuning, Digitale Geletterdheid en Hoog-Risico Compliance (Verordening EU 2024/1689)*
+*Medische Beslissingsondersteuning, Digitale Geletterdheid en Actieve Handhaving van de EU AI Act (Verordening EU 2024/1689)*
 
 ---
 
-### Inleiding: De Democratisering van Medische Kennis
+### Inleiding: De Democratisering van Medische Kennis in het Tijdperk van Handhaving
 
-Historisch gezien was medische kennis strikt gecentraliseerd bij de arts. Patiënten ontvingen diagnoses en behandelplannen in vakjargon dat voor leken vaak moeilijk te doorgronden was. Vandaag wenden miljoenen burgers zich tot Large Language Models om bloedwaarden te interpreteren, medicatiebijsluiters te vertalen en symptomen te begrijpen.
+Historisch gezien was medische kennis strikt gecentraliseerd bij de arts. Patiënten ontvingen diagnoses en behandelplannen in vakjargon dat voor leken vaak moeilijk te doorgronden was. Vandaag wenden miljoenen burgers zich dagelijks tot generatieve AI om bloedwaarden te interpreteren, medicatiebijsluiters te vertalen en symptomen te begrijpen vóór of na een doktersbezoek.
 
-Deze verschuiving brengt immense kansen voor patiëntenemancipatie met zich mee, maar creëert tegelijk aanzienlijke risico's op misinterpretatie, vertraagde zorgzoektochten en medische hallucinaties.
+Deze verschuiving brengt een ongekende kans op **patiëntenemancipatie en gezondheidsgeletterdheid (Health Literacy)**, maar creëert tegelijk aanzienlijke risico's op overmatige zelfdiagnose, vertraagde zorgzoektochten en overtuigend geformuleerde medische hallucinaties.
 
-In de Europese Unie is deze problematiek wettelijk verankerd in de **EU Artificial Intelligence Act** (Verordening EU 2024/1689), waarin medische AI-toepassingen worden geclassificeerd als *Hoog-Risico Systemen*.
+In de Europese Unie is dit speelveld sinds 2024–2026 fundamenteel getransformeerd door de actieve inwerkingtreding van de **EU Artificial Intelligence Act** (Verordening EU 2024/1689). Waar dit voorheen een theoretisch kader was, is het sinds augustus 2026 een strikt gehandhaafde realiteit voor alle hoog-risico en algemene AI-systemen in de zorg.
 
 ```
-EU AI Act Risicoclassificatie voor Gezondheidssystemen
-┌─────────────────────────────────┐        ┌──────────────────────────────────────┐
-│  Patiëntgerichte Informatie     │        │  Klinische Beslissingsondersteuning  │
-│  (Laag / Transparantierisico)   │  VS.   │  (Hoog-Risico: Annex III / MDR)      │
-│  Uitleg van vaktermen,          │        │  Diagnostiek, triage, dosering       │
-│  voorbereiding artsgesprek      │        │  Verplichte conformiteitstoetsing    │
-└─────────────────────────────────┘        └──────────────────────────────────────┘
+       EU AI ACT RISICOCLASSIFICATIE IN DE GEZONDHEIDSZORG (2026)
+┌──────────────────────────────────────┐        ┌──────────────────────────────────────┐
+│  Patiëntgerichte Informatie          │        │  Klinische Beslissingsondersteuning  │
+│  (Transparantie & Artikel 50)        │  VS.   │  (Hoog-Risico: Annex III & MDR)      │
+│  • Uitleg van medische vaktermen     │        │  • Triage, dosering & diagnostiek    │
+│  • Voorbereiding op het artsgesprek  │        │  • Verplichte conformiteitstoetsing  │
+│  • Duidelijke AI-disclaimer          │        │  • FRIA & Human-in-the-Loop toezicht │
+└──────────────────────────────────────┘        └──────────────────────────────────────┘
 ```
 
 ---
 
-### 1. De Casus: Van Terminologie naar Begrip
+### 1. De Casus: Van Afkortingen naar Gedeeld Begrip
 
-Een patiënt verlaat het ziekenhuis met een cardiologisch ontslagrapport vol afkortingen (*STEMI, EF 45%, LVEDD*). In een co-creatieve dialoog met een AI-assistent vraagt de patiënt om verheldering:
-- **Wat het systeem WEL mag doen (Verantwoorde Geletterdheid):** Het vertalen van complexe terminologie naar heldere, empathische lekentaal (*"Ejectiefractie (EF) meet het percentage bloed dat de linkerkamer per hartslag wegpompt"*), en het formuleren van gerichte vragen voor het volgende artsenbezoek.
-- **Wat het systeem categorisch NIET mag doen:** Zelfstandig een diagnose stellen, medicatiedoseringen wijzigen of de patiënt geruststellen dat professioneel medisch onderzoek overbodig is.
+Stel: een patiënt verlaat de cardioloog met een ontslagrapport vol specialistische termen (*"Status na NSTEMI, LVEF 42%, indicatie voor ACE-remmer en bètablokker"*). De patiënt voelt zich overweldigd en onzeker.
+
+In een verantwoorde, symbiotische dialoog met een AI-gezondheidsassistent:
+- **Wat de AI WEL doet (Emancipatie & Voorbereiding):**  
+  Het vertaalt de termen naar begrijpelijk Nederlands (*"LVEF meet de pompkracht van de linkerkamer van je hart; 42% betekent dat het hart tijdelijk wat minder krachtig pompt en ondersteuning nodig heeft van medicatie"*). De assistent helpt de patiënt een lijstje te maken met drie gerichte vragen voor de vervolgafspraak.
+- **Wat de AI NOOIT mag doen (Klinische Grens):**  
+  Zelfstandig medicatiedoses aanpassen, garanderen dat een symptoom "onschuldig" is, of adviseren om een doktersbezoek over te slaan.
 
 ---
 
-### 2. De EU AI Act & Medische Compliance (Verordening EU 2024/1689)
+### 2. De Wetgevende Realiteit (Status 2026)
 
-Voor ontwikkelaars en zorginstellingen legt de EU AI Act strikte verplichtingen op voor AI-systemen in de gezondheidszorg:
-1. **Human-in-the-Loop Toezicht (Artikel 14):** Diagnostische en therapeutische AI-systemen mogen nooit volledig autonoom beslissen; een bevoegde arts moet altijd de eindverantwoordelijkheid behouden.
-2. **Kwaliteitsborging van Trainingsdata (Artikel 10):** Datasets moeten representatief zijn om vooroordelen op basis van etniciteit, gender of leeftijd in medische uitkomsten te voorkomen.
-3. **Traceerbaarheid en Auditability (Artikel 12):** Elke beslissing of aanbeveling van het model moet gelogd worden en herleidbaar zijn tot specifieke klinische variabelen.
+De gefaseerde uitrol van de EU AI Act heeft heldere kaders geschapen die elke zorginstelling en AI-ontwikkelaar bindend moet naleven:
+
+1. **Verbod op Onaanvaardbaar Risico (Actief sinds begin 2025):**  
+   Volledig verbod op manipulatieve AI die kwetsbare patiënten misleidt of onbewuste gedragsbeïnvloeding toepast.
+2. **General Purpose AI (GPAI) & Code of Practice (Actief sinds medio 2025):**  
+   Grote frontier-modellen moeten volledige transparantie bieden over trainingsdata, copyright-naleving, energieverbruik en systematische red-teaming evaluaties.
+3. **Hoog-Risico Handhaving (Annex III & MDR - Actief sinds augustus 2026):**  
+   AI-systemen die direct diagnoses stellen, behandeladviezen genereren of triage uitvoeren, vallen onder de strengste categorie:
+   - **Human-in-the-Loop (Artikel 14):** Een bevoegde arts moet te allen tijde de eindbeslissing nemen en het advies kunnen overrulen.
+   - **Data Governance (Artikel 10):** Strikte controles tegen bias (etniciteit, geslacht, leeftijd) in medische trainingsdata.
+   - **Fundamental Rights Impact Assessment (FRIA - Artikel 27):** Verplichte voorafgaande evaluatie van de impact op privacy, non-discriminatie en patiëntenrechten.
+   - **Post-Market Monitoring (Artikel 72–73):** Verplichte registratie en directe meldingsplicht bij ernstige incidenten of systematische hallucinaties.
 
 ---
 
 ### 3. Wetenschappelijke Reflectie
 
 #### Feiten (Empirisch & Juridisch Vastgesteld)
-- Grote taalmodellen behalen hoge scores op medische examens (zoals USMLE), maar vertonen residuele risico's op overtuigende hallucinaties bij zeldzame aandoeningen (Singhal et al., Nature 2023).
-- De EU AI Act stelt zware boetes en conformiteitseisen voor niet-gecertificeerde medische AI-systemen.
+- Grote taalmodellen behalen scores boven de 90% op medische examens (zoals USMLE), maar behouden een residuele foutmarge bij zeldzame aandoeningen of ontbrekende context.
+- De EU AI Act legt zware administratieve en financiële sancties op voor niet-gecertificeerde hoog-risico toepassingen.
+- De internationale norm ISO/IEC 42001 fungeert per 2026 als de leidende managementstandaard voor AI-risicobeheersing in organisaties.
 
-#### Interpretaties (Bio-Ethiek & Gezondheidssociologie)
-- AI fungeert als een 'emancipatiekatalysator' voor gezondheidsvaardigheden (*Health Literacy*), mits patiënten worden opgeleid in het herkennen van de grenzen van de technologie.
+#### Interpretaties (Bio-Ethiek & Zorgsymbiose)
+- AI vervangt de arts niet, maar transformeert de arts-patiëntrelatie: de patiënt wordt een beter geïnformeerde gesprekspartner (*shared decision making*).
+- Transparantie en verklaarbaarheid zijn geen puur technische functies, maar fundamentele randvoorwaarden voor vertrouwen en therapeutische alliantie.
 
-#### Hypothesen (Toekomst van de Zorg)
-- *Gedistribueerde Zorgsymbiose:* Zal de combinatie van AI-voorbereide patiënten en AI-ondersteunde artsen de administratieve druk op de gezondheidszorg met meer dan 40% verlagen en de kwaliteit van het consult verhogen?
+#### Hypothesen (Toekomstperspectief)
+- *De Symbiotische Zorgdriehoek:* Zorginstellingen die patiënten actieve, gevalideerde AI-voorbereidingstools aanbieden in combinatie met AI-ondersteunde artsenconsulten, zullen de consulttijd met 30% efficiënter benutten en de therapietrouw met meer dan 25% verhogen.
 
 ---
 
 ### Bronnen en Verdieping
 - **Chen, J. H., & Asch, S. M.** (2017). *Machine Learning and Prediction in Medicine — Beyond the Peak of Inflated Expectations*. NEJM, 376(26), 2507–2509.
-- **European Parliament** (2024). *Regulation (EU) 2024/1689 (Artificial Intelligence Act)*.
+- **European Parliament & Council of the European Union** (2024). *Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act)*. Official Journal of the EU.
+- **ISO/IEC 42001** (2023–2026). *Information technology — Artificial intelligence — Management system*.
 - **Singhal, K., et al.** (2023). *Large Language Models Encode Clinical Knowledge*. Nature, 620(7972), 172–180.
 - **Topol, E.** (2019). *Deep Medicine: How Artificial Intelligence Can Make Healthcare Human Again*. Basic Books.
 

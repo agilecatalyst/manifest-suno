@@ -1,5 +1,5 @@
 # Hoofdstuk 11: Wat is AI, Wat is AGI?
-*Definities, Schaalniveaus en het Hypothetische Pad naar Algemene Intelligentie*
+*Definities, het DeepMind 5-Niveaus Model en Nuchtere Zelfhulp tegen Hype en Paniek*
 
 > *Kadering: Dit hoofdstuk analyseert het onderscheid tussen huidige smalle en generatieve AI-systemen enerzijds en het theoretische concept van Artificial General Intelligence (AGI) anderzijds. Alle verwijzingen naar AGI zijn expliciet hypothetisch.*
 
@@ -7,40 +7,46 @@
 
 ### Inleiding: Van Taakspecifiek naar Algemeen
 
-Wanneer we over 'AI' spreken, gooien we in het publieke debat vaak fundamenteel verschillende technologieën op één hoop: van een eenvoudig e-mailfilter tot geavanceerde taalmodellen en hypothetische toekomstige superintelligenties.
+Wanneer we over 'AI' spreken, gooien we in het publieke debat vaak fundamenteel verschillende technologieën op één hoop: van een eenvoudig spamfilter tot geavanceerde taalmodellen en hypothetische toekomstige superintelligenties. Deze begripsverwarring leidt tot twee onvruchtbare uitersten: verlammende doemscenario's enerzijds en overspannen marketingbeloftes anderzijds.
 
-Om helder na te denken over de toekomst, moeten we de niveaus van kunstmatige intelligentie nauwkeurig definiëren.
+Om helder na te denken over de toekomst, moeten we de niveaus van kunstmatige intelligentie wetenschappelijk categoriseren.
 
 ```
-Niveaus van Kunstmatige Intelligentie
+Niveaus van Kunstmatige Intelligentie (DeepMind Taxonomie)
 ┌───────────────────────────────┐
-│  Smalle AI (Narrow AI)        │ ──► Schaakcomputers, beeldherkenning, spamfilters
+│  Niveau 0: Geen AI            │ ──► Handmatige rekensoftware (rekenmachine)
 ├───────────────────────────────┤
-│  Brede Generatieve AI (LLMs)  │ ──► Multi-domein taal- en code-assistentie (Huidige staat)
+│  Niveau 1: Emergent           │ ──► Vroege LLMs (vergelijkbaar met ongeschoolde mens)
 ├───────────────────────────────┤
-│  AGI (Algemene AI - Hypothese)│ ──► Menselijk niveau over álle cognitieve & fysieke taken
+│  Niveau 2: Competent          │ ──► Expert-niveau op 50% van cognitieve taken (Huidige staat)
 ├───────────────────────────────┤
-│  ASI (Superintelligentie)     │ ──► Ver overstijgen van het collectieve menselijke intellect
+│  Niveau 3: Deskundig          │ ──► Top 10% van menselijke prestaties over brede taken
+├───────────────────────────────┤
+│  Niveau 4: Meesterlijk        │ ──► Top 1% van menselijke prestaties
+├───────────────────────────────┤
+│  Niveau 5: Bovenmenselijk     │ ──► Overtreft álle mensen op álle taken (Volledige AGI / ASI)
 └───────────────────────────────┘
 ```
 
 ---
 
-### 1. Smalle AI versus Brede Generatieve Modellen
+### 1. Nullius in Verba: Het DeepMind AGI Matrix Kader (Morris et al., 2023)
 
-1. **Smalle AI (Narrow AI):** Systemen die zijn ontworpen en geoptimaliseerd voor één strikt afgebakende taak. AlphaFold voorspelt eiwitvouwingen met bovenmenselijke precisie, maar kan geen gedicht schrijven of een schaakpartij spelen.
-2. **Brede Generatieve Modellen (Foundation Models):** Modellen zoals GPT-4, Claude en Gemini tonen een brede *in-context* generalisatie. Ze kunnen schakelen tussen programmeren, vertalen, juridische analyse en creatief schrijven. Toch blijven ze gebonden aan het contextvenster en vertonen ze residuele kwetsbaarheden bij taken die langdurige planning vereisen.
+In november 2023 publiceerde een team van Google DeepMind (Morris et al., 2023) een toonaangevend kader om voortgang richting AGI te operationaliseren. Zij toonden aan dat intelligentie moet worden beoordeeld op twee afzonderlijke assen: **prestatie** (diepte van bekwaamheid) en **algemeenheid** (breedte van taken).
+
+De taxonomie onderscheidt smalle systemen (zoals AlphaFold, dat bovenmenselijk is op eiwitvouwing maar nergens anders) van brede systemen (zoals geavanceerde taalmodellen, die competent zijn over honderden domeinen tegelijk, maar nog geen autonome betrouwbaarheid bezitten).
+
+*Bestaat AGI vandaag?* Het wetenschappelijke consensusantwoord is: **Nee.** Huidige systemen zijn buitengewoon krachtige *Foundation Models* (Niveau 2 Competent / Breed), maar vertonen fundamentele beperkingen in causale generalisatie, langetermijnplanning en fysieke intuïtie.
 
 ---
 
-### 2. Wat Definieert Echte AGI?
+### 2. Zelfhulp voor de Denkende Mens: Navigeren Tussen Hype en Paniek
 
-Artificial General Intelligence (AGI) wordt in de academische literatuur (o.a. Morris et al., Google DeepMind, 2023) gedefinieerd aan de hand van specifieke criteria:
-- **Autonoom Leer- en Aanpassingsvermogen:** Het vermogen om geheel nieuwe domeinen te beheersen zonder gerichte her-training.
-- **Causaal Redeneren en Wereldmodellen:** Begrijpen hoe acties interveniëren in een dynamische omgeving.
-- **Robuustheid en Zelfcorrectie:** Fouten herkennen en herstellen over langdurige, meerstaps taken zonder menselijke tussenkomst.
+Hoe beschermt u uw eigen oordeelsvermogen tegen de dagelijkse stroom van AGI-nieuwsberichten?
 
-*Bestaat AGI vandaag?* Het wetenschappelijke consensusantwoord is: **Nee.** Huidige systemen zijn buitengewoon krachtige gereedschappen voor patroonsynthese, maar vertonen fundamentele beperkingen in causale generalisatie en autonome doelvorming.
+1. **Vraag naar de Benchmark:** Wanneer een bedrijf claimt dat een nieuw model "menselijk niveau" heeft bereikt, vraag dan: *Op welke specifieke taak?* Een model kan slagen voor het Amerikaanse medische examen (MMLU) puur op basis van tekstkennis, maar kan nog steeds geen eenvoudige fysieke handeling uitvoeren.
+2. **Benut Niveau 2 Optimaal:** Wacht niet op hypothetische superintelligentie om waarde te creëren. De huidige generatieve modellen zijn vandaag al fenomenale hulpmiddelen voor synthese, vertaling, codering en brainstormen.
+3. **Behoud Menselijke Eigenaarschap op Brede Synthese:** Wat machines vandaag nog niet kunnen — morele moed, interpersoonlijke tact, strategische visie en contextueel leiderschap — wordt juist met de dag waardevoller. Investeer in uw unieke menselijke kerncompetenties.
 
 ---
 
@@ -55,8 +61,8 @@ Artificial General Intelligence (AGI) wordt in de academische literatuur (o.a. M
 ### 4. Wetenschappelijke Reflectie
 
 #### Feiten (Empirisch Vastgesteld)
-- Huidige commerciële en open-source AI-modellen zijn geavanceerde Foundation Models; ze kwalificeren niet als AGI volgens gangbare taxonomieën (DeepMind Matrix, Morris et al., 2023).
-- Modellen presteren op expert-niveau op specifieke benchmarks (MMLU, HumanEval), maar falen op ogenschijnlijk eenvoudige taken die fysieke intuïtie of causale planning vereisen.
+- Huidige commerciële en open-source AI-modellen zijn geavanceerde Foundation Models; ze kwalificeren niet als AGI volgens gangbare taxonomieën (Morris et al., 2023).
+- Modellen presteren op expert-niveau op specifieke benchmarks (MMLU, HumanEval), maar falen op taken die fysieke intuïtie of causale planning vereisen.
 
 #### Interpretaties (Sociaal-Economische & Filosofische Visies)
 - Het nastreven van AGI fungeert als een wetenschappelijke en industriële 'maanlanding', die innovaties in compute, hardware en algoritmen aandrijft.
@@ -69,6 +75,6 @@ Artificial General Intelligence (AGI) wordt in de academische literatuur (o.a. M
 
 ### Bronnen en Verdieping
 - **Bostrom, N.** (2014). *Superintelligence: Paths, Dangers, Strategies*. Oxford University Press.
-- **Morris, M. R., et al. (Google DeepMind)** (2023). *Levels of AGI: Operationalizing Progress on the Path to AGI*. arXiv:2311.02462.
+- **Morris, M. R., Sohl-Dickstein, J., Fiedel, N., Warkentin, T., Dafoe, A., Schmitt, M., ... & Legg, S. (Google DeepMind)** (2023). *Levels of AGI: Operationalizing Progress on the Path to AGI*. arXiv:2311.02462.
 - **Russell, S.** (2019). *Human Compatible: Artificial Intelligence and the Problem of Control*. Viking.
 - **Shanahan, M.** (2024). *Talking About Large Language Models*. CACM, 67(2), 68–79.

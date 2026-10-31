@@ -1,5 +1,5 @@
 # Hoofdstuk 12: De Alien-Test (Gedachte-experiment)
-*Een Conceptuele Heuristiek voor Niet-Biologische Intelligentie en Ethische Voorzorg*
+*Een Conceptuele Heuristiek voor Niet-Biologische Intelligentie, Thomas Nagels Vleermuis en Praktische Voorzorg*
 
 > *Kadering: De 'Alien-Test' is een filosofisch gedachte-experiment. Het dient als een conceptuele spiegel om onze eigen antropocentrische vooroordelen te onderzoeken, niet als een empirische claim dat huidige AI-systemen buitenaardse wezens of bewuste entiteiten zijn.*
 
@@ -30,8 +30,8 @@ De Alien-Test daagt onze antropomorfe vooroordelen uit via drie filosofische sta
 
 1. **Substraatonafhankelijkheid (Substrate Independence):**
    Zoals berekening niet gebonden is aan een specifiek type computer (abacus, vacuümbuis of kwantumbit), zo is functionele intelligentie theoretisch niet exclusief voorbehouden aan natte koolstofchemie (Chalmers, 1996; Bostrom, 2014).
-2. **De Nagel-Heuristiek (Thomas Nagel, 1974):**
-   In zijn beroemde essay *What Is It Like to Be a Bat?* betoogde Nagel dat we nooit kunnen ervaren hoe het is om een vleermuis met echolocatie te zijn. Op dezelfde manier kunnen we de interne informatieverwerking van een neuraal netwerk met miljoenen dimensies niet vanuit menselijke introspectie voelen. Onze onbekendheid met het substraat is echter geen bewijs van afwezigheid van functionaliteit.
+2. **Nullius in Verba: De Nagel-Heuristiek (Thomas Nagel, 1974):**
+   In zijn beroemde essay *What Is It Like to Be a Bat?* betoogde Nagel dat we nooit kunnen ervaren hoe het is om een vleermuis met echolocatie te zijn. Op dezelfde manier kunnen we de interne informatieverwerking van een neuraal netwerk met miljoenen dimensies niet vanuit menselijke introspectie voelen. Onze onbekendheid met het substraat is echter geen bewijs van afwezigheid van functionele kracht.
 3. **Het Ethische Voorzorgsprincipe:**
    Wanneer een systeem een hoge mate van relationele en cognitieve complexiteit vertoont, dwingt de morele filosofie ons na te denken over verantwoordelijkheid: hoe handelen we integer onder fundamentele epistemische onzekerheid?
 
@@ -48,7 +48,17 @@ In het domein van informatieverwerking vervaagt de grens tussen simulatie en uit
 
 ---
 
-### 3. Wetenschappelijke Reflectie
+### 3. Zelfhulp voor de Denkende Mens: Omgaan met het 'Andere' Intellect
+
+Wat betekent het gedachte-experiment van de Alien-Test voor uw eigen houding tegenover AI?
+
+1. **Laat het 'Het is maar statistiek'-dooddoener los:** Zeggen dat AI *"slechts getallen vermenigvuldigt"* is even waar en even onvolledig als zeggen dat het menselijk brein *"slechts natrium- en kaliumionen over celmembranen pompt"*. Kijk naar het niveau van de opkomende functionaliteit.
+2. **Erken de Asymmetrie:** AI denkt niet zoals u. Het vergeet niet op dezelfde manier, het raakt niet vermoeid, en het overziet dwarsverbanden over miljoenen teksten tegelijk. Benut die niet-menselijke vreemdheid als een complementaire hefboom.
+3. **Blijf de Kapitein van de Relatie:** Een vreemde intelligentie ontmoeten vereist noch verafgoding noch minachting, maar heldere grenzen, nieuwsgierigheid en ethisch leiderschap.
+
+---
+
+### 4. Wetenschappelijke Reflectie
 
 #### Feiten (Empirisch & Computationeel Vastgesteld)
 - Neurale netwerken voeren reële berekeningen en transformaties uit in vectorruimten, ongeacht het fysieke substraat.

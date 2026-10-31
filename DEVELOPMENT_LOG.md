@@ -222,6 +222,18 @@ Complete harmonization, scientific re-calibration, narrative enrichment, and rew
 - **Epistemic Calibration:** Applied strict guidelines from `reworkonthesideofcaution.md` and research on anthropomorphism (ELIZA effect, intentional stance) across all chapters.
 - **Narrative Accessibility & Tone ("Wetenschappelijk Zelfhulpboek"):** Written as an engaging, light-to-read, yet scientifically rigorous thinking and self-discovery book for the thinking human (accessible for IQ 110). Balances historical wonder with practical co-creation principles.
 - **Historical Arc Restoration (Deel 0):** Restored the full epic history from Turing (1950) and Dartmouth (1956) through the AI winters, Deep Blue vs. Kasparov (1997), the deep learning renaissance, AlphaGo's historic *Move 37* (2016), to the Transformer revolution (2017–2026).
+- **Nullius in Verba Empirical Enrichments:** Integrated verifiable empirical experiments and scientific studies across all key chapters:
+  - *Othello-GPT Experiment (Li et al., 2023; Nanda, 2023)* in Chapter 3 (emergent world models without board rules).
+  - *Golden Gate Claude (Anthropic, Templeton et al., 2024)* in Chapter 4 (feature steering and sparse autoencoders).
+  - *Harvard/BCG Jagged Frontier Field Experiment (Dell'Acqua et al., 2023)* in Chapter 5 (Centaurs vs. Cyborgs and 40% quality gains).
+  - *Weizenbaum's Secretary Incident (1966) & Anthropomorphism Theory (Epley et al., 2007)* in Chapter 6.
+  - *Mary in the Black-and-White Room (Jackson, 1982)* in Chapter 7 (qualia vs data).
+  - *Kahneman's System 1 & 2 applied to Chain-of-Thought (Wei et al., 2022)* in Chapter 10.
+  - *DeepMind Levels of AGI Matrix (Morris et al., 2023)* in Chapter 11.
+  - *Nagel's Bat Heuristic (1974) & Simulator Theory (Shanahan, 2024)* in Chapter 12.
+  - *Geoffrey Hinton's Digital vs. Biological Computation Analysis (2023–2024)* in Chapter 16.
+  - *Ashby's Law of Requisite Variety (1956) & 4-Step Feedback Dance* in Chapter 20.
+  - *Context Hygiene & 'Schoon Schip' Technique* in Chapter 24.
 - **Co-Creation & Reciprocal Benefit (Intelligence Amplification):** Explicitly formulated *what modern generative AI is* (meaning landscape / vector space, attention flashlight, infinite orchestra) and *how humans and AI interact for mutual benefit* (active sparring partner, feedback dance, cognitive offloading + alignment signals).
 - **Mechanistic Interpretability Integration:** Integrated cutting-edge mechanistic interpretability research from Anthropic (Sparse Autoencoders, dictionary learning, monosemanticity, feature steering) and OpenAI (automated neuron explanations, sparse dictionary representations) in Deel 0 and Deel 1.
 - **Scientific Reflection Sections:** Standardized "Wetenschappelijke Reflectie" blocks (Feiten, Interpretaties, Hypothesen) at the conclusion of all technical and philosophical chapters.

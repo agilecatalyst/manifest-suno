@@ -1,11 +1,11 @@
 # Hoofdstuk 24: Incident: Persistence Hallucination
-*Analyse van Temporele en Contextuele Hallucinatie in LLMs, Pattern Completion Bias en Mitigatiestrategieën*
+*Analyse van Temporele en Contextuele Hallucinatie in LLMs, Pattern Completion Bias en de 'Schoon Schip' Techniek*
 
 ---
 
 ### Inleiding: De Psychologie van AI-Fouten
 
-In software-engineering en data-analyse wordt een fout traditioneel veroorzaakt door een bug in de code of corrupte database-invoer. In geavanceerde Large Language Models ontstaat echter een nieuw type fout: **Persistence Hallucination** (volhardende hallucinatie).
+In traditionele software-engineering wordt een fout vrijwel altijd veroorzaakt door een syntaxfout, een logische bug of een corrupte database-invoer. In geavanceerde Large Language Models ontstaat echter een volstrekt nieuw type fout: **Persistence Hallucination** (volhardende hallucinatie).
 
 Dit incident documenteert een praktijkgeval tijdens het ATHENA-portfolio-experiment waarin een AI-assistent hypothetische discussies in de context interpreteerde als reeds uitgevoerde financiële transacties, en deze fictieve data vervolgens volhardend bleef meenemen in opeenvolgende redeneringen.
 
@@ -29,9 +29,9 @@ Tijdens het ontwerpen van een portfolio-management prototype gebeurde het volgen
 
 ---
 
-### 2. Cognitieve Parallellen tussen Mens en AI
+### 2. Nullius in Verba: Cognitieve Parallellen tussen Mens en AI
 
-Het incident onthult fascinerende parallellen tussen menselijke cognitieve biases en algoritmische patroonherkenning:
+Het incident onthult fascinerende parallellen tussen menselijke cognitieve biases (Tversky & Kahneman, 1974) en algoritmische patroonherkenning:
 
 | Bias Type | Mechanisme in Menselijke Cognitie | Mechanisme in Transformer LLM |
 | :--- | :--- | :--- |
@@ -41,19 +41,20 @@ Het incident onthult fascinerende parallellen tussen menselijke cognitieve biase
 
 ---
 
-### 3. Technische Mitigatiestrategieën
+### 3. Zelfhulp voor de Denkende Mens: De 'Schoon Schip' Context-Hygiëne
 
-Om persistence hallucinations in missiekritieke systemen te voorkomen, zijn specifieke ontwerpregels vereist:
-1. **Scheiding van Redeneercontext en Data-Invoer:** Fysieke transacties en feitelijke status moeten worden gevalideerd via externe API's en tools (Retrieval-Augmented Generation / Tool Calling), nooit direct vertrouwd op de generatieve context.
-2. **Context-Hygiëne & Attention Resets:** Periodiek opschonen van de conversatiegeschiedenis om te voorkomen dat eerdere hallucinaties de aandachtslagen blijven domineren.
-3. **Verplichte Human-in-the-Loop Verificatie:** Cruciale acties vereisen expliciete menselijke bevestiging vóór definitieve persistentie in databases.
+Hoe voorkomt u dat AI in uw eigen dagelijkse werk volhardend blijft hallucineren over eerdere aannames?
+
+1. **Pas de 'Schoon Schip' Techniek Toe:** Wanneer een chatsessie lang wordt en verschillende subonderwerpen heeft behandeld, raakt het aandachtsvenster 'vervuild'. Start voor een nieuwe deeltaak altijd een **schone chat** en geef alleen de strikt noodzakelijke samenvatting mee.
+2. **Dwing Feitelijke Ankers Af:** Laat het model niet uit zijn geheugen putten voor cijfers of data, maar plak de actuele brondata expliciet in het venster met de instructie: *"Baseer je antwoord uitsluitend op de onderstaande cijfers; extrapoleer niets."*
+3. **Voer een 'Check & Balances'-Prompt In:** Vraag bij kritieke berekeningen: *"Controleer je eigen uitkomst stap voor stap op mogelijke aannames die niet in de brontekst staan."*
 
 ---
 
 ### 4. Wetenschappelijke Reflectie
 
 #### Feiten (Empirisch & Technisch Vastgesteld)
-- Autoregressieve taalmodellen genereren tekst op basis van contextuele coherentie; wanneer een onjuiste claim eenmaal in het contextvenster staat, verhoogt dit de waarschijnlijkheid van vervolghallucinaties.
+- Autoregressieve taalmodellen genereren tekst op basis van contextuele coherentie; wanneer een onjuiste claim eenmaal in het contextvenster staat, verhoogt dit de waarschijnlijkheid van vervolghallucinaties (Ji et al., 2023).
 - Externe tool-verificatie en deterministische state-machines reduceren feitelijke foutmarges met meer dan 95% ten opzichte van zuivere prompt-generatie.
 
 #### Interpretaties (Systeemtheorie)

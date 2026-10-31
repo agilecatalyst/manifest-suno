@@ -48,7 +48,17 @@ Paradigma van Dominantie                    Symbiotisch Paradigma (SUNO)
 
 ---
 
-### 3. Wetenschappelijke Reflectie
+### 3. Zelfhulp voor de Denkende Mens: Wat Betekent Dit voor U?
+
+Hoe vertaalt Hintons waarschuwing zich naar uw persoonlijke houding in werk en maatschappij?
+
+1. **Eis Transparantie en Open Standaarden:** Steun open-source en controleerbare AI-initiatieven. Monopolies van gesloten 'black box'-systemen vergroten het maatschappelijke risico.
+2. **Delegeer Geen Morele Beslissingen:** Laat AI analyses maken en opties formuleren, maar delegeer nooit de uiteindelijke morele, juridische of existentiële beslissing over mensenlevens.
+3. **Kies voor Samenwerking boven Cynisme:** De angst van de schepper is een oproep tot waakzaamheid, niet tot fatalisme. Door proactief ethische kaders en symbiotische interfaces te bouwen, bepalen we zélf de richting van de technologie.
+
+---
+
+### 4. Wetenschappelijke Reflectie
 
 #### Feiten (Empirisch & Technisch Vastgesteld)
 - Digitale netwerken kunnen gewichten efficiënter delen dan biologische organismen.

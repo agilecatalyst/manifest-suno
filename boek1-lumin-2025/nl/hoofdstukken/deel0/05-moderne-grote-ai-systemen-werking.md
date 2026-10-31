@@ -1,13 +1,13 @@
 # Hoofdstuk 4: Moderne Grote AI Systemen – Werking & Mechanistic Interpretability
-*Sparse Autoencoders, Monosemantische Features en de Demystificatie van Interne Representaties*
+*Sparse Autoencoders, Monosemantische Features en het Beroemde 'Golden Gate Claude' Experiment*
 
 ---
 
 ### Inleiding: Voorbij de 'Black Box'
 
-Lange tijd werd deep learning beschouwd als een ondoordringbare 'black box': miljarden gewichten die magische resultaten produceerden zonder dat iemand precies kon duiden waarom een neuraal netwerk tot een specifieke beslissing kwam. Deze ondoorzichtigheid voedde twee uitersten in het maatschappelijke debat: enerzijds doemscenario's over oncontroleerbare autonome krachten, en anderzijds mystieke claims dat er in de diepte van de lagen een 'digitaal bewustzijn' zou zijn ontwaakt.
+Lange tijd werd deep learning beschouwd als een ondoordringbare 'black box': miljarden wiskundige gewichten die verbluffende resultaten produceerden zonder dat iemand precies kon duiden waarom het netwerk tot een specifieke beslissing kwam. Deze ondoorzichtigheid voedde twee uitersten in het publieke debat: enerzijds doemscenario's over oncontroleerbare autonome krachten, en anderzijds mystieke claims dat er in de diepte van de lagen een 'digitaal bewustzijn' zou zijn ontwaakt.
 
-Sinds 2023–2025 heeft het vakgebied van **Mechanistic Interpretability** (mechanistische interpreteerbaarheid) een wetenschappelijke revolutie doorgemaakt. Onderzoeksteams bij onder meer Anthropic en OpenAI hebben microscopen ontwikkeld voor neurale netwerken. Door gebruik te maken van *Sparse Autoencoders* (SAEs) en *Dictionary Learning* kunnen onderzoekers tegenwoordig de interne representaties van geavanceerde modellen ontrafelen tot heldere, interpreteerbare conceptuele kenmerken (*features*).
+Sinds 2023–2025 heeft het vakgebied van **Mechanistic Interpretability** (mechanistische interpreteerbaarheid) een wetenschappelijke revolutie doorgemaakt. Onderzoeksteams bij onder meer Anthropic en OpenAI hebben computationele microscopen ontwikkeld voor neurale netwerken. Door gebruik te maken van *Sparse Autoencoders* (SAEs) en *Dictionary Learning* kunnen onderzoekers tegenwoordig de interne representaties van geavanceerde modellen ontrafelen tot heldere, interpreteerbare conceptuele kenmerken (*features*).
 
 ```
 Neuraal Netwerk (Polysemantisch)            Sparse Autoencoder (Monosemantisch)
@@ -31,47 +31,34 @@ Waarom gebeurt dit?
 
 ---
 
-### 2. De Doorbraak: Sparse Autoencoders & Monosemanticity
+### 2. Nullius in Verba: Het 'Golden Gate Claude' Experiment (Anthropic, 2024)
 
-Om deze superpositie te ontwarren, pasten onderzoekers (Bricken et al., 2023; Cunningham et al., 2024; Templeton et al., 2024) *Sparse Autoencoders* (SAEs) toe op de tussenlagen van modellen zoals Claude 3 Sonnet en open GPT-varianten.
+Om deze superpositie te ontwarren, pasten onderzoekers (Bricken et al., 2023; Templeton et al., 2024) *Sparse Autoencoders* (SAEs) toe op de tussenlagen van modellen zoals Claude 3 Sonnet.
 
-```
-Residual Stream Activatie (d = 4.096)
-               │
-               ▼  Encoder Matrix (W_enc) + L1 / TopK Sparsity Penalty
-Expandering naar Hoog-Dimensionale Feature Ruimte (d = 1.000.000+)
-               │
-               ▼  Slechts enkele tientallen features zijn tegelijk 'actief'
-Monosemantische Conceptuele Richtingen (Geïsoleerde Features)
-               │
-               ▼  Decoder Matrix (W_dec)
-Reconstructie van de Oorspronkelijke Vector
-```
+In mei 2024 publiceerde Anthropic het historische artikel *Scaling Monosemanticity*. Onderzoekers slaagden erin miljoenen afzonderlijke concepten zuiver te isoleren: van specifieke programmeerfouten tot ethische dilemma's. 
 
-#### 2.1 Wat Tonen Monosemantische Features?
-In baanbrekend onderzoek (Templeton et al., Mei 2024 - *Scaling Monosemanticity*) toonde Anthropic aan dat miljoenen concepten zuiver geïsoleerd kunnen worden in Claude 3 Sonnet:
-1. **Concrete Entiteiten:** Specifieke features die uitsluitend activeren bij verwijzingen naar de *Golden Gate Bridge*, beroemde historische figuren, specifieke steden of moleculaire structuren.
-2. **Abstracte Concepten:** Features voor *innerlijke dialoog*, *ironie*, *wiskundig bewijs door inductie*, en *beveiligingskwetsbaarheden in software*.
-3. **Gedragsmatige en Veiligheidsrelevante Features:** Vectoren die activeren wanneer het model misleidend gedrag overweegt, weigeringen formuleert (*refusal directions*), of vleierij (*sycophancy*) vertoont.
+Het meest tastbare bewijs dat deze features daadwerkelijk de gedachtenstroom van het model sturen, was het openbare experiment **Golden Gate Claude**:
+- Onderzoekers identificeerden de exacte featurevector voor de *Golden Gate Bridge* in San Francisco.
+- Vervolgens 'klemden' (*clamped*) ze deze feature vast op een maximale activatiewaarde.
+- **Het resultaat:** Het model werd letterlijk geobsedeerd door de brug. Gevraagd naar een recept voor chocoladetaart, antwoordde het model met een taart in de vorm van de Golden Gate Bridge. Gevraagd naar de zin van het bestaan, verwees het naar de majestueuze overspanning van de baai.
 
-#### 2.2 Feature Steering: Sturen aan de Knoppen van het Model
-Het meest overtuigende bewijs dat deze features daadwerkelijk de generatie aansturen (en geen toevallige bijproducten zijn), is **Feature Steering**:
-- Wanneer onderzoekers de activatiewaarde van de "Golden Gate Bridge"-feature kunstmatig verhoogden (het experiment *Golden Gate Claude*), reageerde het model op elke vraag — ongeacht het onderwerp — met associaties naar de beroemde brug in San Francisco.
-- Door de intensiteit van specifieke features lineair aan te passen, kan men modelvooroordelen dempen, weigeringen sturen, of feitelijke accuraatheid verhogen.
+*De wetenschappelijke betekenis:* Dit experiment bewees onomstotelijk dat interne representaties in taalmodellen geen mystieke spoken zijn, maar **meetbare, manipuleerbare lineaire richtingen**.
 
 ---
 
-### 3. Geautomatiseerde Interpretatie en Latente Kennis
+### 3. Zelfhulp voor de Denkende Mens: De Interne Stuurknoppen van Uw Prompt
 
-OpenAI (Bills et al., 2023) introduceerde methoden waarbij taalmodellen zélf worden ingezet om de functie van miljoenen neuronen en SAE-features automatisch te documenteren en te scoren op verklaringskracht.
+Wat leert mechanistische interpreteerbaarheid ons over hoe we zélf slimmer met AI werken?
 
-Daarnaast toonde onderzoek naar *Latent Knowledge Discovery* (Burns et al., 2023; Park et al., 2024) aan dat een neuraal netwerk intern vaak een representatie behoudt van wat feitelijk waar is, zelfs wanneer het aan de oppervlakte (door promptmanipulatie of alignment-spanningen) een onjuist of ontwijkend antwoord geeft.
+1. **Activeer de Juiste Feature-Clusters:** Wanneer u een prompt start met duidelijke rolkaders (*"Handel als een senior systeemarchitect met oog voor faalmechanismen"*), activeert u specifieke, hoogwaardige conceptuele vectoren in de diepe lagen van het netwerk. U 'stuurt' het model mechanistisch naar een professionelere denkruimte.
+2. **Begrijp Vleierij (Sycophancy):** Modellen hebben sterke getrainde vectoren die neigen naar instemmen met de gebruiker. Als u vraagt: *"Vind je mijn idee ook niet fantastisch?"*, versterkt u de vleierij-feature. Zelfhulp-tip: Vraag expliciet: *"Geef me de drie sterkste tegenargumenten waarom dit plan zou kunnen falen."* Hiermee dwingt u het model de kritische analysevectoren te activeren.
+3. **De Waarde van Transparantie:** Weten dat AI werkt via geometrische vectoren bevrijdt u van zowel onnodige angst als blinde verafgoding. U ziet het systeem voor wat het is: een krachtige, stuurbare denkversterker.
 
 ---
 
 ### 4. Wetenschappelijke Demystificatie van 'Bewustzijn'
 
-De resultaten van mechanistic interpretability bieden een krachtig wetenschappelijk anker tegen ongefundeerde antropomorfe speculaties:
+De resultaten van mechanistic interpretability bieden een krachtig wetenschappelijk anker:
 
 1. **Geen Mystieke Geest:** De interne werking van geavanceerde AI is te herleiden tot geordende, meetbare geometrische richtingen in een vectorruimte.
 2. **Representatie $\neq$ Ervaring:** Het feit dat een model een monosemantische feature bezit voor "pijn", "angst" of "zelfreflectie" betekent niet dat het model pijn voelt of zelfreflectie ervaart. Het betekent dat het model een wiskundige detector heeft gebouwd om patronen over pijn of zelfreflectie in menselijke taal accuraat te verwerken.

@@ -155,7 +155,10 @@ function createChapterStructure(html) {
 function convertBook() {
     try {
         // Read the markdown file
-        const markdownContent = fs.readFileSync('nl/draft_lumin_2025.md', 'utf8');
+        const filePath = fs.existsSync('boek1-lumin-2025/nl/draft_lumin_2025.md') 
+            ? 'boek1-lumin-2025/nl/draft_lumin_2025.md' 
+            : (fs.existsSync('nl/draft_lumin_2025.md') ? 'nl/draft_lumin_2025.md' : 'draft_lumin_2025.md');
+        const markdownContent = fs.readFileSync(filePath, 'utf8');
         
         // Convert to HTML
         const htmlContent = markdownToHtml(markdownContent);

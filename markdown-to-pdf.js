@@ -107,7 +107,10 @@ async function convertMarkdownToPdf(inputFile, outputFile) {
 }
 
 // Usage
-const inputFile = process.argv[2] || 'nl/draft_lumin_2025.md';
+const defaultInput = fs.existsSync('boek1-lumin-2025/nl/draft_lumin_2025.md')
+    ? 'boek1-lumin-2025/nl/draft_lumin_2025.md'
+    : (fs.existsSync('nl/draft_lumin_2025.md') ? 'nl/draft_lumin_2025.md' : 'draft_lumin_2025.md');
+const inputFile = process.argv[2] || defaultInput;
 const outputFile = process.argv[3] || 'output.pdf';
 
 convertMarkdownToPdf(inputFile, outputFile); 
